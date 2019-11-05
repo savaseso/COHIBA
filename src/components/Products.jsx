@@ -22,7 +22,10 @@ const Heading = styled.h1`
     padding:2rem;
     font-size:2rem;
     @media (max-width: 625px) {
-        font-size:1.4rem;
+        font-size:1.2rem;
+    }
+    @media (max-width: 450px) {
+        font-size:0.75rem;
     }
  `
 
