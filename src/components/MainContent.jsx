@@ -81,9 +81,9 @@ function MainContent (props) {
                 </ContentWrapper>
                 <Video
                     url="https://www.youtube.com/watch?v=eJI4-87ErKg"
-                    loop="true"
-                    playing="true"
-                    showinfo="false"
+                    loop
+                    playing
+                    showinfo="true"
                     width={document.documentElement.clientWidth<540 ? '320px' : '500px'}
 /*                     config={{ youtube: { playerVars: { disablekb: 1 } } }}
  */                 />
