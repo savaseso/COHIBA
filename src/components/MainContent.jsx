@@ -57,17 +57,17 @@ const Paragraph = styled.p`
            letter-spacing:1px;
     }
 `
+const Cite = styled.p`
+        margin-top:2rem;
+        opacity:0.4;
+        text-align:center;
+`
 const Video = styled(ReactPlayer)`
         margin-top:8rem;
-  /*       cursor: none;
-        pointer-events:none; */
         @media (max-width: 970px) {
             margin-top:5rem;
             margin-bottom:5rem;
     }
-        @media (max-width: 670px) {
-/*             display:none;
- */    }
 `
 
 function MainContent (props) {
@@ -78,6 +78,8 @@ function MainContent (props) {
                 <ContentWrapper>
                     <Heading >Welcome!</Heading>
                     <Paragraph>We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club</span></strong> in Toronto, ...so we selling individually and privately ...only for YOU! Tell me what  would you like! We selling only Cuban cigars with unbelievable price! FREE shipping around the world!</Paragraph>
+                    <Cite><cite>“Cigars are an experience of a qualitative difference in life.”</cite></Cite>
+                    <p style={{textAlign:'center',margin:'10px',opacity:0.6}}>Aristotle</p>
                 </ContentWrapper>
                 <Video
                     url="https://www.youtube.com/watch?v=eJI4-87ErKg"

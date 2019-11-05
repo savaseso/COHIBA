@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Layout from './Layout'
 import GoBack from './GoBack'
 import styled from 'styled-components'
@@ -47,13 +46,13 @@ const Table = styled.table`
 ; */
     padding:10px;
     @media (max-width: 625px) {
-        font-size:75%;
+        font-size:80%;
     }
-    @media (max-width: 470px) {
+    @media (max-width: 500px) {
         font-size:65%;
     }
     @media (max-width: 400px) {
-        font-size:50%;
+        font-size:60%;
     }
 `
 const FirstRow = styled.tr`

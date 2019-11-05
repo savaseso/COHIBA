@@ -98,7 +98,7 @@ function About(props) {
                 <BackGround>
                     <ContentWrapper>
                         <Heading>About Us</Heading>
-                        <Introduction>Hi! We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club in Toronto 🇨🇦</span></strong>,so we selling individually <span role="img">😀</span>Tell me what do you want! We selling only Cuban cigars with unbelievably able price!😀FREE shipping around the world! You know... my Club-members bring in 1 box cigar every month and we would like selling them! The money goes to the club!</Introduction>
+                        <Introduction>Hi! We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club in Toronto 🇨🇦</span></strong>,so we selling individually <span role="img">😀</span>Tell me what do you want! We selling only Cuban cigars with unbelievable price!😀FREE shipping around the world! You know... my Club-members bring in 1 box cigar every month and we would like selling them! The money goes to the club!</Introduction>
                         <UL>
                             <LI>COHIBA Behike 52,54,56</LI>
                             <LI>COHIBA Siglo II and Siglo VI COHIBA</LI>
