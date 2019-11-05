@@ -84,7 +84,7 @@ function MainContent (props) {
                     loop="true"
                     playing="true"
                     showinfo="false"
-                    width={document.documentElement.clientWidth<540 ? '320px' : null}
+                    width={document.documentElement.clientWidth<540 ? '320px' : '500px'}
 /*                     config={{ youtube: { playerVars: { disablekb: 1 } } }}
  */                 />
             </ShowCaseContent>
