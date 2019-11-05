@@ -59,15 +59,15 @@ const Paragraph = styled.p`
 `
 const Video = styled(ReactPlayer)`
         margin-top:8rem;
-        cursor: none;
-        pointer-events:none;
+  /*       cursor: none;
+        pointer-events:none; */
         @media (max-width: 970px) {
             margin-top:5rem;
             margin-bottom:5rem;
     }
         @media (max-width: 670px) {
-            display:none;
-    }
+/*             display:none;
+ */    }
 `
 
 function MainContent (props) {
@@ -81,13 +81,12 @@ function MainContent (props) {
                 </ContentWrapper>
                 <Video
                     url="https://www.youtube.com/watch?v=eJI4-87ErKg"
-                    style={{}} 
                     loop="true"
-                    muted  
                     playing="true"
                     showinfo="false"
-                    config={{ youtube: { playerVars: { disablekb: 1 } } }}
-                 />
+                    width={document.documentElement.clientWidth<540 ? '320px' : null}
+/*                     config={{ youtube: { playerVars: { disablekb: 1 } } }}
+ */                 />
             </ShowCaseContent>
         </ShowCase>
     )

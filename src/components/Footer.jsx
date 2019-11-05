@@ -10,6 +10,10 @@ import Diplomaticos from '../assets/logos/Hierro-Diplomaticos.png'
 import JuanLopez from '../assets/logos/Hierro-Juan-Lopez.png'
 import Vegueros from '../assets/logos/Hierro-Vegueros.png'
 import SanCristobal from '../assets/logos/Hierro-San-Cristobal.png'
+import Jose from '../assets/logos/Hierro-Jose.png'
+import Punch from '../assets/logos/Hierro-Punch.png'
+import Quentiero from '../assets/logos/Hierro-Quintero.png'
+import Sancho from '../assets/logos/Hierro-Sancho.png'
 
 
 const FooterWrapper = styled.div`
@@ -18,11 +22,20 @@ const FooterWrapper = styled.div`
 `
  const LogoWrapper = styled.div`
     display:grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: repeat(7,auto);
+    grid-template-rows: repeat(7,auto);
     justify-content:center;
+    @media (max-width: 960px) {
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(7,auto);
+  }
     @media (max-width: 700px) {
-    display:none;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(7,auto);
+  }
+    @media (max-width: 400px) {
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(7,auto);
   }
 `
 const Logo = styled.img`
@@ -58,6 +71,10 @@ const Footer = (props) => {
                 <Logo src={JuanLopez}  alt="Juan-Lopez" />
                 <Logo src={Vegueros}  alt="Vegueros" />
                 <Logo src={SanCristobal}  alt="SanCristobal" />
+                <Logo src={Jose}  alt="Jose" />
+                <Logo src={Punch}  alt="Punch" />
+                <Logo src={Quentiero}  alt="Quintero" />
+                <Logo src={Sancho}  alt="Sancho" />
             </LogoWrapper>
             <ParagraphWrapper>
                 <Paragraph>Info and Order: <strong>cohibatoronto@gmail.com</strong></Paragraph>
