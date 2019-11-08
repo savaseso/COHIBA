@@ -15,9 +15,9 @@ const Ul = styled.ul`
     align-items:center;
     list-style:none;
     padding:10px;
-    @media (max-width: 700px) {
+    @media (max-width: 501px) {
     flex-direction:column;
-    padding:20px;
+    padding:0
     }
 `
 //Buttons
@@ -26,15 +26,16 @@ const Li = styled.li`
     margin-bottom:10px;
     @media (max-width: 1120px) {
         padding:5px;
-        margin-right:0;
-    }
-    @media (max-width: 800px) {
         margin:10px;
     }
-    @media (max-width: 700px) {
-        padding:20px;
+    @media (max-width: 768px) {
+        margin:10px;
+    }
+    @media (max-width: 501px) {
+        padding:10px;
         margin:auto;
     }
+
 `
 const NavLink = styled(Link)`
     text-decoration:none;
@@ -46,8 +47,9 @@ const NavLink = styled(Link)`
     &:hover{
         background-color:#bf8500;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 501px) {
         font-size:0.65rem;
+        padding:0.5rem;
     }
  
 `
@@ -75,6 +77,9 @@ const FacebookLogo = styled(FaFacebookSquare)`
     &:hover{
         transform:scale(1.1);
     }
+    @media (max-width: 501px) {
+       font-size:2rem;
+    }
 `
 const InstagramLogo = styled(FaInstagram)`
     color: #E0A400;
@@ -84,6 +89,9 @@ const InstagramLogo = styled(FaInstagram)`
     &:hover{
         transform:scale(1.1);
     }
+    @media (max-width: 501px) {
+       font-size:2rem;
+    }
 `
 const TwitterLogo = styled(FaTwitterSquare)`
     color: #E0A400;
@@ -92,6 +100,9 @@ const TwitterLogo = styled(FaTwitterSquare)`
     transition:all 0.2s ease-in;
     &:hover{
         transform:scale(1.1);
+    }
+    @media (max-width: 501px) {
+       font-size:2rem;
     }
 `
 
