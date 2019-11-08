@@ -51,6 +51,7 @@ const Heading2 = styled.h1`
     color:#fff;
     font-size:1.3rem;
     opacity:0.6;
+    margin-right:4rem;
 `
 const LI = styled.li`
     margin:1rem;
@@ -65,6 +66,9 @@ const Paragraph = styled.p`
     color:#E0A400;
     text-align:center;
     font-size:1.2rem;
+    @media (max-width: 500px) {
+        font-size:95%;
+    }
 `
 
 

@@ -37,6 +37,7 @@ const ContentWrapper = styled.div`
         @media (max-width: 670px) {
             margin-bottom:2rem;
             width:330px;
+            height:600px;
     }
 `
 const Heading = styled.h1`
@@ -51,10 +52,13 @@ const Paragraph = styled.p`
         color: #fff;
         opacity:0.7;
         line-height:1.6;
-        margin-top:4rem;
+        margin-top:3rem;
         padding:30px;
         @media (max-width: 970px) {
            letter-spacing:1px;
+    }
+    @media (max-width: 500px) {
+       font-size:0.75rem;
     }
 `
 const Cite = styled.p`

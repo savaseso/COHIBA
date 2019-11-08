@@ -45,15 +45,12 @@ const ContentWrapper = styled.div`
     }
         @media (max-width: 450px) {
             font-size:60%;
-            height:850px;
     }
         @media (max-width: 400px) {
             font-size:60%;
-            height:950px;
     }
         @media (max-width: 350px) {
             font-size:50%;
-            height:1000px;
             width:340px;
     }
 `
@@ -69,6 +66,9 @@ const Introduction = styled.p`
  */        padding:30px;
         @media (max-width: 970px) {
            letter-spacing:1px;
+    }
+    @media (max-width: 450px) {
+            font-size:90%;
     }
 `
 

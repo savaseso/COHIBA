@@ -46,8 +46,8 @@ const NavLink = styled(Link)`
     &:hover{
         background-color:#bf8500;
     }
-    @media (max-width: 550px) {
-        font-size:0.75rem;
+    @media (max-width: 500px) {
+        font-size:0.65rem;
     }
  
 `
@@ -102,7 +102,7 @@ function NavBar(props) {
             <Ul>
                     <ButtonWrapper>
                         <Li><NavLink to="/About">About us</NavLink></Li>
-                        <Li><NavLink to="/Products">Currently Available Products</NavLink></Li>
+                        <Li><NavLink to="/Products">Available Products</NavLink></Li>
                         <Li><NavLink to="/Order">Order</NavLink></Li>
                         <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
                     </ButtonWrapper>

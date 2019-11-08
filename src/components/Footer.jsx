@@ -42,6 +42,10 @@ const Logo = styled.img`
     width:100px;
     height:70px;
     margin:20px;
+    @media (max-width: 490px) {
+        width:50px;
+        height:35px;
+    }
 `
  const Paragraph = styled.p`
     margin-top:30px;
@@ -77,7 +81,7 @@ const Footer = (props) => {
                 <Logo src={Sancho}  alt="Sancho" />
             </LogoWrapper>
             <ParagraphWrapper>
-                <Paragraph>Info and Order: <strong>cohibatoronto@gmail.com</strong></Paragraph>
+                <Paragraph>Info and Order: <strong><a href="mailto:cohibatoronto@gmail.com">cohibatoronto@gmail.com</a></strong></Paragraph>
                 <Paragraph>Copyright 2019 © COHIBAToronto</Paragraph>
             </ParagraphWrapper>
 
