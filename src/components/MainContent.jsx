@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react';
 import styled from 'styled-components'
 import Picture from '../assets/img/trinidad.jpg'
 import ReactPlayer from 'react-player'
+import Modal from './Modal'
 
 
 const ShowCase = styled.main`
@@ -26,8 +27,7 @@ const ShowCaseContent = styled.div`
 const ContentWrapper = styled.div`
         width:500px;
         height:550px;
-    /*     margin:auto;
-    */    background-color:#333;
+        background-color:#333;
         opacity:0.8;
         padding:1rem;
         text-align:justify;
@@ -74,26 +74,36 @@ const Video = styled(ReactPlayer)`
     }
 `
 
-function MainContent (props) {
-    console.log(document.documentElement.clientWidth)
-    return(
-        <ShowCase>
-            <ShowCaseContent>
-                <ContentWrapper>
-                    <Heading >Welcome!</Heading>
-                    <Paragraph>We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club</span></strong> in Toronto, ...so we selling individually and privately ...only for YOU! Tell me what  would you like! We selling only Cuban cigars with unbelievable price! FREE shipping around the world!</Paragraph>
-                    <Cite><cite>“Cigars are an experience of a qualitative difference in life.”</cite></Cite>
-                    <p style={{textAlign:'center',margin:'10px',opacity:0.6}}>Aristotle</p>
-                </ContentWrapper>
-                <Video
-                    url="https://www.youtube.com/watch?v=eJI4-87ErKg"
-                    loop
-                    playing
-                    showinfo="true"
-                    width={document.documentElement.clientWidth<540 ? '320px' : '500px'}
-               />
-            </ShowCaseContent>
-        </ShowCase>
-    )
+class MainContent extends Component {
+    state = {
+        modalOpen: true
+    }
+     handleClick = () => {
+        this.setState({ modalOpen: false })
+    }
+    render() {
+        
+        const { modalOpen } = this.state
+        return (
+            <ShowCase>
+                <ShowCaseContent>
+                        <Modal modalOpen={modalOpen} handleClick={this.handleClick}/>
+                    <ContentWrapper>
+                        <Heading >Welcome!</Heading>
+                        <Paragraph>We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club</span></strong> in Toronto, ...so we selling individually and privately ...only for YOU! Tell me what  would you like! We selling only Cuban cigars with unbelievable price! FREE shipping around the world!</Paragraph>
+                        <Cite><cite>“Cigars are an experience of a qualitative difference in life.”</cite></Cite>
+                        <p style={{ textAlign: 'center', margin: '10px', opacity: 0.6 }}>Aristotle</p>
+                    </ContentWrapper>
+                    <Video
+                        url="https://www.youtube.com/watch?v=eJI4-87ErKg"
+                        loop
+                        playing={!modalOpen ? true : null}
+                        showinfo="true"
+                        width={document.documentElement.clientWidth < 540 ? '320px' : '500px'}
+                    />
+                </ShowCaseContent>
+            </ShowCase>
+        )
+    }
 }
 export default MainContent 
