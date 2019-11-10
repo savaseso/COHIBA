@@ -79,7 +79,8 @@ class MainContent extends Component {
         modalOpen: true
     }
      handleClick = () => {
-        this.setState({ modalOpen: false })
+        this.setState({ modalOpen: false });
+        localStorage.setItem('modalOpen', false)
     }
     render() {
         

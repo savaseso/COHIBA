@@ -4,8 +4,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
  */
 const Modal = (props) => {
-
-    if (!props.modalOpen) {
+    if (!props.modalOpen || localStorage.hasOwnProperty('modalOpen')) {
         return null;
     } else {
         return <ModalContainer>
