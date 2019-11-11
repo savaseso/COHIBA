@@ -6,6 +6,8 @@ import About from './components/About'
 import Products from './components/Products'
 import Order from './components/Order'
 import Payment from './components/Payment'
+import TermsConditions from './components/TermsConditions';
+import Default from './components/Default';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path='/Products' component={Products}/>
           <Route path='/Order' component={Order}/>
           <Route path='/Payment' component={Payment}/>
+          <Route path='/TermsConditions' component={TermsConditions}/>
+          <Route component={Default}/>
         </Switch>
       </div>
     </Router>

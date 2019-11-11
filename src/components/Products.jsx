@@ -18,8 +18,8 @@ const BackGround = styled.div`
 const Heading = styled.h1`
     text-align: center;
     color:#fff;
-    padding:2rem;
-    font-size:2rem;
+/*     padding:1rem;
+ */    font-size:2rem;
     @media (max-width: 625px) {
         font-size:1.2rem;
     }
@@ -30,12 +30,12 @@ const Heading = styled.h1`
 
 const ContentWrapper = styled.div`
         width:700px;
-        height:700px;
+        height:auto;
     /*     margin:auto;
     */   background-color:#333;
         opacity:0.8;
-        padding:1rem;
-        text-align:justify;
+/*         padding:1rem;
+ */        text-align:justify;
         border-radius:20px;
         display:flex;
         flex-direction:column;
@@ -85,12 +85,12 @@ function Products(props) {
                 <GoBack />
                 <BackGround>
                     <ContentWrapper>
-                        <Heading>Currently available in the Club:</Heading>
+                        <Heading>Available products in the Club:</Heading>
                         <Table>
                             <FirstRow>
                                 <th>Name</th>
-                                <th>Old Price</th>
-                                <th>New Price</th>
+                                <th>Members Price</th>
+                                <th>Wholesale Price</th>
                             </FirstRow>
                             {CurrentProducts.map(product =>
                                 <tr>

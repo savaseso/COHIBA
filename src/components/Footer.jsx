@@ -14,6 +14,23 @@ import Jose from '../assets/logos/Hierro-Jose.png'
 import Punch from '../assets/logos/Hierro-Punch.png'
 import Quentiero from '../assets/logos/Hierro-Quintero.png'
 import Sancho from '../assets/logos/Hierro-Sancho.png'
+import Belinda from '../assets/logos/Belinda.png'
+import Robaina from '../assets/logos/Hierro-Robaina.png'
+import SaintLuis from '../assets/logos/Hierro-Saint-Luis-Rey.png'
+import Rafael from '../assets/logos/Hierro-Rafael-Gonzalez.png'
+import ElRey from '../assets/logos/Hierro-El-Rey-del-Mundo.png'
+import Fonseca from '../assets/logos/Hierro-Fonseca.png'
+import Monterrey from '../assets/logos/Hierro-Hoyo-de-Monterrey.png'
+import Flor from '../assets/logos/Hierro-La-Flor-de-Cano.png'
+import Gloria from '../assets/logos/Hierro-La-Gloria-Cubana.png'
+import MonteCristo from '../assets/logos/Hierro-Montecristo.png'
+import Partagas from '../assets/logos/Hierro-Partagás.png'
+import Larranaga from '../assets/logos/Hierro-Por-Larranaga.png'
+import Orsay from '../assets/logos/Hierro-Quai-D-Orsay.png'
+
+import Troya from '../assets/logos/Troyaa.png'
+
+import { Link } from 'react-router-dom'
 
 
 const FooterWrapper = styled.div`
@@ -25,6 +42,7 @@ const FooterWrapper = styled.div`
     grid-template-columns: repeat(7,auto);
     grid-template-rows: repeat(7,auto);
     justify-content:center;
+    padding-top:2rem;
     @media (max-width: 960px) {
     grid-template-columns: repeat(5,auto);
     grid-template-rows: repeat(7,auto);
@@ -79,9 +97,24 @@ const Footer = (props) => {
                 <Logo src={Punch}  alt="Punch" />
                 <Logo src={Quentiero}  alt="Quintero" />
                 <Logo src={Sancho}  alt="Sancho" />
+                <Logo src={Belinda}  alt="Belinda" />
+                <Logo src={Robaina}  alt="Robiana" />
+                <Logo src={Troya}  alt="Sancho" />
+                <Logo src={SaintLuis}  alt="SaintLuis" />
+                <Logo src={Rafael}  alt="Rafael" />
+                <Logo src={ElRey}  alt="ElRey" />
+                <Logo src={Fonseca}  alt="Fonseca" />
+                <Logo src={Monterrey}  alt="Monterrey" />
+                <Logo src={Flor}  alt="Flor" />
+                <Logo src={Gloria}  alt="Gloria" />
+                <Logo src={MonteCristo}  alt="MonteCristo" />
+                <Logo src={Partagas}  alt="Partagas" />
+                <Logo src={Larranaga}  alt="Larranaga" />
+                <Logo src={Orsay}  alt="Orsay" />
             </LogoWrapper>
             <ParagraphWrapper>
                 <Paragraph>Info and Order: <strong><a href="mailto:cohibatoronto@gmail.com">cohibatoronto@gmail.com</a></strong></Paragraph>
+                <Paragraph><Link to="TermsConditions">Terms &amp; Conditions</Link></Paragraph>
                 <Paragraph>Copyright 2019 © COHIBAToronto</Paragraph>
             </ParagraphWrapper>
 
