@@ -98,7 +98,7 @@ class MainContent extends Component {
                     <Video
                         url="https://www.youtube.com/watch?v=eJI4-87ErKg"
                         loop
-                        playing={sessionStorage.hasOwnProperty('modalOpen') ? true : null}
+                        playing={sessionStorage.hasOwnProperty('modalOpen')? true : null}
                         showinfo="true"
                         width={document.documentElement.clientWidth < 540 ? '320px' : '500px'}
                     />

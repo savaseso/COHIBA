@@ -9,9 +9,10 @@ import Payment from './components/Payment'
 import TermsConditions from './components/TermsConditions';
 import Default from './components/Default';
 
+
 function App() {
   return (
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0, 0)} >
       <div className="App">
         <Switch>
           <Route path='/' exact component={Home}/>
