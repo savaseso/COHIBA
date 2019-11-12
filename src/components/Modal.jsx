@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ageLimit from '../assets/21agelimit.png'
 /* import { ButtonContainer } from './Button';
 import { Link } from 'react-router-dom';
  */
@@ -9,6 +10,7 @@ const Modal = (props) => {
     } else {
         return <ModalContainer>
             <div id="modal" >
+                <img src={ageLimit} alt="agelimit" />
                 <Heading>This website is only for people aged 21 or more...  </Heading>
                 <ButtonAge onClick={props.handleClick}>Yes, I am more than 21 years old.</ButtonAge>
             </div>
@@ -17,8 +19,9 @@ const Modal = (props) => {
 }
 
 const Heading = styled.h3`
-@media (max-width: 500px) {
-        font-size:0.80rem;
+@media (max-width: 501px) {
+        font-size:!important 8px;
+        text-aling:center;
     }
 @media (max-width: 768px) {
         font-size:1rem;
@@ -66,7 +69,7 @@ z-index:3;
     justify-content:center;
     flex-direction:column;
     @media (max-width: 500px) {
-        width:310px;
+        width:300px;
         height:400px;
     }
     @media (max-width: 768px) {
