@@ -57,7 +57,7 @@ const NavLink = styled(Link)`
 `
 const ButtonWrapper = styled.div`
     display:flex;
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
   /*       flex-direction:column;
         justify-content:center;
         align-items:center; */
