@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import Layout from './Layout'
 import GoBack from './GoBack'
 import Picture from '../assets/img/Panza_cuba.jpg'

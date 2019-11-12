@@ -81,10 +81,10 @@ function Payment(props) {
                         <Heading>Payment Info</Heading>
                         <Heading2>You could pay first:</Heading2>
                         <UL>
-                            <LI>PayPal (credit card or VISA)</LI>
-                            <LI>via Western Union </LI>
-                            <LI>wire transfer</LI>
-                            <LI>E-mail transfer(Canadians only)</LI>
+                            <LI>PayPal (bogardeka2@gmail.com)</LI>
+                            <LI>Western Union (Laszlo Deak) </LI>
+                            <LI>wire transfer (Please ask me)</LI>
+                            <LI>E-mail transfer(bogardeka@hotmail.com)</LI>
                             <LI>Cash</LI>
                         </UL>
                         <Paragraph><strong>I will give you all the information you need!</strong></Paragraph>

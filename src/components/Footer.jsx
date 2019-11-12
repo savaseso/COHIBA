@@ -61,8 +61,8 @@ const Logo = styled.img`
     height:70px;
     margin:20px;
     @media (max-width: 490px) {
-        width:50px;
-        height:35px;
+        width:75px;
+        height:55px;
     }
 `
  const Paragraph = styled.p`
