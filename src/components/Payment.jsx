@@ -59,7 +59,7 @@ const LI = styled.li`
     opacity:0.8;
 `
 const UL = styled.ul`
-    margin-left:7rem;
+    margin-left:5rem;
 `
 const Paragraph = styled.p`
     margin-top:2rem;
