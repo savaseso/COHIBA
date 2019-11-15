@@ -15,6 +15,14 @@ const ContentWrapper = styled.div`
     align-content:center;
     color:#fff;
     opacity:0.8;
+    @media (max-width: 768px) {
+        width:501px;
+    }
+    @media (max-width: 501px) {
+        width:320px;
+        height:650px;
+
+    }
 `
 const Wrapper = styled.div`
     background-color:#333;
