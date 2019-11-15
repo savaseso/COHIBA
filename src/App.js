@@ -8,6 +8,7 @@ import Order from './components/Order'
 import Payment from './components/Payment'
 import TermsConditions from './components/TermsConditions';
 import Default from './components/Default';
+import Details from './components/Details'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/Order' component={Order}/>
           <Route path='/Payment' component={Payment}/>
           <Route path='/TermsConditions' component={TermsConditions}/>
+          <Route path='/Details' component={Details}/>
           <Route component={Default}/>
         </Switch>
       </div>
