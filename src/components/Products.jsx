@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from './Layout'
 import GoBack from './GoBack'
 import styled from 'styled-components'
-import CurrentProducts from '../assets/data/data.json'
+import CurrentProducts from '../assets/data/productList.json'
 import Picture from '../assets/img/quaidorsay.jpg'
 
 const BackGround = styled.div`
@@ -60,20 +60,36 @@ const FirstRow = styled.tr`
     opacity:0.6;
     
 `
-const FirstColumn = styled.th`
+const Name = styled.th`
     color:#E0A400;
     padding-top:10px;
     opacity:0.7;
 
 `
-const OldPrice = styled.th`
-    text-decoration: line-through;
-    text-align:center;
-    color:red;
-`
-const NewPrice = styled.th`
+
+const Price = styled.th`
     text-align:center;
     color:#E0A400;
+    padding-right:10px;
+`
+const Wrapper = styled.div`
+    display:flex; 
+    justify-content:center;
+    flex-direction:column;
+`
+const Bundles = styled.h3`
+    color:#fff;
+    opacity:0.8;
+    text-align:center;
+    @media (max-width: 625px) {
+        font-size:80%;
+    }
+    @media (max-width: 500px) {
+        font-size:65%;
+    }
+    @media (max-width: 400px) {
+        font-size:60%;
+    }
 `
 
 
@@ -85,21 +101,32 @@ function Products(props) {
                 <GoBack />
                 <BackGround>
                     <ContentWrapper>
-                        <Heading>Available products in the Club:</Heading>
-                        <Table>
-                            <FirstRow>
-                                <th>Name</th>
-                                <th>Members Price</th>
-                                <th>Wholesale Price</th>
-                            </FirstRow>
-                            {CurrentProducts.map(product =>
-                                <tr>
-                                    <FirstColumn>{product.name}</FirstColumn>
-                                    <OldPrice>${product.oldprice}</OldPrice>
-                                    <NewPrice>${product.newprice}</NewPrice>
-                                </tr>
-                            )}
-                          </Table>  
+                        <Wrapper>
+                            <Heading>Available products in the Club:</Heading>
+                            <Table>
+                                <FirstRow>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                </FirstRow>
+                                {CurrentProducts.products.map(product =>
+                                    <tr>
+                                        <Name>{product.name}</Name>
+                                        <Price>${product.price}</Price>
+                                    </tr>
+                                )}
+                            </Table>
+                        </Wrapper>
+                        <Wrapper>
+                            <Bundles>Bundles</Bundles>
+                            <Table>
+                            {CurrentProducts.bundles.map(product =>
+                                    <tr>
+                                        <Name>{product.name}</Name>
+                                        <Price>${product.price}/pc</Price>
+                                    </tr>
+                                )}
+                            </Table>
+                        </Wrapper>
                     </ContentWrapper>
                 </BackGround>
             </Layout>

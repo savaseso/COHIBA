@@ -1,0 +1,201 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cohiba Behike52",
+      "price": 690
+    },
+    {
+      "id": 2,
+      "name": "Cohiba Behike54",
+      "price": 749
+    },
+    {
+      "id": 3,
+      "name": "Cohiba Behike56",
+      "price": 790
+    },
+    {
+      "id": 4,
+      "name": "Cohiba Esplendidos",
+      "price": 395
+    },
+    {
+      "id": 5,
+      "name": "Cohiba SigloVI ",
+      "price": 380
+    },
+    {
+      "id": 6,
+      "name": "Cohiba 1966 LE 2011",
+      "price": 399
+    },
+    {
+      "id": 7,
+      "name": "Cohiba robustos supremos(limited edition 2014)",
+      "price": 390
+    },
+    {
+      "id": 8,
+      "name": "Cohiba talisman(limited edition 2017)",
+      "price": 390
+    },
+    {
+      "id": 9,
+      "name": "Cohiba robustos reserve cosecha 2014",
+      "price": 790
+    },
+    {
+      "id": 10,
+      "name": "Cohiba Siglo Vl (Tubos) Box of 15 Luxury",
+      "price": 860
+    },
+    {
+      "id": 11,
+      "name": "Trinidad Fundendores 24 pc",
+      "price": 360
+    },
+    {
+      "id": 12,
+      "name": "Trinidad 12 La Trova",
+      "price": 320
+    },
+    {
+      "id": 13,
+      "name": "H.Upmann CONNOSIER A25",
+      "price": 290
+    },
+    {
+      "id": 14,
+      "name": "H.Upmann CONNOSIER B25",
+      "price": 310
+    },
+    {
+      "id": 15,
+      "name": "Hoyo de Monterrey Double Coronas 25",
+      "price": 395
+    },
+    {
+      "id": 16,
+      "name": "H.Upmann Robustos Edición Limitada 2012 ",
+      "price": 360
+    },
+    {
+      "id": 17,
+      "name": "Cuaba Piramides Edición Limitada 2008",
+      "price": 320
+    },
+    {
+      "id": 18,
+      "name": "5 flasks Romeo y Julieta No. 1",
+      "price": 99
+    },
+    {
+      "id": 19,
+      "name": "Romeo y Julieta Wide Churchill ",
+      "price": 350
+    },
+    {
+      "id": 20,
+      "name": "Sancho Panza 25 Belicosos ",
+      "price": 360
+    },
+    {
+      "id": 21,
+      "name": "Ramon Allones Gigantes",
+      "price": 360
+    },
+    {
+      "id": 22,
+      "name": "Bolivar Royal Coronas",
+      "price": 180
+    },
+    {
+      "id": 23,
+      "name": "Bolivar Double Corona",
+      "price": 490
+    },
+    {
+      "id": 24,
+      "name": "Trinidad Topes Limitada Edition 2016",
+      "price": 290
+    },
+    {
+      "id": 25,
+      "name": "Bolivar Belicosos Fino",
+      "price": 230
+    },
+    {
+      "id": 26,
+      "name": "Bolivar Soberano(limited edition 2018)",
+      "price": 290
+    },
+    {
+      "id": 27,
+      "name": "H.Upmann No2",
+      "price": 210
+    },
+    {
+      "id": 28,
+      "name": "H upmann magnum 56(limited edition 2015)",
+      "price": 390
+    },
+    {
+      "id": 29,
+      "name": "Trinidad topes(limited edition 2019)",
+      "price": 290
+    },
+    {
+      "id": 30,
+      "name": "Partagas Seria P No2",
+      "price": 230
+    },
+    {
+      "id": 31,
+      "name": "Partagas Lusitania (25)",
+      "price": 290
+    },
+    {
+      "id": 32,
+      "name": "Partagas maduro no.1",
+      "price": 230
+    },
+    {
+      "id": 33,
+      "name": "Hoyo grand epicure(limited edition 2013)",
+      "price": 350
+    },
+    {
+      "id": 34,
+      "name": "Montecristo No2",
+      "price": 230
+    },
+    {
+      "id": 35,
+      "name": "Montecristo Churchill Añejados",
+      "price": 350
+    },
+    {
+      "id": 34,
+      "name": "Montecristo 80 Aniversario",
+      "price": 590
+    }
+  ],
+  "bundles":[
+    {
+        "id": 1,
+        "name": "75 pieces Trinidad Vigia - 2019",
+        "price": 9.90
+    },
+    {
+        "id": 2,
+        "name": "25 pieces Montecristo Linea 1935 Maltes",
+        "price": 15
+    },
+    {
+        "id": 3,
+        "name": "15 pieces Cohiba Robusto Reserva 2014",
+        "price": 49
+    }
+  ]
+}
