@@ -3,6 +3,8 @@ import Layout from './Layout'
 import styled from 'styled-components'
 import CurrentProducts from '../assets/data/productList.json'
 import Picture from '../assets/img/quaidorsay.jpg'
+import ReactCountryFlag from "react-country-flag";
+
 
 const BackGround = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
@@ -86,6 +88,19 @@ const Bundles = styled.h3`
     }
 `
 
+const Paragraph = styled.p`
+    padding:20px;
+    color:#fff;
+    font-size:1.5rem;
+    text-align:center;
+    @media (max-width: 768px) {
+        font-size:1rem;
+    }
+    @media (max-width: 501px) {
+        font-size:0.9rem;
+    }
+`
+
 
 
 function Products(props) {
@@ -120,6 +135,7 @@ function Products(props) {
                                 )}
                             </Table>
                         </Wrapper>
+                        <Paragraph>Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
                     </ContentWrapper>
                 </BackGround>
             </Layout>
