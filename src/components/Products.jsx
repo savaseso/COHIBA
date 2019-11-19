@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from './Layout'
-import GoBack from './GoBack'
 import styled from 'styled-components'
 import CurrentProducts from '../assets/data/productList.json'
 import Picture from '../assets/img/quaidorsay.jpg'
@@ -18,8 +17,7 @@ const BackGround = styled.div`
 const Heading = styled.h1`
     text-align: center;
     color:#fff;
-/*     padding:1rem;
- */    font-size:2rem;
+    font-size:2rem;
     @media (max-width: 625px) {
         font-size:1.2rem;
     }
@@ -31,19 +29,15 @@ const Heading = styled.h1`
 const ContentWrapper = styled.div`
         width:700px;
         height:auto;
-    /*     margin:auto;
-    */   background-color:#333;
+        background-color:#333;
         opacity:0.8;
-/*         padding:1rem;
- */        text-align:justify;
+        text-align:justify;
         border-radius:20px;
         display:flex;
         flex-direction:column;
         justify-content:center;
 `
 const Table = styled.table`
-/*     border:solid 1px #d6d6d6;
-; */
     padding:10px;
     @media (max-width: 625px) {
         font-size:80%;
@@ -98,7 +92,6 @@ function Products(props) {
     return (
         <>
             <Layout>
-                <GoBack />
                 <BackGround>
                     <ContentWrapper>
                         <Wrapper>

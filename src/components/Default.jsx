@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from './Layout'
-import GoBack from './GoBack'
 import styled from 'styled-components'
 const ContentWrapper = styled.div`
     display:flex;
@@ -22,7 +21,6 @@ const Heading = styled.h1`
 function PageNotFound(props) {
     return(
         <Layout>
-            <GoBack/>
             <ContentWrapper>
                 <Heading>Sorry, the requested page could not be found.</Heading>
             </ContentWrapper>

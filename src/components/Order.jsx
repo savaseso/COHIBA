@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from './Layout'
-import GoBack from './GoBack'
 import Picture from '../assets/img/Panza_cuba.jpg'
 import styled from 'styled-components'
 
@@ -17,7 +16,6 @@ function Order(props) {
     return(
         <>
             <Layout>
-                    <GoBack />
                     <BackGround>
                         <h1 style={{color:'#fff',fontSize:'5rem',textAlign:'center'}}>SOON</h1>
                     </BackGround>

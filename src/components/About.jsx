@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from './Layout'
-import Navbar from './GoBack'
 import styled from 'styled-components'
 import Picture from '../assets/img/Sir_David.jpg'
 
@@ -94,7 +93,6 @@ function About(props) {
     return (
         <>
             <Layout>
-                <Navbar />
                 <BackGround>
                     <ContentWrapper>
                         <Heading>About Us</Heading>
@@ -116,10 +114,8 @@ function About(props) {
                             <LI>Trinidad’s all type!</LI>
                         </UL>
                         <BottomText><strong>All cigars 100% authentic with a money back guarantee!</strong></BottomText>
-
                     </ContentWrapper>
                 </BackGround>
-
             </Layout>
         </>
     )

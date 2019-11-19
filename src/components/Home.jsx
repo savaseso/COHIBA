@@ -1,13 +1,14 @@
 import React from 'react'
-import Layout from './Layout'
 import NavBar from './NavBar'
+import Footer from './Footer'
 import MainContent from './MainContent'
 function Home(props) {
     return(
-        <Layout>
+        <>
             <NavBar />
             <MainContent />
-        </Layout>
+            <Footer />
+        </>
     )
 }
 export default Home

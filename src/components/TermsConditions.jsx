@@ -1,6 +1,5 @@
-import React from 'react'
+import React, {Component} from 'react'
 import Layout from './Layout'
-import GoBack from './GoBack'
 import styled from 'styled-components'
 
 const Background = styled.div`
@@ -29,10 +28,13 @@ const Paragraph = styled.p`
     opacity:0.7;
 `
 
-function TermsConditions(props) {
+class TermsConditions extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+    render(){
     return (
         <Layout>
-            <GoBack />
             <Background>
                 <ContentWrapper>
                     <h1 style={{textAlign:"center",paddingTop:"2rem"}}>Terms{' '}&amp;{' '}Conditions</h1>
@@ -166,5 +168,5 @@ function TermsConditions(props) {
             </Background>
         </Layout>
     )
-}
+}}
 export default TermsConditions
