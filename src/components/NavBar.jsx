@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { FaFacebookSquare, FaTwitterSquare, FaInstagram } from 'react-icons/fa';
 
 const Nav = styled.nav`
@@ -35,7 +35,8 @@ const Li = styled.li`
         margin:auto;
     }
     @media (max-width: 501px) {
-        padding:10px;
+        padding:0;
+        margin-right:5px;
     }
 
 `
@@ -60,9 +61,9 @@ const ButtonWrapper = styled.div`
     @media (max-width: 800px) {
         font-size:60%;
    }
-     @media (max-width: 501px) {
-        flex-direction:column;
-        margin-bottom:30px;
+     @media (max-width: 501px) {   
+        font-size:80%;
+        margin-bottom:20px;
     } 
     
 `
@@ -111,20 +112,20 @@ const TwitterLogo = styled(FaTwitterSquare)`
 
 
 function NavBar(props) {
-    return(
+    return (
         <Nav>
             <Ul>
-                    <ButtonWrapper>
-                        <Li><NavLink to="/About">About us</NavLink></Li>
-                        <Li><NavLink to="/Products">Available Products</NavLink></Li>
-                        <Li><NavLink to="/Order">Order</NavLink></Li>
-                        <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
-                    </ButtonWrapper>
-                    <div>
-                        <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
-                        <a href="https://www.instagram.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
-                        <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
-                    </div>
+                <ButtonWrapper>
+                    <Li><NavLink to="/About">About us</NavLink></Li>
+                    <Li><NavLink to="/Products">Available Products</NavLink></Li>
+                    <Li><NavLink to="/Order">Order</NavLink></Li>
+                    <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
+                </ButtonWrapper>
+                <div>
+                    <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
+                    <a href="https://www.instagram.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
+                    <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
+                </div>
             </Ul>
         </Nav>
     )
