@@ -7,7 +7,261 @@ export const productsInfo = [
       country:"Cuba",
       year: 1927,
       factory:"El Laguito",
-      description:"A new brand which was introduced only in 1968 by Habanos, Cohiba quickly became the flagship brand of the Cuban cigar industry. Developed initially as a medium bodied protocol cigar for presentation only by officials of the Cuban government, Cohiba was marketed widely beginning in 1982. The initial sizes were the Lancero, the Corona Especiale and the Panetela with the Esplendido, Robusto and Exquisito added in 1989. In 1992, in salute to the 500th anniversary of Columbus' discovery of the Caribbean, the Siglo series was introduced. The Cohiba series was initially made in the El Laguito factory in Havana, but production is now also in the Fernando Perez German factory."
+      description:"A new brand which was introduced only in 1968 by Habanos, Cohiba quickly became the flagship brand of the Cuban cigar industry. Developed initially as a medium bodied protocol cigar for presentation only by officials of the Cuban government, Cohiba was marketed widely beginning in 1982. The initial sizes were the Lancero, the Corona Especiale and the Panetela with the Esplendido, Robusto and Exquisito added in 1989. In 1992, in salute to the 500th anniversary of Columbus' discovery of the Caribbean, the Siglo series was introduced. The Cohiba series was initially made in the El Laguito factory in Havana, but production is now also in the Fernando Perez German factory.",
+      products:[
+        {
+          id:1,
+          name:"Talisman EL 2017",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Majestuoso 1966 50th SE 2016",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"Robusto Supremos EL 2014",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"Piramides Extra",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"Piramides Extra Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"1966 EL 2011",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:7,
+          name:"Behike BHK 52",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:8,
+          name:"Behike BHK 54",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:9,
+          name:"Behike BHK 56",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:10,
+          name:"Corona Especiales",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:11,
+          name:"Double Coronas EL 2003",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:12,
+          name:"Esplendidos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:13,
+          name:"Exquisitos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:14,
+          name:"Lanceros",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:15,
+          name:"Panetelas",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:16,
+          name:"Maduro 5 Genios",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:17,
+          name:"Maduro 5 Magicos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:18,
+          name:"Maduro 5 Secretos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:19,
+          name:"Piramides EL 2001",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:20,
+          name:"Piramides EL 2006",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:21,
+          name:"Robustos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:22,
+          name:"Robustos Tubos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:23,
+          name:"Robustos Res Cosecha 2013",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:24,
+          name:"Medio Siglo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:25,
+          name:"Medio Siglo AT",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:26,
+          name:"Siglo I",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:27,
+          name:"Siglo I Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:28,
+          name:"Siglo II",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:29,
+          name:"Siglo II Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:30,
+          name:"Siglo II Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:31,
+          name:"Siglo III",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:32,
+          name:"Siglo III Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:33,
+          name:"Siglo III",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:34,
+          name:"Siglo IV",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:35,
+          name:"Siglo IV Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:36,
+          name:"Siglo V",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:37,
+          name:"Siglo V Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:38,
+          name:"Siglo VI",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:39,
+          name:"Siglo III",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:40,
+          name:"Siglo VI Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:40,
+          name:"Siglo VI Grand Reserva 2009",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:41,
+          name:"Sublimes EL 2004",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 2,

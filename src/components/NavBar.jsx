@@ -38,6 +38,9 @@ const Li = styled.li`
         padding:0;
         margin-right:2px;
     }
+    @media (max-width: 320px) {
+        margin-right:1px;
+    }
 
 `
 const NavLink = styled(Link)`
@@ -64,6 +67,9 @@ const ButtonWrapper = styled.div`
      @media (max-width: 501px) {   
         font-size:80%;
         margin-bottom:20px;
+    } 
+     @media (max-width: 320px) {   
+        font-size:60%;
     } 
     
 `
