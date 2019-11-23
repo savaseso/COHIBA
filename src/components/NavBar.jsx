@@ -39,7 +39,7 @@ const Li = styled.li`
         margin-right:2px;
     }
     @media (max-width: 320px) {
-        margin-right:1px;
+        margin-right:0px;
     }
 
 `
