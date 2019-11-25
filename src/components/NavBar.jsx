@@ -29,17 +29,18 @@ const Li = styled.li`
         margin:10px;
     }
     @media (max-width: 768px) {
-        margin:10px;
+        margin:0;
     }
     @media (max-width: 570px) {
         margin:auto;
     }
     @media (max-width: 501px) {
-        padding:0;
+        padding:4px;
         margin-right:2px;
     }
-    @media (max-width: 320px) {
-        margin-right:0px;
+    @media (max-width: 332px) {
+        margin:5px;
+        padding:4px;
     }
 
 `
@@ -68,8 +69,10 @@ const ButtonWrapper = styled.div`
         font-size:80%;
         margin-bottom:20px;
     } 
-     @media (max-width: 320px) {   
+     @media (max-width: 332px) {   
         font-size:60%;
+        flex-direction:column;
+        align-items:center;
     } 
     
 `
