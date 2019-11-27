@@ -260,7 +260,7 @@ export const productsInfo = [
           name:"Sublimes EL 2004",
           single:"Out of stock",
           box:"Out of stock"
-        }
+        } 
       ]
     },
     {
