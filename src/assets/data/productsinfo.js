@@ -271,7 +271,117 @@ export const productsInfo = [
       country:"Cuba",
       year: 1927,
       factory:"Partagas",
-      description:"Introduced in 1901, the powerful flavour of the Bolivar range is almost as widely know as it's namesake, Simon Bolivar (1783-1830), the celebrated Venezuelan warrior who liberated all or part of what is today Venezuela, Columbia, Peru and Bolivia. The cigar brand was developed by the Jose Rocha Company and manufactured at the El Crepusculo factory, but was later acquired by Menendez, Garcia y Cia."
+      description:"Introduced in 1901, the powerful flavour of the Bolivar range is almost as widely know as it's namesake, Simon Bolivar (1783-1830), the celebrated Venezuelan warrior who liberated all or part of what is today Venezuela, Columbia, Peru and Bolivia. The cigar brand was developed by the Jose Rocha Company and manufactured at the El Crepusculo factory, but was later acquired by Menendez, Garcia y Cia.",
+      products:[
+        {
+          id:1,
+          name:"Soberano EL 2018",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Super Coronas EL 2014",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"Libertador LCDH 2013",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"Bonitas (D2009)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"Belicosos Finos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"Petit Belicosos EL 2009",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:7,
+          name:"Coronas Junior",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:8,
+          name:"Petit Coronas",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:9,
+          name:"Coronas (D2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:10,
+          name:"Royal Coronas",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:11,
+          name:"Royal Coronas Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:12,
+          name:"Coronas Extra (D2012)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:13,
+          name:"Coronas Gigantes",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:14,
+          name:"Gold Medal (D2011)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:15,
+          name:"Inmensas (D2009)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:16,
+          name:"Tubos No1",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:17,
+          name:"Tubos No2",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:18,
+          name:"Tubos No3",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 3,
@@ -281,7 +391,45 @@ export const productsInfo = [
       country:"Cuba",
       year: 1845,
       factory:"Partagas",
-      description:"There actually was a Ramon Allones, who developed this brand way back in 1837. Originally from Spain, Allones (owner of the La Eminencia factory) was reportedly the first to employ bright, lithographed labels on his boxes, to help set his brand apart. Prior to nationalization, this lighter-bodied brand was owned by Cifuentes, Pego y Cia., also the owners of Partagas."
+      description:"There actually was a Ramon Allones, who developed this brand way back in 1837. Originally from Spain, Allones (owner of the La Eminencia factory) was reportedly the first to employ bright, lithographed labels on his boxes, to help set his brand apart. Prior to nationalization, this lighter-bodied brand was owned by Cifuentes, Pego y Cia., also the owners of Partagas.",
+      products:[
+        {
+          id:1,
+          name:"Club Allones EL 2015",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Allones Superiores LCDH 2010",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"Allones Extra EL 2011",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"Specially Selected",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"Gigantes",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"Small Club Coronas",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 4,
@@ -291,7 +439,207 @@ export const productsInfo = [
       country:"Cuba",
       year: 1844,
       factory:"H.Upmann",
-      description:"As famous a brand as there is in the world of cigars, the H. Upmann brand dates back to 1844, when Herman Upmann, a German banker, began using specially imprinted boxes of cigars as promotional items for his banking firm. The combination proved successful, so the H. Upmann brand was born and continues to this day. The success of this brand was buoyed by the award of seven gold medals in seven international exhibitions between 1862 and 1893; these awards still adorn the lithographed interior of the box today. The brand was sold to the British firm of J. Frankau in 1922 and finally in 1935 to Menendez, Garcia & Cia. prior to nationalization, continues today in the H. Upmann factory, now known as Jose Marti. The famous request of President John F. Kennedy to his press secretary, Pierre Salinger, to obtain cigars on the evening prior to the declaration of the American trade embargo in 1961, was for Petit Upmanns. Available in a stunning range of handmade and machine-made sizes, the brand offers a mild to medium strength."
+      description:"As famous a brand as there is in the world of cigars, the H. Upmann brand dates back to 1844, when Herman Upmann, a German banker, began using specially imprinted boxes of cigars as promotional items for his banking firm. The combination proved successful, so the H. Upmann brand was born and continues to this day. The success of this brand was buoyed by the award of seven gold medals in seven international exhibitions between 1862 and 1893; these awards still adorn the lithographed interior of the box today. The brand was sold to the British firm of J. Frankau in 1922 and finally in 1935 to Menendez, Garcia & Cia. prior to nationalization, continues today in the H. Upmann factory, now known as Jose Marti. The famous request of President John F. Kennedy to his press secretary, Pierre Salinger, to obtain cigars on the evening prior to the declaration of the American trade embargo in 1961, was for Petit Upmanns. Available in a stunning range of handmade and machine-made sizes, the brand offers a mild to medium strength.",
+      products:[
+        {
+          id:1,
+          name:"Propios EL 2018",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Magnum 56 EL 2015",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"Connoisseur A HSE 2013",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"Connoisseur B HSE 2017",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"Robustos EL 2012",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"Robustos Anejados 2016",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:7,
+          name:"Royal Robustos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:8,
+          name:"Royal Robus re-release",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:9,
+          name:"Connoisseur No 1",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:10,
+          name:"Coronas Junior",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:11,
+          name:"Coronas Major",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:12,
+          name:"Coronas Minor",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:13,
+          name:"Half Corona",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:14,
+          name:"Half Corona AT",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:15,
+          name:"Petit Coronas",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:16,
+          name:"Epicures",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:17,
+          name:"Magnum 46",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:18,
+          name:"Magnum 46 Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:19,
+          name:"Magnum 48 EL 2009",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:20,
+          name:"Magnum 50",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:21,
+          name:"Magnum 50 Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:22,
+          name:"Magnum 54",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:23,
+          name:"Magnum 54 Tubo",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:24,
+          name:"Magnum 50 EL 2005",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:25,
+          name:"Majestics",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:26,
+          name:"Monarchs (D2009)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:27,
+          name:"Regalias",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:28,
+          name:"Sir Winston",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:29,
+          name:"S Winston GR Cosecha 2011",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:30,
+          name:"No 2",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:31,
+          name:"No 2 Reserva Cosecha 2010*",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:32,
+          name:"Noellas Jar",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:33,
+          name:"Noellas Jar 2013 Re-Release *",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 5,
@@ -301,7 +649,81 @@ export const productsInfo = [
       country:"Cuba",
       year: 1969,
       factory:"El Laguito",
-      description:"Since 1980, the Trinidad Fundadores has been produced exclusively for Fidel Castro. The only boxes that left Cuba were gifts to foreign diplomats. On February of 1998, the brand was officially launched as an export in Trinidad, Cuba. The cigars were first made available in Canada and Mexico in April 1998, and later became available to the world market. This line features one size, the Fundadore, which means Founder. It is similar in size to the Cohiba Lancero, measuring at a ring guage of 40 and a length of 7 and 3/4 inches or 195 mm. Named after one of Cuba's most beautiful cities, the Trinidad is produced only in the El Laguito factory, and packaged in an 'unusual' quantity of 24 cigars as well as in cabinets of 50."
+      description:"Since 1980, the Trinidad Fundadores has been produced exclusively for Fidel Castro. The only boxes that left Cuba were gifts to foreign diplomats. On February of 1998, the brand was officially launched as an export in Trinidad, Cuba. The cigars were first made available in Canada and Mexico in April 1998, and later became available to the world market. This line features one size, the Fundadore, which means Founder. It is similar in size to the Cohiba Lancero, measuring at a ring guage of 40 and a length of 7 and 3/4 inches or 195 mm. Named after one of Cuba's most beautiful cities, the Trinidad is produced only in the El Laguito factory, and packaged in an 'unusual' quantity of 24 cigars as well as in cabinets of 50.",
+      products:[
+        {
+          id:1,
+          name:"La Trova LCDH",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Topes EL 2016",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"Vigia",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"Vigia AT",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"Coloniales",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"Fundadores",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:7,
+          name:"Ingenios EL 2007",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:8,
+          name:"Reyes",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:9,
+          name:"Robustos Extra (D2012)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:10,
+          name:"Robustos T (D2012)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:11,
+          name:"Short Robusto T EL 2010",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:12,
+          name:"Coronas Minor",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 6,
@@ -311,7 +733,63 @@ export const productsInfo = [
       country:"Cuba",
       year: 1996,
       factory:"Romeo y Julieta",
-      description:"First introduced in London in 1996, the Cuaba brand was the first new Cuban cigar brand to be introduced into commercial production since 1968. Historicaly, Cuaba is the Taino Indian word for the special cuban bush used to light the Cohiba or Tobacco on the Island. All four of the Cuaba vitoles are in the figurado (perfecto) shape: the Exclusivos, the Generosos, the Tradicionales and the Divinos. This shape was popular until the beginning of the 20th century. Habanos S.A. decided to revive the British tradition of smoking figurados; hence the fitting unveiling of the brand in London, England. Habanos, S.A. has since reintroduced other historic brands and shapes."
+      description:"First introduced in London in 1996, the Cuaba brand was the first new Cuban cigar brand to be introduced into commercial production since 1968. Historicaly, Cuaba is the Taino Indian word for the special cuban bush used to light the Cohiba or Tobacco on the Island. All four of the Cuaba vitoles are in the figurado (perfecto) shape: the Exclusivos, the Generosos, the Tradicionales and the Divinos. This shape was popular until the beginning of the 20th century. Habanos S.A. decided to revive the British tradition of smoking figurados; hence the fitting unveiling of the brand in London, England. Habanos, S.A. has since reintroduced other historic brands and shapes.",
+      products:[
+        {
+          id:1,
+          name:"20 Aniversario SE 2016",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Diadema (D2013)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"Divinos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"Exclusivos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"Generosos (D2013)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"Piramides EL 2008",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:7,
+          name:"Salomon",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:8,
+          name:"Tradicionales (D2012)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:9,
+          name:"Distinguidos",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 7,
@@ -321,7 +799,45 @@ export const productsInfo = [
       country:"Cuba",
       year: 1966,
       factory:"Jose Marti",
-      description:"This brand was introduced in 1966 as essentially a second value line of the Montecristo brand, primarily aimed at the French market. One of the few Havana brands which is exclusively devoted to handmade cigars, the sizes and names essentially mirror the Montecristo nomenclature and the Diplimaticos line is produced at the Jose Marti factory, as is most of the Montecristo range. They are generally considered to be medium to full bodied."
+      description:"This brand was introduced in 1966 as essentially a second value line of the Montecristo brand, primarily aimed at the French market. One of the few Havana brands which is exclusively devoted to handmade cigars, the sizes and names essentially mirror the Montecristo nomenclature and the Diplimaticos line is produced at the Jose Marti factory, as is most of the Montecristo range. They are generally considered to be medium to full bodied.",
+      products:[
+        {
+          id:1,
+          name:"Excellencia RE Cuba",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"No 1 (D 2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"No 2",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"No 3 (D2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"No 4 (D2010)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"No 5 (D2010)",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 8,
@@ -331,7 +847,63 @@ export const productsInfo = [
       country:"Cuba",
       year: "1876",
       factory:"El Habanero",
-      description:"Here is one of the few Havana brands which is offered only in handmade styles, started in 1876 by Juan Lopez Diaz. The range of sizes is limited, but the workmanship is first-rate and the flavour is considered to be medium to strong, with light and almost aromatic overtones. A sampling of this cigar may develop into a long term love for it."
+      description:"Here is one of the few Havana brands which is offered only in handmade styles, started in 1876 by Juan Lopez Diaz. The range of sizes is limited, but the workmanship is first-rate and the flavour is considered to be medium to strong, with light and almost aromatic overtones. A sampling of this cigar may develop into a long term love for it.",
+      products:[
+        {
+          id:1,
+          name:"Coronas (D2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Obus ER Francia 2007",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"Panatelas Superbas (D2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"Petit Coronas",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"Patricias (D2002)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"Seleccion No 1",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:7,
+          name:"Seleccion No 2",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:8,
+          name:"Seleccion No 2",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:9,
+          name:"Reino Unido ER 2009",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 9,
@@ -341,7 +913,57 @@ export const productsInfo = [
       country:"Cuba",
       year: 1996,
       factory:"Pinar del Rio",
-      description:"Vegueros is a cigar made in Vuelta Abajo, the land of the best tobacco of the world. The sturdy building where this high-quality trademark is manufactured was built in 1868. At the beginning, this building had the function of a hospital of the Spanish colony, since 1870 it served as a prison and later in 1959 the School of Arts was established there. In 1961, it became the Cigarettes Factory 'Francisco Donatien'. Today, history and a good taste offer a new jewel to the most demanding and expert smokers. Vegueros, from the very Pinar del Rio. In 2014, Habanos announced the re-launch of the Vegueros brand with a new blend, a new logo and a new tin packaging of 16 cigars. The blend is now slightly more powerful with the familiar grassy notes. "
+      description:"Vegueros is a cigar made in Vuelta Abajo, the land of the best tobacco of the world. The sturdy building where this high-quality trademark is manufactured was built in 1868. At the beginning, this building had the function of a hospital of the Spanish colony, since 1870 it served as a prison and later in 1959 the School of Arts was established there. In 1961, it became the Cigarettes Factory 'Francisco Donatien'. Today, history and a good taste offer a new jewel to the most demanding and expert smokers. Vegueros, from the very Pinar del Rio. In 2014, Habanos announced the re-launch of the Vegueros brand with a new blend, a new logo and a new tin packaging of 16 cigars. The blend is now slightly more powerful with the familiar grassy notes. ",
+      products:[
+        {
+          id:1,
+          name:"Centrofinos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Mananitas",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"Tapados",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"Entretiempos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"Especiales No 1 (D2010)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"Especiales No 2 (D2010)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:7,
+          name:"Marevas",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:8,
+          name:"Seoane",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 10,
@@ -351,7 +973,111 @@ export const productsInfo = [
       country:"Cuba",
       year: 1999,
       factory:"La Corona",
-      description:"The latest and probably the last of the new series of Havana brands launced since 1996 has been given the original name of the city of Havana when it was founded by settlers back in 1519 - San Cristσbal (St. Christopher) de La Habana. The brand boasts four sizes, each of which is named after one of the fronts that defended the city in its heyday, as the hub of the Spanish empire in Latin America. Two of the sizes, La Fuerza and El Morro, are entirely new and are unique to the San Cristσbal brand."
+      description:"The latest and probably the last of the new series of Havana brands launced since 1996 has been given the original name of the city of Havana when it was founded by settlers back in 1519 - San Cristσbal (St. Christopher) de La Habana. The brand boasts four sizes, each of which is named after one of the fronts that defended the city in its heyday, as the hub of the Spanish empire in Latin America. Two of the sizes, La Fuerza and El Morro, are entirely new and are unique to the San Cristσbal brand.",
+      products:[
+        {
+          id:1,
+          name:"Prado HSE 2018",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:2,
+          name:"Jarra Torreon",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:3,
+          name:"El Morro",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:4,
+          name:"El Principe",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:5,
+          name:"La Fuerza",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:6,
+          name:"La Punta",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:7,
+          name:"Mercaderes LCDH (D2011)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:8,
+          name:"Muralla LCDH (D2011)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:9,
+          name:"Oficios LCDH (D2011)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:10,
+          name:"SANCHO PANZA",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:11,
+          name:"Bachilleres (D2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:12,
+          name:"Belicosos",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:13,
+          name:"Coronas (D2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:14,
+          name:"Coronas Gigantes (D2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:15,
+          name:"Molinos (D2012)",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:16,
+          name:"Non Plus",
+          single:"Out of stock",
+          box:"Out of stock"
+        },
+        {
+          id:17,
+          name:"Sanchos (D2006)",
+          single:"Out of stock",
+          box:"Out of stock"
+        }
+      ]
     },
     {
       id: 11,
