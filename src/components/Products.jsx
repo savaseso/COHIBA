@@ -119,7 +119,7 @@ function Products(props) {
                                 {CurrentProducts.products.map(product =>
                                     <tr>
                                         <Name>{product.name}</Name>
-                                        <Price>${product.price}</Price>
+                                        <Price>{product.price}</Price>
                                     </tr>
                                 )}
                             </Table>
@@ -130,7 +130,7 @@ function Products(props) {
                             {CurrentProducts.bundles.map(product =>
                                     <tr>
                                         <Name>{product.name}</Name>
-                                        <Price>${product.price}/pc</Price>
+                                        <Price>{product.price}/pc</Price>
                                     </tr>
                                 )}
                             </Table>
