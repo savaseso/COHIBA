@@ -3,6 +3,28 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { FaFacebookSquare, FaTwitterSquare, FaInstagram } from 'react-icons/fa';
 
+
+const NavBar = (props) => {
+    return (
+        <Nav>
+            <Ul>
+                <ButtonWrapper>
+                    <Li><NavLink to="/About">About us</NavLink></Li>
+                    <Li><NavLink to="/Products">New Arrivals</NavLink></Li>
+                    <Li><NavLink to="/Order">Order</NavLink></Li>
+                    <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
+                </ButtonWrapper>
+                <div>
+                    <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
+                    <a href="https://www.instagram.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
+                    <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
+                </div>
+            </Ul>
+        </Nav>
+    )
+}
+export default NavBar
+
 const Nav = styled.nav`
     background-color:#000;
     padding-top:30px;
@@ -118,25 +140,3 @@ const TwitterLogo = styled(FaTwitterSquare)`
 
     }
 `
-
-
-function NavBar(props) {
-    return (
-        <Nav>
-            <Ul>
-                <ButtonWrapper>
-                    <Li><NavLink to="/About">About us</NavLink></Li>
-                    <Li><NavLink to="/Products">Available Products</NavLink></Li>
-                    <Li><NavLink to="/Order">Order</NavLink></Li>
-                    <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
-                </ButtonWrapper>
-                <div>
-                    <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
-                    <a href="https://www.instagram.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
-                    <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
-                </div>
-            </Ul>
-        </Nav>
-    )
-}
-export default NavBar

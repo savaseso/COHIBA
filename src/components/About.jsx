@@ -4,6 +4,41 @@ import styled from 'styled-components'
 import Picture from '../assets/img/Sir_David.jpg'
 
 
+const About = (props) => {
+    return (
+        <>
+            <Layout>
+                <BackGround>
+                    <ContentWrapper>
+                        <Heading>About Us</Heading>
+                        <Introduction>Hi! We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club in Toronto <span role="img" aria-label="canadian flag">🇨🇦</span></span></strong>,so we selling individually <span role="img" aria-label="smile">😀</span>Tell me what do you want! We selling only Cuban cigars with unbelievable price!😀FREE shipping in Canada and US! You know... my Club-members bring in 1 box cigar every month and we would like selling them! The money goes to the club!</Introduction>
+                        <UL>
+                            <LI>COHIBA Behike 52,54,56</LI>
+                            <LI>COHIBA Siglo II and Siglo VI COHIBA</LI>
+                            <LI>COHIBA Esplendidos</LI>
+                            <LI>COHIBA Robusto</LI>
+                            <LI>Montecristo Anejados</LI>
+                            <LI>COHIBA Reserva Cosecha 2014</LI>
+                            <LI>H.Upmann Gran Reserva 2011</LI>
+                            <LI>Partagas Serie D4</LI>
+                            <LI>San Cristóbal de la Habana porcelain Jar</LI>
+                            <LI>Partagas Serie D4</LI>
+                            <LI>COHIBA Behike56 porcelain Jar</LI>
+                            <LI>Robaina Unicos</LI>
+                            <LI>Hoyo de Monterrey serie le Hoyo</LI>
+                            <LI>Trinidad’s all type!</LI>
+                        </UL>
+                        <BottomText><strong>All cigars 100% authentic with a money back guarantee!</strong></BottomText>
+                    </ContentWrapper>
+                </BackGround>
+            </Layout>
+        </>
+    )
+}
+export default About 
+
+
+
 const BackGround = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
     background-position: center; 
@@ -87,37 +122,3 @@ const BottomText = styled.p`
     color:#E0A400;
     text-align:center;
 `
-
-
-function About(props) {
-    return (
-        <>
-            <Layout>
-                <BackGround>
-                    <ContentWrapper>
-                        <Heading>About Us</Heading>
-                        <Introduction>Hi! We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club in Toronto <span role="img" aria-label="canadian flag">🇨🇦</span></span></strong>,so we selling individually <span role="img" aria-label="smile">😀</span>Tell me what do you want! We selling only Cuban cigars with unbelievable price!😀FREE shipping in Canada and US! You know... my Club-members bring in 1 box cigar every month and we would like selling them! The money goes to the club!</Introduction>
-                        <UL>
-                            <LI>COHIBA Behike 52,54,56</LI>
-                            <LI>COHIBA Siglo II and Siglo VI COHIBA</LI>
-                            <LI>COHIBA Esplendidos</LI>
-                            <LI>COHIBA Robusto</LI>
-                            <LI>Montecristo Anejados</LI>
-                            <LI>COHIBA Reserva Cosecha 2014</LI>
-                            <LI>H.Upmann Gran Reserva 2011</LI>
-                            <LI>Partagas Serie D4</LI>
-                            <LI>San Cristóbal de la Habana porcelain Jar</LI>
-                            <LI>Partagas Serie D4</LI>
-                            <LI>COHIBA Behike56 porcelain Jar</LI>
-                            <LI>Robaina Unicos</LI>
-                            <LI>Hoyo de Monterrey serie le Hoyo</LI>
-                            <LI>Trinidad’s all type!</LI>
-                        </UL>
-                        <BottomText><strong>All cigars 100% authentic with a money back guarantee!</strong></BottomText>
-                    </ContentWrapper>
-                </BackGround>
-            </Layout>
-        </>
-    )
-}
-export default About 

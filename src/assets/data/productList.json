@@ -2,295 +2,605 @@
   "products": [
     {
       "id": 1,
-      "name": "Cohiba Behike52",
-      "price": "ask the price"
+      "name": "Bolivar Petit Belicoso 2009 Limited Edition",
+      "price": 495,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 2,
-      "name": "Cohiba Behike54",
-      "price": "ask the price"
+      "name": "Bolivar Libertadores “Casa Del Habano”",
+      "price": 495,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 3,
-      "name": "Cohiba Behike56",
-      "price": "ask the price"
+      "name": "BOLIVAR Soberano EDICION LIMITADA 2018",
+      "price": 290,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 4,
-      "name": "Cohiba Esplendidos",
-      "price": "ask the price"
+      "name": "Bolivar Royal Coronas",
+      "price": 180,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 5,
-      "name": "Cohiba SigloVI ",
-      "price": "ask the price"
+      "name": "Bolivar Double Corona",
+      "price": 490,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 6,
-      "name": "Cohiba 1966 LE 2011",
-      "price": "ask the price"
+      "name": "Bolivar Double Gigantes",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 7,
-      "name": "Cohiba robustos supremos(limited edition 2014)",
-      "price": "ask the price"
+      "name": "Bolivar Belicosos Fino",
+      "price": 230,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 8,
-      "name": "Cohiba talisman(limited edition 2017)",
-      "price": "ask the price"
+      "name": "Cohiba Behike52",
+      "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 9,
-      "name": "Cohiba Piramides Extra",
-      "price": "ask the price"
+      "name": "Cohiba Behike54",
+      "price": 749,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 10,
-      "name": "Cohiba Maduro5 Magicos",
-      "price": "ask the price"
+      "name": "Cohiba Behike56",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 11,
-      "name": "Cohiba Maduro5 Genios",
-      "price": "ask the price"
+      "name": "Cohiba Esplendidos",
+      "price": 395,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 12,
-      "name": "Cohiba Siglo Vl (Tubos) Box of 15 Luxury",
-      "price": "ask the price"
+      "name": "Cohiba SigloVI",
+      "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 13,
-      "name": "Trinidad Fundendores 24 pc",
-      "price": "ask the price"
+      "name": "Cohiba 1966 LE 2011",
+      "price": 495,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 14,
-      "name": "Trinidad 12 La Trova",
-      "price": "ask the price"
+      "name": "Cohiba robust supremos(limited edition 2014)",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 15,
-      "name": "TRINIDAD Trinidad vigia",
-      "price": "ask the price"
+      "name": "Cohiba talisman(limited edition 2017)",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 16,
-      "name": "TRINIDAD doble Edmundo",
-      "price": "ask the price"
+      "name": "COHIBA piramides Extra",
+      "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 17,
-      "name": "TRINIDAD Fundadores (12)",
-      "price": "ask the price"
+      "name": "COHIBA Maduro5 Magicos",
+      "price": 420,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 18,
-      "name": "Trinidad topes(limited edition 2019)",
-      "price": "ask the price"
+      "name": "COHIBA Maduro5 Genios",
+      "price": 420,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 19,
-      "name": "Trinidad Topes Limitada Edition 2016",
-      "price": "ask the price"
+      "name": "Cohiba Siglo Vl (Tubos) Box of 15 Luxury",
+      "price": 860,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 20,
-      "name": "Partagas Lusitanias Granx Reserva",
-      "price": "ask the price"
+      "name": "Cohiba Double Corona Limited Edition 2003 VINTAGE",
+      "price": 980,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 21,
       "name": "COHIBA Robustos Reserva Cosecha 2014",
-      "price": "ask the price"
+      "price": 980,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 22,
-      "name": "Romeo y Julieta Wide Churchills Gran Reserva Cosecha 2009",
-      "price": "ask the price"
+      "name": "Cuaba Piramides Edición Limitada 2008",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 23,
-      "name": "H.Upmann Gran Reserva Sir Winston Churchill 2011",
-      "price": "ask the price"
+      "name": "Hoyo de Monterrey Grand Epicure 2013 LE",
+      "price": 350,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 24,
-      "name": "COHIBA Robusto Supremo",
-      "price": "ask the price"
+      "name": "Hoyo de Monterrey Double Coronas 25",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 25,
-      "name": "H.Upmann CONNOSIER A25",
-      "price": "ask the price"
+      "name": "H.Upmann CONNOSSIEUR A’LCDH (25)",
+      "price": 310,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 26,
-      "name": "H.Upmann CONNOSIER B25",
-      "price": "ask the price"
+      "name": "H.Upmann CONNOSSIEUR B’LCDH (25)",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 27,
-      "name": "Hoyo de Monterrey Double Coronas 25",
-      "price": "ask the price"
+      "name": "H.Upmann Robustos Edición Limitada 2012",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 28,
-      "name": "H.Upmann Robustos Edición Limitada 2012 ",
-      "price": "ask the price"
+      "name": "H. Upmann ROBUSTOS AÑEJADOS 2016",
+      "price": 300,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 29,
-      "name": "Cuaba Piramides Edición Limitada 2008",
-      "price": "ask the price"
+      "name": "H.Upmann MAGNUM 56 EDICION LIMITADA 2015",
+      "price": 460,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 30,
-      "name": "5 flasks Romeo y Julieta No. 1",
-      "price": "ask the price"    },
+      "name": "H.Upmann Gran Reserva Sir Winston Churchill 2011",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
     {
       "id": 31,
-      "name": "Romeo y Julieta Wide Churchill ",
-      "price": "ask the price"
+      "name": "Montecristo 1935 Linea Maltes",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 32,
-      "name": "Sancho Panza 25 Belicosos ",
-      "price": "ask the price"
+      "name": "Montecristo 80 Aniversario",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 33,
-      "name": "Ramon Allones Gigantes",
-      "price": "ask the price"
+      "name": "Montecristo Churchill Añejados",
+      "price": 350,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 34,
-      "name": "Bolivar Royal Coronas",
-      "price": "ask the price"
+      "name": "Montecristo doble Edmundo",
+      "price": 250,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 35,
-      "name": "Bolivar Double Corona",
-      "price": "ask the price"
+      "name": "Montecristo Sublimes Limited Edition 2008",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 36,
-      "name": "Bolivar Belicosos Fino",
-      "price": "ask the price"
+      "name": "Montecristo Gran Corona “A”",
+      "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 37,
-      "name": "Bolivar Soberano(limited edition 2018)",
-      "price": "ask the price"
+      "name": "Montecristo Robustos Limited Edition 2006 – 2000 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 38,
-      "name": "H.Upmann No2",
-      "price": "ask the price"
+      "name": "Montecristo Edmundo Dantes Conde Belicoso (10)",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 39,
-      "name": "H upmann magnum 56(limited edition 2015)",
-      "price": "ask the price"
+      "name": "Partagas Serial P No2 ",
+      "price": 230,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 40,
-      "name": "Partagas Seria P No2",
-      "price": "ask the price"
+      "name": "Partagas Serial D No 4",
+      "price": 290,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 41,
-      "name": "Partagas Seria D No4",
-      "price": "ask the price"
+      "name": "Partagas Lusitania (25)",
+      "price": 290,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 42,
-      "name": "Partagas Lusitania (25)",
-      "price": "ask the price"
+      "name": "Partagas maduro no.1",
+      "price": 230,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 43,
-      "name": "Partagas maduro no.1",
-      "price": "ask the price"
+      "name": "Partagas Serie D No. 1 Limited Edition 2004 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 44,
-      "name": "Hoyo grand epicure(limited edition 2013)",
-      "price": "ask the price"
+      "name": "Partagas Series D No. 2 Limited Edition 2003 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 45,
-      "name": "Montecristo No2",
-      "price": "ask the price"
+      "name": "Partagas Corona Gorda Añejados",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 46,
-      "name": "Montecristo Línea 1935 Leyenda",
-      "price": "ask the price"
+      "name": "Partagas Lusitanias Grand Reserva Cosecha 2007",
+      "price": 900,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 47,
-      "name": "Montecristo Churchill Añejados",
-      "price": "ask the price"
+      "name": "Ramon Allones Gigantes",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 48,
-      "name": "Montecristo 80 Aniversario",
-      "price": "ask the price"
+      "name": "Ramón allones extra 2011",
+      "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 49,
-      "name": "Montecristo Open Eagle",
-      "price": "ask the price"
+      "name": "Punch Serie D’Oro No.2 Edicion Limitada 2013",
+      "price": 520,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
       "id": 50,
-      "name": "ROMEO y Julieta Churchill ",
-      "price": "ask the price"
+      "name": "Romeo y Julieta 5 flask No. 1",
+      "price": 99,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 51,
+      "name": "Romeo y Julieta Wide Churchill",
+      "price": 350,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 52,
+      "name": "Romeo y Julieta Wide Churchills Gran Reserva Cosecha 2009",
+      "price": 890,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 53,
+      "name": "Romeo y Julieta Pyramides Limited Edition 2005",
+      "price": 595,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 54,
+      "name": "Romeo y Julieta Capuletos EL 2016",
+      "price": 890,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 55,
+      "name": "Romeo y Julieta ESCUDOS Edición Limitada 2007",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 56,
+      "name": "Romeo y Julieta de Luxe (EL 2013)",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 57,
+      "name": "Romeo y julieta Duke.L.E.2009",
+      "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 58,
+      "name": "Romeo y Julieta Wide Churchills Gran Reserva Cosecha 2009",
+      "price": 990,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 59,
+      "name": "Sancho Panza 25 Belicosos",
+      "price": 990,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 60,
+      "name": "Trinidad Fundendores 24 pc ",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 61,
+      "name": "Trinidad 12 La Trova",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 62,
+      "name": "TRINIDAD Trinidad vigia",
+      "price": 250,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 63,
+      "name": "TRINIDAD doble Edmundo",
+      "price": 280,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 64,
+      "name": "TRINIDAD Fundadores (12)",
+      "price": 280,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 65,
+      "name": "Trinidad topes(limited edition 2019)",
+      "price": 290,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 66,
+      "name": "Trinidad Topes Limitada Edition 2016",
+      "price": 290,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     }
   ],
-
-  "bundles":[
+  "bundles": [
     {
-        "id": 1,
-        "name": "Trinidad Vigia - 2019",
-        "price": "ask the price"
+      "id": 67,
+      "name": "Trinidad Vigia - 2019",
+      "price": 9.90,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
-        "id": 2,
-        "name": "Trinidad La Trove LCDH",
-        "price": "ask the price"
+      "id": 68,
+      "name": "Trinidad La Trove LCDH",
+      "price": 32,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
-        "id": 3,
-        "name": "Montecristo Linea 1935 Maltes",
-        "price": "ask the price"
+      "id": 69,
+      "name": "Ramon Allones Gigantes",
+      "price": 13.9,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
-        "id": 4,
-        "name": "H.Upmann Connossieur A",
-        "price": "ask the price"
+      "id": 70,
+      "name": "Montecristo Linea 1935 Maltes ",
+      "price": 18,
+      "inCart": false,
+      "count": 0,
+      "total": 0.5
     },
     {
-        "id": 5,
-        "name": "H.Upmann Connossieur B",
-        "price": "ask the price"
+      "id": 71,
+      "name": "H.Upmann Connossieur A",
+      "price": 13.5,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
-        "id": 6,
-        "name": "Cohiba Siglo VI",
-        "price": "ask the price"
+      "id": 72,
+      "name": "H.Upmann Connossieur B",
+      "price": 18,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
-        "id": 7,
-        "name": "COHIBA Behike56-(New security labels and symbols!)",
-        "price": "ask the price"
+      "id": 73,
+      "name": "Cohiba Siglo VI ",
+      "price": 35,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     },
     {
-        "id": 8,
-        "name": "Cohiba Robusto Reserva 2014",
-        "price": "ask the price"
+      "id": 74,
+      "name": "COHIBA Behike56",
+      "price": 89,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 75,
+      "name": "Cohiba Robusto Reserva 2014",
+      "price": 55,
+      "inCart": false,
+      "count": 0,
+      "total": 0
     }
   ]
 }

@@ -6,6 +6,48 @@ import Picture from '../assets/img/quaidorsay.jpg'
 import ReactCountryFlag from "react-country-flag";
 
 
+
+const Products = (props) => {
+    return (
+        <>
+            <Layout>
+                <BackGround>
+                    <ContentWrapper>
+                        <Wrapper>
+                            <Heading>Available products in the Club:</Heading>
+                            <Table>
+                                <FirstRow>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                </FirstRow>
+                                {CurrentProducts.products.map(product =>
+                                    <tr>
+                                        <Name>{product.name}</Name>
+                                        <Price>${product.price}</Price>
+                                    </tr>
+                                )}
+                            </Table>
+                        </Wrapper>
+                        <Wrapper>
+                            <Bundles>Bundles</Bundles>
+                            <Table>
+                            {CurrentProducts.bundles.map(product =>
+                                    <tr>
+                                        <Name>{product.name}</Name>
+                                        <Price>${product.price}/pc</Price>
+                                    </tr>
+                                )}
+                            </Table>
+                        </Wrapper>
+                        <Paragraph>Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
+                    </ContentWrapper>
+                </BackGround>
+            </Layout>
+        </>
+    )
+}
+export default Products 
+
 const BackGround = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
     background-position: center; 
@@ -100,46 +142,3 @@ const Paragraph = styled.p`
         font-size:0.9rem;
     }
 `
-
-
-
-function Products(props) {
-    return (
-        <>
-            <Layout>
-                <BackGround>
-                    <ContentWrapper>
-                        <Wrapper>
-                            <Heading>Available products in the Club:</Heading>
-                            <Table>
-                                <FirstRow>
-                                    <th>Name</th>
-                                    <th>Price</th>
-                                </FirstRow>
-                                {CurrentProducts.products.map(product =>
-                                    <tr>
-                                        <Name>{product.name}</Name>
-                                        <Price>{product.price}</Price>
-                                    </tr>
-                                )}
-                            </Table>
-                        </Wrapper>
-                        <Wrapper>
-                            <Bundles>Bundles</Bundles>
-                            <Table>
-                            {CurrentProducts.bundles.map(product =>
-                                    <tr>
-                                        <Name>{product.name}</Name>
-                                        <Price>{product.price}</Price>
-                                    </tr>
-                                )}
-                            </Table>
-                        </Wrapper>
-                        <Paragraph>Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
-                    </ContentWrapper>
-                </BackGround>
-            </Layout>
-        </>
-    )
-}
-export default Products 

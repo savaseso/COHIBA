@@ -3,6 +3,30 @@ import Layout from './Layout'
 import styled from 'styled-components'
 import Picture from '../assets/img/partagas.jpg'
 
+
+const Payment = (props) => {
+    return(
+        <Layout>
+                <BackGround>
+                    <ContentWrapper>
+                        <Heading>Payment Info</Heading>
+                        <Heading2>You could pay first:</Heading2>
+                        <UL>
+                            <LI>PayPal (bogardeka2@gmail.com)</LI>
+                            <LI>Western Union (Laszlo Deak) </LI>
+                            <LI>wire transfer (Please ask me)</LI>
+                            <LI>E-mail transfer(bogardeka@hotmail.com)</LI>
+                            <LI>Cash</LI>
+                        </UL>
+                        <Paragraph><strong>I will give you all the information you need!</strong></Paragraph>
+                    </ContentWrapper>
+                </BackGround>
+
+        </Layout>
+    )
+}
+export default Payment 
+
 const BackGround = styled.div`
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
         background-position: center; 
@@ -59,27 +83,3 @@ const Paragraph = styled.p`
             font-size:95%;
         }
 `
-
-
-function Payment(props) {
-    return(
-        <Layout>
-                <BackGround>
-                    <ContentWrapper>
-                        <Heading>Payment Info</Heading>
-                        <Heading2>You could pay first:</Heading2>
-                        <UL>
-                            <LI>PayPal (bogardeka2@gmail.com)</LI>
-                            <LI>Western Union (Laszlo Deak) </LI>
-                            <LI>wire transfer (Please ask me)</LI>
-                            <LI>E-mail transfer(bogardeka@hotmail.com)</LI>
-                            <LI>Cash</LI>
-                        </UL>
-                        <Paragraph><strong>I will give you all the information you need!</strong></Paragraph>
-                    </ContentWrapper>
-                </BackGround>
-
-        </Layout>
-    )
-}
-export default Payment 

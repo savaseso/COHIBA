@@ -4,6 +4,30 @@ import { Link } from 'react-router-dom'
 import { Consumer } from '../context'
 
 
+const Footer = (props) => {
+    return(
+        <Consumer>
+            {value => {
+                return (
+                    <FooterWrapper>
+                        <LogoWrapper>
+                            {value.products.map(brand => <Link key={brand.id} to="/details"><Logo  onClick={()=>value.handleDetail(brand.id)}key={brand.id} src={brand.img}  alt={brand.name} /></Link>)}
+                        </LogoWrapper>
+                        <ParagraphWrapper>
+                            <Paragraph>Info and Order: <strong><a href="mailto:cohibatoronto@gmail.com">cohibatoronto@gmail.com</a></strong></Paragraph>
+                            <Paragraph><Link to="TermsConditions">Terms &amp; Conditions</Link></Paragraph>
+                            <Paragraph>Copyright 2019 © COHIBAToronto</Paragraph>
+                        </ParagraphWrapper>
+                    </FooterWrapper>
+                )
+            }}
+         
+       </Consumer>
+    )
+}
+export default Footer
+
+
 const FooterWrapper = styled.div`
     height:auto;
     background-color:#000;
@@ -48,28 +72,3 @@ const ParagraphWrapper = styled.div`
     align-items:center;
     flex-direction:column;
 ` 
-
- 
-
-const Footer = (props) => {
-    return(
-        <Consumer>
-            {value => {
-                return (
-                    <FooterWrapper>
-                        <LogoWrapper>
-                            {value.products.map(brand => <Link key={brand.id} to="/details"><Logo  onClick={()=>value.handleDetail(brand.id)}key={brand.id} src={brand.img}  alt={brand.name} /></Link>)}
-                        </LogoWrapper>
-                        <ParagraphWrapper>
-                            <Paragraph>Info and Order: <strong><a href="mailto:cohibatoronto@gmail.com">cohibatoronto@gmail.com</a></strong></Paragraph>
-                            <Paragraph><Link to="TermsConditions">Terms &amp; Conditions</Link></Paragraph>
-                            <Paragraph>Copyright 2019 © COHIBAToronto</Paragraph>
-                        </ParagraphWrapper>
-                    </FooterWrapper>
-                )
-            }}
-         
-       </Consumer>
-    )
-}
-export default Footer

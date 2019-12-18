@@ -2,31 +2,6 @@ import React, {Component} from 'react'
 import Layout from './Layout'
 import styled from 'styled-components'
 
-const Background = styled.div`
-background-color:#2b2b2b;
-`
-
-const ContentWrapper = styled.div`
-    width:700px;
-    margin:auto;
-    color:#fff;
-    opacity:0.8;
-    text-align:justify;
-    @media (max-width: 768px) {
-    width:500px;
-    }
-    @media (max-width: 501px) {
-    width:320px;
-    }
-`
-const Heading = styled.h4`
-    text-align:left;
-    padding-left:1rem;
-`
-const Paragraph = styled.p`
-    padding:10px;
-    opacity:0.7;
-`
 
 class TermsConditions extends Component {
     componentDidMount() {
@@ -170,3 +145,30 @@ class TermsConditions extends Component {
     )
 }}
 export default TermsConditions
+
+
+const Background = styled.div`
+background-color:#2b2b2b;
+`
+
+const ContentWrapper = styled.div`
+    width:700px;
+    margin:auto;
+    color:#fff;
+    opacity:0.8;
+    text-align:justify;
+    @media (max-width: 768px) {
+    width:500px;
+    }
+    @media (max-width: 501px) {
+    width:320px;
+    }
+`
+const Heading = styled.h4`
+    text-align:left;
+    padding-left:1rem;
+`
+const Paragraph = styled.p`
+    padding:10px;
+    opacity:0.7;
+`

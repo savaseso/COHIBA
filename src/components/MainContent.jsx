@@ -7,6 +7,41 @@ import ReactCountryFlag from "react-country-flag";
 
 
 
+class MainContent extends Component {
+    state = {
+        modalOpen: true
+    }
+     handleClick = () => {
+        this.setState({ modalOpen: false });
+        sessionStorage.setItem('modalOpen', false)
+    }
+    render() {
+        
+        const { modalOpen } = this.state
+        return (
+            <ShowCase>
+                <ShowCaseContent>
+                        <Modal modalOpen={modalOpen} handleClick={this.handleClick}/>
+                    <ContentWrapper>
+                        <Heading >Welcome!</Heading>
+                        <Paragraph>We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club</span></strong> in Toronto, ...so we selling individually and privately ...only for YOU! Tell me what  would you like! We selling only Cuban cigars with unbelievable price! Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
+                        <Cite><cite>“Cigars are an experience of a qualitative difference in life.”</cite></Cite>
+                        <p style={{ textAlign: 'center', margin: '10px', opacity: 0.6 }}>Aristotle</p>
+                    </ContentWrapper>
+                    <Video
+                        url="https://www.youtube.com/watch?v=eJI4-87ErKg"
+                        loop
+                        playing={sessionStorage.hasOwnProperty('modalOpen')? true : null}
+                        showinfo="true"
+                        width={document.documentElement.clientWidth < 540 ? '320px' : '500px'}
+                    />
+                </ShowCaseContent>
+            </ShowCase>
+        )
+    }
+}
+export default MainContent 
+
 const ShowCase = styled.main`
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
         background-position: center; 
@@ -75,38 +110,3 @@ const Video = styled(ReactPlayer)`
             margin-bottom:5rem;
     }
 `
-
-class MainContent extends Component {
-    state = {
-        modalOpen: true
-    }
-     handleClick = () => {
-        this.setState({ modalOpen: false });
-        sessionStorage.setItem('modalOpen', false)
-    }
-    render() {
-        
-        const { modalOpen } = this.state
-        return (
-            <ShowCase>
-                <ShowCaseContent>
-                        <Modal modalOpen={modalOpen} handleClick={this.handleClick}/>
-                    <ContentWrapper>
-                        <Heading >Welcome!</Heading>
-                        <Paragraph>We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club</span></strong> in Toronto, ...so we selling individually and privately ...only for YOU! Tell me what  would you like! We selling only Cuban cigars with unbelievable price! Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
-                        <Cite><cite>“Cigars are an experience of a qualitative difference in life.”</cite></Cite>
-                        <p style={{ textAlign: 'center', margin: '10px', opacity: 0.6 }}>Aristotle</p>
-                    </ContentWrapper>
-                    <Video
-                        url="https://www.youtube.com/watch?v=eJI4-87ErKg"
-                        loop
-                        playing={sessionStorage.hasOwnProperty('modalOpen')? true : null}
-                        showinfo="true"
-                        width={document.documentElement.clientWidth < 540 ? '320px' : '500px'}
-                    />
-                </ShowCaseContent>
-            </ShowCase>
-        )
-    }
-}
-export default MainContent 

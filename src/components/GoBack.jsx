@@ -4,6 +4,24 @@ import styled from 'styled-components'
 import { FaFacebookSquare, FaTwitterSquare, FaInstagram } from 'react-icons/fa';
 
 
+const GoBack = (props) => {
+    return(
+        <Nav>
+        <Ul>
+                <ButtonWrapper>
+                    <Li><NavLink to="/">Back</NavLink></Li>
+                </ButtonWrapper>
+                <div>
+                    <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
+                    <a href="https://www.instagram.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
+                    <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
+                </div>
+        </Ul>
+    </Nav>
+    )
+}
+export default GoBack 
+
 const Nav = styled.nav`
     background-color:#000;
     padding-top:30px;
@@ -97,20 +115,3 @@ const TwitterLogo = styled(FaTwitterSquare)`
         transform:scale(1.1);
     }
 `
-function GoBack (props) {
-    return(
-        <Nav>
-        <Ul>
-                <ButtonWrapper>
-                    <Li><NavLink to="/">Back</NavLink></Li>
-                </ButtonWrapper>
-                <div>
-                    <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
-                    <a href="https://www.instagram.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
-                    <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
-                </div>
-        </Ul>
-    </Nav>
-    )
-}
-export default GoBack 
