@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ageLimit from '../assets/21agelimit.png'
-/* import { ButtonContainer } from './Button';
-import { Link } from 'react-router-dom';
- */
+
 const Modal = (props) => {
     if (!props.modalOpen || sessionStorage.hasOwnProperty('modalOpen')) {
         return null;

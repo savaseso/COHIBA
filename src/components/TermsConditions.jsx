@@ -3,6 +3,7 @@ import Layout from './Layout'
 import styled from 'styled-components'
 
 
+
 class TermsConditions extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
@@ -145,7 +146,6 @@ class TermsConditions extends Component {
     )
 }}
 export default TermsConditions
-
 
 const Background = styled.div`
 background-color:#2b2b2b;

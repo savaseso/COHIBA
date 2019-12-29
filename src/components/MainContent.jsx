@@ -42,6 +42,7 @@ class MainContent extends Component {
 }
 export default MainContent 
 
+
 const ShowCase = styled.main`
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
         background-position: center; 

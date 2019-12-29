@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Picture from '../assets/img/partagas.jpg'
 
 
+
 const Payment = (props) => {
     return(
         <Layout>

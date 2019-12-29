@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { FaFacebookSquare, FaTwitterSquare, FaInstagram } from 'react-icons/fa';
+import { FaFacebookSquare, FaTwitterSquare, FaInstagram,FaShoppingCart } from 'react-icons/fa';
+
 
 
 const GoBack = (props) => {
@@ -11,11 +12,12 @@ const GoBack = (props) => {
                 <ButtonWrapper>
                     <Li><NavLink to="/">Back</NavLink></Li>
                 </ButtonWrapper>
-                <div>
+                <Icons>
                     <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
-                    <a href="https://www.instagram.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
+                    <a href="https://www.instagram.com/coohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
                     <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
-                </div>
+                </Icons>
+                <Link style={{marginLeft:"1.5rem"}} to="/Cart"><ShoppingCart /></Link>
         </Ul>
     </Nav>
     )
@@ -34,7 +36,7 @@ const Ul = styled.ul`
     align-items:center;
     list-style:none;
     padding:10px;
-    @media (max-width: 700px) {
+    @media (max-width: 768px) {
     flex-direction:column;
     padding:20px;
     }
@@ -86,6 +88,15 @@ const ButtonWrapper = styled.div`
     }
     
 `
+const Icons = styled.div`
+    margin-left:40rem;
+    @media (max-width: 1030px) {
+        margin-left:20rem;
+    }
+    @media (max-width: 768px) {
+        margin-left:0rem;
+    }
+`
 
 //Social Media
 const FacebookLogo = styled(FaFacebookSquare)`
@@ -113,5 +124,18 @@ const TwitterLogo = styled(FaTwitterSquare)`
     transition:all 0.2s ease-in;
     &:hover{
         transform:scale(1.1);
+    }
+`
+const ShoppingCart = styled(FaShoppingCart)`
+    color: #E0A400;
+    font-size:2rem;
+    transition:all 0.2s ease-in;
+    &:hover{
+        transform:scale(1.1);
+    }
+    @media (max-width: 768px) {
+       font-size:2rem;
+       margin-right:2rem;
+       margin-top:1rem;
     }
 `

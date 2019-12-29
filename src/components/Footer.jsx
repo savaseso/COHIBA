@@ -27,7 +27,6 @@ const Footer = (props) => {
 }
 export default Footer
 
-
 const FooterWrapper = styled.div`
     height:auto;
     background-color:#000;

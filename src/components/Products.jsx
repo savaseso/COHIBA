@@ -1,50 +1,71 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Layout from './Layout'
 import styled from 'styled-components'
 import CurrentProducts from '../assets/data/productList.json'
 import Picture from '../assets/img/quaidorsay.jpg'
 import ReactCountryFlag from "react-country-flag";
+import { Consumer } from '../context'
 
 
 
-const Products = (props) => {
-    return (
-        <>
-            <Layout>
-                <BackGround>
-                    <ContentWrapper>
-                        <Wrapper>
-                            <Heading>Available products in the Club:</Heading>
-                            <Table>
-                                <FirstRow>
-                                    <th>Name</th>
-                                    <th>Price</th>
-                                </FirstRow>
-                                {CurrentProducts.products.map(product =>
-                                    <tr>
-                                        <Name>{product.name}</Name>
-                                        <Price>${product.price}</Price>
-                                    </tr>
-                                )}
-                            </Table>
-                        </Wrapper>
-                        <Wrapper>
-                            <Bundles>Bundles</Bundles>
-                            <Table>
-                            {CurrentProducts.bundles.map(product =>
-                                    <tr>
-                                        <Name>{product.name}</Name>
-                                        <Price>${product.price}/pc</Price>
-                                    </tr>
-                                )}
-                            </Table>
-                        </Wrapper>
-                        <Paragraph>Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
-                    </ContentWrapper>
-                </BackGround>
-            </Layout>
-        </>
-    )
+class Products extends Component {
+    render() {
+        return (
+            <Consumer>{value => {
+                return (
+                    <>
+                        <Layout>
+                            <BackGround>
+                                <ContentWrapper>
+                                    <Wrapper>
+                                        <Heading>Available products in the Club:</Heading>
+                                        <Table>
+                                            <thead>
+                                                <FirstRow>
+                                                    <th>Name</th>
+                                                    <th>Price</th>
+                                                </FirstRow>
+                                            </thead>
+                                            <tbody>
+                                                {CurrentProducts.products.map(product =>
+                                                    <TableRow key={product.id} onClick={()=>{
+                                                        value.addToCart(product.id)
+                                                        value.openModal(product.id)
+                                                        }}>
+                                                        <Name>{product.name}</Name>
+                                                        <Price>${product.price}</Price>
+                                                    </TableRow>
+                                                )}
+                                            </tbody>
+                                        </Table>
+                                    </Wrapper>
+                                    <Wrapper>
+                                        <Bundles>Bundles</Bundles>
+                                        <Table>
+                                            <tbody>
+                                                {CurrentProducts.bundles.map(product =>
+                                                    <TableRow key={product.id} onClick={()=>{
+                                                        value.addToCart(product.id)
+                                                        value.openModal(product.id)
+                                                        }}>
+                                                        <Name>{product.name}</Name>
+                                                        <Price>${product.price}/pc</Price>
+                                                    </TableRow>
+                                                )}
+                                            </tbody>
+                                        </Table>
+                                    </Wrapper>
+                                    <Paragraph>Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
+                                </ContentWrapper>
+                            </BackGround>
+                        </Layout>
+                    </>
+                )
+            }}
+
+            </Consumer>
+        )
+    }
 }
 export default Products 
 
@@ -98,10 +119,17 @@ const FirstRow = styled.tr`
     opacity:0.6;
     
 `
+const TableRow = styled.tr`
+    cursor: pointer;
+`
 const Name = styled.th`
     color:#E0A400;
     padding-top:10px;
-    opacity:0.7;
+    opacity:0.8;
+    padding:10px;
+    &:hover{
+        opacity:1;
+    }
 
 `
 

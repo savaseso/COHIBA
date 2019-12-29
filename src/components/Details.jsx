@@ -38,7 +38,6 @@ class Details extends Component {
 }
 export default Details
 
-
 const ContentWrapper = styled.div`
     width:700px;
     margin:auto;

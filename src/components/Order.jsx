@@ -3,7 +3,6 @@ import Layout from './Layout'
 import Picture from '../assets/img/Panza_cuba.jpg'
 import styled from 'styled-components'
 
-
 const Order = (props) => {
     return(
         <>
@@ -16,6 +15,7 @@ const Order = (props) => {
     )
 }
 export default Order 
+
 
 
 const BackGround = styled.div`

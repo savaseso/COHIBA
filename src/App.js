@@ -9,6 +9,8 @@ import Payment from './components/Payment'
 import TermsConditions from './components/TermsConditions';
 import Default from './components/Default';
 import Details from './components/Details'
+import CartModal from './components/cart/CartModal';
+import Cart from './components/cart/Cart'
 
 
 function App() {
@@ -23,8 +25,10 @@ function App() {
           <Route path='/Payment' component={Payment}/>
           <Route path='/TermsConditions' component={TermsConditions}/>
           <Route path='/Details' component={Details}/>
+          <Route path='/Cart' component={Cart}/>
           <Route component={Default}/>
         </Switch>
+        <CartModal />
       </div>
     </Router>
   );
