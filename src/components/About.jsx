@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './Layout'
 import styled from 'styled-components'
 import Picture from '../assets/img/Sir_David.jpg'
+import ReactCountryFlag from "react-country-flag";
 
 
 const About = (props) => {
@@ -11,7 +12,16 @@ const About = (props) => {
                 <BackGround>
                     <ContentWrapper>
                         <Heading>About Us</Heading>
-                        <Introduction>Hi! We are a Private <strong><span style={{ color: '#E0A400' }}>COHIBA Cigar Club in Toronto <span role="img" aria-label="canadian flag">🇨🇦</span></span></strong>,so we selling individually <span role="img" aria-label="smile">😀</span>Tell me what do you want! We selling only Cuban cigars with unbelievable price!😀FREE shipping in Canada and US! You know... my Club-members bring in 1 box cigar every month and we would like selling them! The money goes to the club!</Introduction>
+                        <Introduction><div>Hi! We are a Private
+                            <strong>
+                                <span style={{ color: '#E0A400' }}> COHIBA Cigar Club in Toronto</span><ReactCountryFlag code="ca" svg />
+                            </strong></div>
+                            (not La Habanas Warehouse ) Miami - USA, Coco Beach - Costa Rica and Holguin - Cuba! We selling individually
+                            <span role="img" aria-label="smile">😀</span>
+                            and only Cuban cigars with unbelievable price!
+                            <span role="img" aria-label="smile">😀</span>
+                            FREE shipping in Canada and US! You know... my Club-members bring in 1 box cigar every month and we would like selling them! The money goes to the club!
+                        </Introduction>
                         <UL>
                             <LI>COHIBA Behike 52,54,56</LI>
                             <LI>COHIBA Siglo II and Siglo VI COHIBA</LI>
@@ -35,7 +45,7 @@ const About = (props) => {
         </>
     )
 }
-export default About 
+export default About
 
 
 
