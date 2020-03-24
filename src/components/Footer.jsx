@@ -14,7 +14,7 @@ const Footer = (props) => {
                             {value.products.map(brand => <Link key={brand.id} to="/details"><Logo  onClick={()=>value.handleDetail(brand.id)}key={brand.id} src={brand.img}  alt={brand.name} /></Link>)}
                         </LogoWrapper>
                         <ParagraphWrapper>
-                            <Paragraph>Info and Order: <strong><a href="mailto:cohibatoronto@gmail.com">cohibatoronto@gmail.com</a></strong></Paragraph>
+                            <Paragraph>Info and Order: <strong><a href="mailto:c.torontocigar@gmail.com">c.torontocigar@gmail.com</a></strong></Paragraph>
                             <Paragraph><Link to="TermsConditions">Terms &amp; Conditions</Link></Paragraph>
                             <Paragraph>Copyright 2019 © COHIBAToronto</Paragraph>
                         </ParagraphWrapper>

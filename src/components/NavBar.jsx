@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { FaFacebookSquare, FaTwitterSquare, FaInstagram, FaShoppingCart,FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookSquare, FaTwitterSquare, FaInstagram, FaShoppingCart, FaWhatsapp } from 'react-icons/fa';
 
 
 
@@ -16,7 +16,7 @@ const NavBar = (props) => {
                     <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
                 </ButtonWrapper>
                 <div>
-                    <a href="https://www.facebook.com/c.torontocigar/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
+                    <a href="https://www.facebook.com/Ctorontocigar-111051953842682/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
                     <a href="https://www.instagram.com/c.torontocigar/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
                     <a href="https://twitter.com/ctorontocigar/" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
                     <a href="https://api.whatsapp.com/send?phone=+16472713251" target="_blank" rel="noopener noreferrer"><WhatsappLogo /></a>
