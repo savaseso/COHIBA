@@ -1,29 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { FaFacebookSquare, FaTwitterSquare, FaInstagram,FaShoppingCart, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookSquare, FaTwitterSquare, FaInstagram, FaShoppingCart, FaWhatsapp } from 'react-icons/fa';
 
 
 
 const GoBack = (props) => {
-    return(
+    return (
         <Nav>
-        <Ul>
+            <Ul>
                 <ButtonWrapper>
                     <Li><NavLink to="/">Back</NavLink></Li>
                 </ButtonWrapper>
                 <Icons>
-                    <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
-                    <a href="https://www.instagram.com/coohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
-                    <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
+                    <a href="https://www.facebook.com/c.torontocigar/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
+                    <a href="https://www.instagram.com/c.torontocigar/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
+                    <a href="https://twitter.com/ctorontocigar/" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
                     <a href="https://api.whatsapp.com/send?phone=+16472713251" target="_blank" rel="noopener noreferrer"><WhatsappLogo /></a>
                 </Icons>
-                <Link style={{marginLeft:"1.5rem"}} to="/Cart"><ShoppingCart /></Link>
-        </Ul>
-    </Nav>
+                <Link style={{ marginLeft: "1.5rem" }} to="/Cart"><ShoppingCart /></Link>
+            </Ul>
+        </Nav>
     )
 }
-export default GoBack 
+export default GoBack
 
 const Nav = styled.nav`
     background-color:#000;
