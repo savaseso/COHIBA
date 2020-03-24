@@ -762,5 +762,191 @@
       "count": 0,
       "total": 0
     }
+  ],
+  "vintages": [
+    {
+      "id": 96,
+      "name": "Bolivar Petit Belicoso 2009 Limited Edition",
+      "price": 495,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 97,
+      "name": "Cohiba Double Corona Limited Edition 2003 VINTAGE",
+      "price": 980,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 98,
+      "name": "Cohiba 50 Aniversario - MAJESTUOSOS 1966 Humidor",
+      "price": 9900,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 99,
+      "name": "Cuaba Piramides Edición Limitada 2008",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0.5
+    },
+    {
+      "id": 100,
+      "name": "Montecristo Sublimes Limited Edition 2008",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0.5
+    },
+    {
+      "id": 101,
+      "name": "Montecristo Gran Corona “A”",
+      "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0.5
+    },
+    {
+      "id": 102,
+      "name": "Montecristo Robustos Limited Edition 2006 – 2000 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 103,
+      "name": "Partagas Serie D No. 1 Limited Edition 2004 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 104,
+      "name": "Partagas Series D No. 2 Limited Edition 2003 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 105,
+      "name": "Partagas Corona Gorda Añejados 2007",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 106,
+      "name": "Partagas Lusitanias Grand Reserva Cosecha 2007",
+      "price": 900,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 107,
+      "name": "Ramón Allones extra 2011",
+      "price": 890,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 108,
+      "name": "Romeo y Julieta Wide Churchills Gran Reserva Cosecha2009",
+      "price": 890,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 109,
+      "name": "Romeo y Julieta Pyramides Limited Edition 2005",
+      "price": 595,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 110,
+      "name": "Romeo y Julieta ESCUDOS Edición Limitada 2007",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 111,
+      "name": "Romeo y julieta Duke.L.E.2009",
+      "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 112,
+      "name": "Cohiba Siglo 6 (25)",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 113,
+      "name": "Cohiba SigloV (pack of 5) (15)",
+      "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 114,
+      "name": "Cohiba Siglo IV (pack of 5) (15)",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 115,
+      "name": "Cohiba Robusto",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 116,
+      "name": "Cohiba Lanceros",
+      "price": 410,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 117,
+      "name": "Cohiba Robusto",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 118,
+      "name": "Cohiba Siglo 6",
+      "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    }
   ]
 }

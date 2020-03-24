@@ -14,7 +14,7 @@ const About = (props) => {
                         <Heading>About Us</Heading>
                         <Introduction><div>Hi! We are a Private
                             <strong>
-                                <span style={{ color: '#E0A400' }}> COHIBA Cigar Club in Toronto</span><ReactCountryFlag code="ca" svg />
+                                <span style={{ color: '#E0A400' }}> C.toronto Cigar Club in Toronto</span><ReactCountryFlag code="ca" svg />
                             </strong></div>
                             (not La Habanas Warehouse ) Miami - USA, Coco Beach - Costa Rica and Holguin - Cuba! We selling individually
                             <span role="img" aria-label="smile">😀</span>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { FaFacebookSquare, FaTwitterSquare, FaInstagram,FaShoppingCart } from 'react-icons/fa';
+import { FaFacebookSquare, FaTwitterSquare, FaInstagram,FaShoppingCart, FaWhatsapp } from 'react-icons/fa';
 
 
 
@@ -16,6 +16,7 @@ const GoBack = (props) => {
                     <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
                     <a href="https://www.instagram.com/coohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
                     <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
+                    <a href="https://api.whatsapp.com/send?phone=+16472713251" target="_blank" rel="noopener noreferrer"><WhatsappLogo /></a>
                 </Icons>
                 <Link style={{marginLeft:"1.5rem"}} to="/Cart"><ShoppingCart /></Link>
         </Ul>
@@ -126,6 +127,16 @@ const TwitterLogo = styled(FaTwitterSquare)`
         transform:scale(1.1);
     }
 `
+const WhatsappLogo = styled(FaWhatsapp)`
+    color: #E0A400;
+    font-size:3rem;
+    margin-right:20px;
+    transition:all 0.2s ease-in;
+    &:hover{
+        transform:scale(1.1);
+    }
+`
+
 const ShoppingCart = styled(FaShoppingCart)`
     color: #E0A400;
     font-size:2rem;

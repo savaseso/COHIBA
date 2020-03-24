@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import Layout from './Layout'
-import styled from 'styled-components'
+import Picture from '../assets/img/Panza_cuba.jpg'
 import CurrentProducts from '../assets/data/productList.json'
-import Picture from '../assets/img/quaidorsay.jpg'
-import ReactCountryFlag from "react-country-flag";
 import { Consumer } from '../context'
+import styled from 'styled-components'
 
-
-
-class Products extends Component {
+class Vintages extends Component {
     render() {
         return (
             <Consumer>{value => {
@@ -18,7 +15,7 @@ class Products extends Component {
                             <BackGround>
                                 <ContentWrapper>
                                     <Wrapper>
-                                        <Heading>Available products in the Club:</Heading>
+                                        <Heading>Vintage from 2009</Heading>
                                         <Table>
                                             <thead>
                                                 <FirstRow>
@@ -27,47 +24,31 @@ class Products extends Component {
                                                 </FirstRow>
                                             </thead>
                                             <tbody>
-                                                {CurrentProducts.products.map(product =>
-                                                    <TableRow key={product.id} onClick={()=>{
-                                                        value.addToCart(product.id)
-                                                        value.openModal(product.id)
-                                                        }}>
-                                                        <Name>{product.name}</Name>
-                                                    <Price>${product.price}</Price>
+                                                {CurrentProducts.vintages.map(vintage =>
+                                                    <TableRow key={vintage.id} onClick={() => {
+                                                        value.addToCart(vintage.id)
+                                                        value.openModal(vintage.id)
+                                                    }}>
+                                                        <Name>{vintage.name}</Name>
+                                                        <Price>${vintage.price}</Price>
                                                     </TableRow>
                                                 )}
                                             </tbody>
                                         </Table>
                                     </Wrapper>
-                                    <Wrapper>
-                                        <Bundles>Bundles</Bundles>
-                                        <Table>
-                                            <tbody>
-                                                {CurrentProducts.bundles.map(product =>
-                                                    <TableRow key={product.id} onClick={()=>{
-                                                        value.addToCart(product.id)
-                                                        value.openModal(product.id)
-                                                        }}>
-                                                        <Name>{product.name}</Name>
-                                                        <Price>${product.price}/pc</Price>
-                                                    </TableRow>
-                                                )}
-                                            </tbody>
-                                        </Table>
-                                    </Wrapper>
-                                    <Paragraph>Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
                                 </ContentWrapper>
                             </BackGround>
                         </Layout>
                     </>
                 )
             }}
-
             </Consumer>
         )
     }
 }
-export default Products 
+export default Vintages
+
+
 
 const BackGround = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
@@ -78,6 +59,11 @@ const BackGround = styled.div`
     justify-content:center;
     padding:2rem;
 `
+
+
+
+
+
 
 const Heading = styled.h1`
     text-align: center;
@@ -142,31 +128,4 @@ const Wrapper = styled.div`
     display:flex; 
     justify-content:center;
     flex-direction:column;
-`
-const Bundles = styled.h3`
-    color:#fff;
-    opacity:0.8;
-    text-align:center;
-    @media (max-width: 625px) {
-        font-size:80%;
-    }
-    @media (max-width: 500px) {
-        font-size:65%;
-    }
-    @media (max-width: 400px) {
-        font-size:60%;
-    }
-`
-
-const Paragraph = styled.p`
-    padding:20px;
-    color:#fff;
-    font-size:1.5rem;
-    text-align:center;
-    @media (max-width: 768px) {
-        font-size:1rem;
-    }
-    @media (max-width: 501px) {
-        font-size:0.9rem;
-    }
 `

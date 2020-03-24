@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { FaFacebookSquare, FaTwitterSquare, FaInstagram, FaShoppingCart } from 'react-icons/fa';
+import { FaFacebookSquare, FaTwitterSquare, FaInstagram, FaShoppingCart,FaWhatsapp } from 'react-icons/fa';
 
 
 
@@ -16,9 +16,10 @@ const NavBar = (props) => {
                     <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
                 </ButtonWrapper>
                 <div>
-                    <a href="https://www.facebook.com/cohibatoronto/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
-                    <a href="https://www.instagram.com/coohibatoronto/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
-                    <a href="https://twitter.com/Cohibatoronto1" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
+                    <a href="https://www.facebook.com/c.torontocigar/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
+                    <a href="https://www.instagram.com/c.torontocigar/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
+                    <a href="https://twitter.com/ctorontocigar/" target="_blank" rel="noopener noreferrer"><TwitterLogo /></a>
+                    <a href="https://api.whatsapp.com/send?phone=+16472713251" target="_blank" rel="noopener noreferrer"><WhatsappLogo /></a>
                 </div>
                 <Link to="/Cart"><ShoppingCart /></Link>
             </Ul>
@@ -40,7 +41,7 @@ const Ul = styled.ul`
     align-items:center;
     list-style:none;
     padding:10px;
-    @media (max-width: 512px) {
+    @media (max-width: 535px) {
     flex-direction:column;
     padding:0px
     }
@@ -87,10 +88,10 @@ const NavLink = styled(Link)`
 `
 const ButtonWrapper = styled.div`
     display:flex;
-    @media (max-width: 844px) {
+    @media (max-width: 890px) {
         font-size:60%;
    }
-     @media (max-width: 512px) {   
+     @media (max-width: 535px) {   
         font-size:80%;
         margin-bottom:20px;
     } 
@@ -111,7 +112,7 @@ const FacebookLogo = styled(FaFacebookSquare)`
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 844px) {
+    @media (max-width: 890px) {
        font-size:2rem;
        margin-right:5px;
     }
@@ -124,7 +125,7 @@ const InstagramLogo = styled(FaInstagram)`
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 844px) {
+    @media (max-width: 890px) {
        font-size:2rem;
        margin-right:5px;
     }
@@ -137,7 +138,21 @@ const TwitterLogo = styled(FaTwitterSquare)`
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 844px) {
+    @media (max-width: 890px) {
+       font-size:2rem;
+       margin-right:5px;
+
+    }
+`
+const WhatsappLogo = styled(FaWhatsapp)`
+    color: #E0A400;
+    font-size:3rem;
+    margin-right:20px;
+    transition:all 0.2s ease-in;
+    &:hover{
+        transform:scale(1.1);
+    }
+    @media (max-width: 890px) {
        font-size:2rem;
        margin-right:5px;
 
@@ -151,7 +166,7 @@ const ShoppingCart = styled(FaShoppingCart)`
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 844px) {
+    @media (max-width: 890px) {
        font-size:1.75rem;
        margin-right:5px;
     }

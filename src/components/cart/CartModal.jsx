@@ -8,7 +8,6 @@ class CartModal extends Component{
         return(
             <Consumer>
                 {value=>{
-                    console.log(value.modalProduct)
                     if (!value.modalOpen) {
                         return null;
                     } else {

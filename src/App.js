@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import Products from './components/Products'
-import Order from './components/Order'
+import Vintages from './components/Vintages'
 import Payment from './components/Payment'
 import TermsConditions from './components/TermsConditions';
 import Default from './components/Default';
@@ -21,7 +21,7 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/About' component={About}/>
           <Route path='/Products' component={Products}/>
-          <Route path='/Vintages' component={Order}/>
+          <Route path='/Vintages' component={Vintages}/>
           <Route path='/Payment' component={Payment}/>
           <Route path='/TermsConditions' component={TermsConditions}/>
           <Route path='/Details' component={Details}/>

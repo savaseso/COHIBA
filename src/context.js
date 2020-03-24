@@ -20,7 +20,7 @@ export class Provider extends Component {
 
     componentDidMount() {
         this.setProducts()
-        this.setState({availableProducts:[...productsList.products,...productsList.bundles]})
+        this.setState({availableProducts:[...productsList.products,...productsList.bundles, ...productsList.vintages]})
     }
     getItem = id => this.state.products.find(item => item.id === id)
     getAvailableItem= id => this.state.availableProducts.find(item => item.id === id)
