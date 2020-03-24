@@ -19,7 +19,7 @@ const Payment = (props) => {
                             <LI>E-mail transfer(bogardeka@hotmail.com)</LI>
                             <LI>Cash</LI>
                         </UL>
-                        <Paragraph><strong>I will give you all the information you need!</strong></Paragraph>
+                        <Paragraph><strong>I will give you all the information you need!!!</strong></Paragraph>
                     </ContentWrapper>
                 </BackGround>
 
