@@ -1,29 +1,37 @@
 import React, { Component } from 'react';
 import { productsInfo } from './assets/data/productsinfo';
 import productsList from '../src/assets/data/productList.json';
+import CurrentProducts from '../src/assets/data/productList.json'
+
 
 
 const Context = React.createContext();
 
 export class Provider extends Component {
     state = {
-         products: [],
-         availableProducts:[],
-         modalOpen: false,
-         modalProduct:{},
-         detailProduct:{},
-         cart:[],
-         cartSubtotal: 0,
-         cartTax: 0,
-         cartTotal: 0
-     }
+        products: [],
+        availableProducts: [],
+        retailProducts: [],
+        hummidorProducts: [],
+        modalOpen: false,
+        modalProduct: {},
+        detailProduct: {},
+        cart: [],
+        cartSubtotal: 0,
+        cartTax: 0,
+        cartTotal: 0,
+    }
 
     componentDidMount() {
         this.setProducts()
-        this.setState({availableProducts:[...productsList.products,...productsList.bundles, ...productsList.vintages]})
+        this.setState({
+            availableProducts: [...productsList.products, ...productsList.bundles, ...productsList.vintages, ...productsList.hummidors],
+            retailProducts: CurrentProducts.products,
+            hummidorProducts:CurrentProducts.hummidors
+        })
     }
     getItem = id => this.state.products.find(item => item.id === id)
-    getAvailableItem= id => this.state.availableProducts.find(item => item.id === id)
+    getAvailableItem = id => this.state.availableProducts.find(item => item.id === id)
 
     openModal = id => {
         const product = this.getAvailableItem(id);
@@ -54,7 +62,7 @@ export class Provider extends Component {
         product.count = 1;
         const price = product.price;
         product.total = price;
-        this.setState({ availableProducts: tempProducts, cart: [...this.state.cart, product] },  () => this.addTotals() )  
+        this.setState({ availableProducts: tempProducts, cart: [...this.state.cart, product] }, () => this.addTotals())
     }
     increment = (id) => {
         let tempCart = [...this.state.cart];
@@ -112,25 +120,20 @@ export class Provider extends Component {
         const total = subTotal + tax
         this.setState({ cartSubtotal: subTotal, cartTax: tax, cartTotal: total })
     }
-    sendEmail = () => {
-        console.log('hello')
-    }
-
 
     render() {
-         return (
+        return (
             <Context.Provider value={{
                 ...this.state,
-                handleDetail:this.handleDetail,
-                addToCart:this.addToCart,
-                openModal:this.openModal,
-                closeModal:this.closeModal,
+                handleDetail: this.handleDetail,
+                addToCart: this.addToCart,
+                openModal: this.openModal,
+                closeModal: this.closeModal,
                 increment: this.increment,
                 decrement: this.decrement,
                 removeItem: this.removeItem,
                 clearCart: this.clearCart,
-                sendEmail: this.sendEmail
-                }}>
+            }}>
                 {this.props.children}
             </Context.Provider>
         );

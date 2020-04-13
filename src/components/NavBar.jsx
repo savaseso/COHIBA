@@ -11,7 +11,8 @@ const NavBar = (props) => {
             <Ul>
                 <ButtonWrapper>
                     <Li><NavLink to="/About">About us</NavLink></Li>
-                    <Li><NavLink to="/Products">New Arrivals</NavLink></Li>
+                    <Li><NavLink to="/Products">Retailer list</NavLink></Li>
+                    <Li><NavLink to="/Hummidor">Canada Club's Humidor</NavLink></Li>
                     <Li><NavLink to="/Vintages">Vintages</NavLink></Li>
                     <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
                 </ButtonWrapper>
@@ -41,18 +42,19 @@ const Ul = styled.ul`
     align-items:center;
     list-style:none;
     padding:10px;
-    @media (max-width: 535px) {
+    @media (max-width: 675px) {
     flex-direction:column;
-    padding:0px
+    padding:0px;
+
     }
 `
 //Buttons
 const Li = styled.li`
-    margin-right:5rem;
+    margin-right:3rem;
     margin-bottom:10px;
-    @media (max-width: 1120px) {
+    @media (max-width: 1200px) {
         padding:5px;
-        margin:10px;
+        margin:5px;
     }
     @media (max-width: 768px) {
         margin:0;
@@ -64,7 +66,7 @@ const Li = styled.li`
         padding:4px;
         margin-right:2px;
     }
-    @media (max-width: 332px) {
+    @media (max-width: 455px) {
         margin:5px;
         padding:4px;
     }
@@ -80,7 +82,7 @@ const NavLink = styled(Link)`
     &:hover{
         background-color:#bf8500;
     }
-    @media (max-width: 501px) {
+    @media (max-width: 536px) {
         font-size:0.65rem;
         padding:0.5rem;
     }
@@ -88,14 +90,17 @@ const NavLink = styled(Link)`
 `
 const ButtonWrapper = styled.div`
     display:flex;
-    @media (max-width: 890px) {
+    @media (max-width: 920px) {
         font-size:60%;
+   }
+    @media (max-width: 675px) {
+        margin-bottom:20px;
    }
      @media (max-width: 535px) {   
         font-size:80%;
         margin-bottom:20px;
     } 
-     @media (max-width: 332px) {   
+     @media (max-width: 455px) {   
         font-size:60%;
         flex-direction:column;
         align-items:center;
@@ -106,67 +111,64 @@ const ButtonWrapper = styled.div`
 //Social Media
 const FacebookLogo = styled(FaFacebookSquare)`
     color: #E0A400;
-    font-size:3rem;
-    margin-right:20px;
+    font-size:2rem;
+    margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 890px) {
+    @media (max-width: 920px) {
        font-size:2rem;
        margin-right:5px;
     }
 `
 const InstagramLogo = styled(FaInstagram)`
     color: #E0A400;
-    font-size:3rem;
-    margin-right:20px;
+    font-size:2rem;
+    margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 890px) {
+    @media (max-width: 920px) {
        font-size:2rem;
        margin-right:5px;
     }
 `
 const TwitterLogo = styled(FaTwitterSquare)`
     color: #E0A400;
-    font-size:3rem;
-    margin-right:20px;
+    font-size:2rem;
+    margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 890px) {
+    @media (max-width: 920px) {
        font-size:2rem;
-       margin-right:5px;
-
     }
 `
 const WhatsappLogo = styled(FaWhatsapp)`
     color: #E0A400;
-    font-size:3rem;
-    margin-right:20px;
+    font-size:2rem;
+    margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 890px) {
+    @media (max-width: 920px) {
        font-size:2rem;
-       margin-right:5px;
 
     }
 `
 const ShoppingCart = styled(FaShoppingCart)`
     color: #E0A400;
     font-size:2rem;
-    margin-right:20px;
+    margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{
         transform:scale(1.1);
     }
-    @media (max-width: 890px) {
+    @media (max-width: 920px) {
        font-size:1.75rem;
        margin-right:5px;
     }

@@ -948,5 +948,320 @@
       "count": 0,
       "total": 0
     }
+  ],
+  "hummidors": [
+    {
+      "id": 119,
+      "name": "Bolivar Petit Belicoso 2009 Limited Edition",
+      "price": 495,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 120,
+      "name": "Cohiba Siglo Vl (Tubos) Box of 15 Luxury",
+      "price": 990,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 121,
+      "name": "Cohiba Double Corona Limited Edition 2003 VINTAGE",
+      "price": 980,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 122,
+      "name": "Montecristo Sublimes Limited Edition 2008",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 123,
+      "name": "Montecristo Gran Corona “A”",
+      "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 124,
+      "name": "Montecristo Robustos Limited Edition 2006 – 2000 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 125,
+      "name": "Montecristo Dantes Limited Edition 2016",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 126,
+      "name": "Partagas Serie D No 1 Limited Edition 2004 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 127,
+      "name": "Partagas Series D No. 2 Limited Edition 2003 VINTAGE",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 128,
+      "name": "Partagas Corona Gorda Añejados",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 129,
+      "name": "Partagas Lusitanias Grand Reserva Cosecha 2007",
+      "price": 900,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 130,
+      "name": "Punch Serie D’Oro No.2 Edicion Limitada 2013",
+      "price": 520,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 131,
+      "name": "Ramón allones extra 2011",
+      "price": 890,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 132,
+      "name": "Romeo y Julieta Capuletos EL 2016",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 133,
+      "name": "Romeo y Julieta de Luxe (EL 2013) ",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 134,
+      "name": "Romeo y Julieta Duke.L.E.2009",
+      "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 135,
+      "name": "Cohiba Esplendidos",
+      "price": 395,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 136,
+      "name": "Cohiba 1966 LE 2011",
+      "price": 795,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 137,
+      "name": "Cohiba talisman(limited edition 2017)",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 138,
+      "name": "COHIBA piramides Extra",
+      "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 139,
+      "name": "Diplomaticos No1",
+      "price": 290,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 140,
+      "name": "Cuaba Piramides Edición Limitada 2008",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 141,
+      "name": "H.Upmann CONNOSSIEUR A’LCDH (25)",
+      "price": 310,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 142,
+      "name": "H.Upmann CONNOSSIEUR B’LCDH (25)",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 143,
+      "name": "Cohiba Behike56",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 144,
+      "name": "Montecristo 1935 Linea Maltes",
+      "price": 420,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 145,
+      "name": "Montecristo 1935 Línea Leyenda",
+      "price": 490,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 146,
+      "name": "Montecristo 1935 Línea Dumas",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 147,
+      "name": "Sancho Panza 25 Belicosos",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 148,
+      "name": "Partagas Serial D No 4",
+      "price": 290,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 149,
+      "name": "Trinidad Esmeralda",
+      "price": 1999,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 150,
+      "name": "Trinidad 12 La Trova LCDH",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 151,
+      "name": "TRINIDAD Vigia (12)",
+      "price": 199,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 152,
+      "name": "Trinidad topes",
+      "price": 199,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 153,
+      "name": "Trinidad Coloniales (24)",
+      "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 154,
+      "name": "Trinidad Topes Limitada Edition 2016",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 155,
+      "name": "Cohiba BHK52",
+      "price": 670,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 156,
+      "name": "Hoyo de Monterrey seria de Rio Seco",
+      "price": 340,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 157,
+      "name": "Montecristo  520 EL 2012",
+      "price": 480,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    }
   ]
+ 
 }

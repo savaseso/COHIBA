@@ -9,7 +9,7 @@ import Pagination from './Pagination'
 
 
 
-class Products extends Component {
+class Hummidor extends Component {
     state = {
         currentPage: 1,
         postPerPage: 10
@@ -21,7 +21,7 @@ class Products extends Component {
             <Consumer>{value => {
                 const indexOfLastPost = this.state.currentPage * this.state.postPerPage
                 const indexOfFirstPost = indexOfLastPost - this.state.postPerPage
-                const currentProducts = value.retailProducts.slice(indexOfFirstPost, indexOfLastPost)
+                const currentProducts = value.hummidorProducts.slice(indexOfFirstPost, indexOfLastPost)
                 return (
                     <>
                         <Layout>
@@ -48,7 +48,7 @@ class Products extends Component {
                                                 )}
                                             </tbody>
                                         </Table>
-                                            <Pagination postsPerPage={this.state.postPerPage} totalPosts={value.retailProducts.length} paginate={this.paginate} currentPage={this.state.currentPage} />
+                                            <Pagination postsPerPage={this.state.postPerPage} totalPosts={value.hummidorProducts.length} paginate={this.paginate} currentPage={this.state.currentPage} />
                                     </Wrapper>
                                     <Wrapper>
                                         <Bundles>Bundles</Bundles>
@@ -78,7 +78,7 @@ class Products extends Component {
         )
     }
 }
-export default Products
+export default Hummidor
 
 const BackGround = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
