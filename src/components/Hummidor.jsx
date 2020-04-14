@@ -51,7 +51,7 @@ class Hummidor extends Component {
                                             <Pagination postsPerPage={this.state.postPerPage} totalPosts={value.hummidorProducts.length} paginate={this.paginate} currentPage={this.state.currentPage} />
                                     </Wrapper>
                                     <Wrapper>
-                                        <Bundles>Bundles</Bundles>
+                                        <Bundles>Singles</Bundles>
                                         <Table>
                                             <tbody>
                                                 {CurrentProducts.bundles.map(product =>

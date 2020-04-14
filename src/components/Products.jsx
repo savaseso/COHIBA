@@ -51,7 +51,7 @@ class Products extends Component {
                                             <Pagination postsPerPage={this.state.postPerPage} totalPosts={value.retailProducts.length} paginate={this.paginate} currentPage={this.state.currentPage} />
                                     </Wrapper>
                                     <Wrapper>
-                                        <Bundles>Bundles</Bundles>
+                                        <Bundles>Singles</Bundles>
                                         <Table>
                                             <tbody>
                                                 {CurrentProducts.bundles.map(product =>
