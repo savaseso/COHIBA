@@ -49,6 +49,14 @@
       "total": 0
     },
     {
+      "id": 1111,
+      "name": "Bolivar Belicosos Fino",
+      "price": 230,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
       "id": 7,
       "name": "Cohiba Behike52",
       "price": 690,
@@ -1193,7 +1201,7 @@
     {
       "id": 149,
       "name": "Trinidad Esmeralda",
-      "price": 1999,
+      "price": 199,
       "inCart": false,
       "count": 0,
       "total": 0
