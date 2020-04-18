@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import PaypalButton from './PayPalButton'
 
 const CartTotals = ({ value, history }) => {
-    const { cartSubtotal, cartTax, cartTotal, clearCart, sendEmail } = value
+    const { cartSubtotal, cartTax, cartTotal, clearCart } = value
     return (
         <React.Fragment>
             <Container>
@@ -14,8 +15,9 @@ const CartTotals = ({ value, history }) => {
                     <Total><TotalText>subtotal :</TotalText> <strong>{cartSubtotal}</strong></Total>
                     <Total><TotalText>tax : </TotalText><strong>{cartTax}</strong></Total>
                     <Total><TotalText>total : </TotalText><strong>{cartTotal}</strong></Total>
-                    <Link to="/Payment"><CheckOut onClick={sendEmail}>Checkout</CheckOut></Link>
-                </Totals>
+                    <PaypalButton total={cartTotal} clearCart={clearCart} history={history}/>
+{/*                     <Link to="/Payment"><CheckOut onClick={sendEmail}>Checkout</CheckOut></Link>
+ */}                </Totals>
             </Container>
         </React.Fragment>
     )
@@ -47,7 +49,7 @@ const ClearCart = styled.button`
         cursor: pointer;
     }
 `
-const CheckOut = styled.button`
+/* const CheckOut = styled.button`
     padding:0.75rem 1.75rem;
     background-color:#E0A400;
     font-weight: bold;
@@ -62,7 +64,7 @@ const CheckOut = styled.button`
         font-size:0.60rem;
     }
 
-`
+` */
 
 const Totals = styled.div`
      display:flex;

@@ -15,7 +15,7 @@ class CartModal extends Component{
                             <div id="modal" >
                                 <Heading><span style={{color:"#E0A400"}}>{value.modalProduct.name}</span> added to the cart</Heading>
                                 <ButtonContainer>
-                                    <Button  onClick={value.closeModal}>Products</Button>
+                                    <Button to="#" onClick={value.closeModal}>Products</Button>
                                     <Button to="/Cart" onClick={value.closeModal}>Go to Cart</Button>
                                 </ButtonContainer>
                             </div>
