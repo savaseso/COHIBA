@@ -12,10 +12,10 @@ const CartTotals = ({ value, history }) => {
                     <Link to='/Products'>
                         <ClearCart onClick={clearCart}>Clear Cart</ClearCart>
                     </Link>
-                    <Total><TotalText>subtotal :</TotalText> <strong>{cartSubtotal}</strong></Total>
+                    <Total><TotalText>subtotal :</TotalText> <strong>{cartSubtotal.toFixed(2)}</strong></Total>
                     <Total><TotalText>tax : </TotalText><strong>{cartTax}</strong></Total>
-                    <Total><TotalText>total : </TotalText><strong>{cartTotal}</strong></Total>
-                    <PaypalButton total={cartTotal} clearCart={clearCart} history={history}/>
+                    <Total><TotalText>total : </TotalText><strong>{cartTotal.toFixed(2)}</strong></Total>
+                    <PaypalButton total={cartTotal.toFixed(2)} clearCart={clearCart} history={history}/>
 {/*                     <Link to="/Payment"><CheckOut onClick={sendEmail}>Checkout</CheckOut></Link>
  */}                </Totals>
             </Container>
@@ -37,7 +37,7 @@ const Container = styled.div`
     }
    `
 const ClearCart = styled.button`
-    padding:0.50rem 0.75rem;
+    padding:0.30rem 0.5rem;
     border:1px solid red;
     border-radius:10%;
     color:#fff;

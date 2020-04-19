@@ -29,7 +29,7 @@ const CartItem = ({ value, item }) => {
                 </div>
             </ItemContainer>
             <ItemContainer>
-                <strong>item total: $ {total}</strong>
+                <strong>item total: $ {total.toFixed(2)}</strong>
             </ItemContainer>
         </Container>
     )

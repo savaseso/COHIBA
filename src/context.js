@@ -112,15 +112,6 @@ export class Provider extends Component {
         this.setState({ cartSubtotal: subTotal, cartTax: tax, cartTotal: total })
     }
 
-    addTotals = () => {
-        let subTotal = 0;
-        this.state.cart.map(item => (subTotal += item.total));
-        const tempTax = subTotal * 0.13;
-        const tax = parseFloat(tempTax.toFixed(2));
-        const total = subTotal + tax
-        this.setState({ cartSubtotal: subTotal, cartTax: tax, cartTotal: total })
-    }
-
     render() {
         return (
             <Context.Provider value={{
