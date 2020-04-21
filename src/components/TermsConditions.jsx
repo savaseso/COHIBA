@@ -22,7 +22,7 @@ class TermsConditions extends Component {
                     <Heading>Article 1:</Heading>
                         <Paragraph>You must be at least 21 years of age to use this website. (Exception: 21 years of age is a general limitation. Every country has a different legal age for consumption of tobacco products. The buyer must be at or over the legal age in their residential country)</Paragraph>
                     <Heading>Article 2:</Heading>
-                        <Paragraph> If you want free shipping....The minimum amount of the shopping cart must be USD 199 per order.</Paragraph>
+                        <Paragraph> If you want free shipping....The minimum amount of the shopping cart must be USD 199 per order.Free shipping in Europe, Asia, Africa, Australia over a minimum of 1000 USD!</Paragraph>
                     <Heading>Article 3:</Heading>
                         <Paragraph>All orders are subject to confirmation by Cohibatoronto, Cohibatoronto reserves the right to cancel or refuse any order for any reason. Once the buyer places an order, an email related to acception of the order will be sent by system automatically but it should not be considered “confirmed” until we have verified with the warehouse that we still have the item(s) in stock. If Cohibatoronto has the item(s) at the time of purchase, we will send you a confirmation email but If we do not have the item(s) in stock, we will inform you.</Paragraph>
                     <Heading>Article 4: </Heading>
