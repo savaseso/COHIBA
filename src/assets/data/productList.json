@@ -1,6 +1,14 @@
 {
   "products": [
     {
+      "id": 6,
+      "name": "Bolivar Petit Belicoso 2009 Limited Edition",
+      "price": 495,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
       "id": 7,
       "name": "Cohiba Behike52",
       "price": 690,
