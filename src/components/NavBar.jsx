@@ -11,8 +11,7 @@ const NavBar = (props) => {
             <Ul>
                 <ButtonWrapper>
                     <Li><NavLink to="/About">About us</NavLink></Li>
-                    <Li><NavLink to="/Products">Retailer list</NavLink></Li>
-                    <Li><NavLink to="/Hummidor">Canada Club's Humidor</NavLink></Li>
+                    <Li><NavLink to="/Products">Canada Club's Humidor Retailer list</NavLink></Li>
                     <Li><NavLink to="/Vintages">Vintages</NavLink></Li>
                     <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
                 </ButtonWrapper>

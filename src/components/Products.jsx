@@ -28,7 +28,8 @@ class Products extends Component {
                             <BackGround>
                                 <ContentWrapper>
                                     <Wrapper>
-                                        <Heading>Available products in the Club:</Heading>
+                                        <Heading>ATTENTION!</Heading>
+                                        <Paragraph>Any Cuban <ReactCountryFlag code="cu" svg />  cigars we are trying to obtain ..please indicate if they are not on the list!?</Paragraph>
                                         <Table>
                                             <thead>
                                                 <FirstRow>
@@ -172,11 +173,8 @@ const Bundles = styled.h3`
 const Paragraph = styled.p`
     padding:20px;
     color:#fff;
-    font-size:1.5rem;
+    font-size:1rem;
     text-align:center;
-    @media (max-width: 768px) {
-        font-size:1rem;
-    }
     @media (max-width: 501px) {
         font-size:0.9rem;
     }

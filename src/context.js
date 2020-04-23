@@ -12,8 +12,8 @@ export class Provider extends Component {
         products: [],
         availableProducts: [],
         retailProducts: [],
-        hummidorProducts: [],
-        modalOpen: false,
+/*         hummidorProducts: [],
+ */        modalOpen: false,
         modalProduct: {},
         detailProduct: {},
         cart: [],
@@ -25,10 +25,10 @@ export class Provider extends Component {
     componentDidMount() {
         this.setProducts()
         this.setState({
-            availableProducts: [...productsList.products, ...productsList.bundles, ...productsList.vintages, ...productsList.hummidors],
+            availableProducts: [...productsList.products, ...productsList.bundles, ...productsList.vintages/* , ...productsList.hummidors */],
             retailProducts: CurrentProducts.products,
-            hummidorProducts:CurrentProducts.hummidors
-        })
+/*             hummidorProducts:CurrentProducts.hummidors
+ */        })
     }
     getItem = id => this.state.products.find(item => item.id === id)
     getAvailableItem = id => this.state.availableProducts.find(item => item.id === id)

@@ -11,7 +11,6 @@ import Default from './components/Default';
 import Details from './components/Details'
 import CartModal from './components/cart/CartModal';
 import Cart from './components/cart/Cart'
-import Hummidor from './components/Hummidor'
 
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/About' component={About}/>
           <Route path='/Products' component={Products}/>
-          <Route path='/Hummidor' component={Hummidor}/>
           <Route path='/Vintages' component={Vintages}/>
           <Route path='/Payment' component={Payment}/>
           <Route path='/TermsConditions' component={TermsConditions}/>
