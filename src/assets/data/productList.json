@@ -6,7 +6,8 @@
       "price": 495,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 7,
@@ -14,7 +15,8 @@
       "price": 690,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 8,
@@ -22,7 +24,8 @@
       "price": 740,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 9,
@@ -30,7 +33,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 10,
@@ -38,7 +42,8 @@
       "price": 395,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 11,
@@ -46,7 +51,8 @@
       "price": 395,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 12,
@@ -54,7 +60,8 @@
       "price": 795,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 13,
@@ -62,7 +69,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 14,
@@ -70,7 +78,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 15,
@@ -78,7 +87,8 @@
       "price": 380,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 16,
@@ -86,7 +96,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 17,
@@ -94,7 +105,8 @@
       "price": 440,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 18,
@@ -102,7 +114,8 @@
       "price": 990,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 22222,
@@ -110,7 +123,8 @@
       "price": 700,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 22223,
@@ -118,7 +132,8 @@
       "price": 990,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 19,
@@ -126,7 +141,8 @@
       "price": 980,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 20,
@@ -134,7 +150,8 @@
       "price": 9990,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 21,
@@ -142,7 +159,8 @@
       "price": 290,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 22,
@@ -150,7 +168,8 @@
       "price": 430,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 23,
@@ -158,7 +177,8 @@
       "price": 350,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 24,
@@ -166,7 +186,8 @@
       "price": 395,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 25,
@@ -174,7 +195,8 @@
       "price": 340,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 26,
@@ -182,7 +204,8 @@
       "price": 2990,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 27,
@@ -190,7 +213,8 @@
       "price": 310,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 28,
@@ -198,7 +222,8 @@
       "price": 360,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 2811,
@@ -206,7 +231,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 2812,
@@ -214,7 +240,8 @@
       "price": 580,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 29,
@@ -222,7 +249,8 @@
       "price": 580,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 30,
@@ -230,7 +258,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 31,
@@ -238,7 +267,8 @@
       "price": 990,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 32,
@@ -246,7 +276,8 @@
       "price": 890,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 33,
@@ -254,7 +285,8 @@
       "price": 1450,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 34,
@@ -262,7 +294,8 @@
       "price": 420,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 35,
@@ -270,7 +303,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 36,
@@ -278,7 +312,8 @@
       "price": 490,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 37,
@@ -286,7 +321,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 38,
@@ -294,7 +330,8 @@
       "price": 350,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 39,
@@ -302,7 +339,8 @@
       "price": 490,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 41,
@@ -310,7 +348,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 42,
@@ -318,7 +357,8 @@
       "price": 690,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 43,
@@ -326,7 +366,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 44,
@@ -334,7 +375,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 45,
@@ -342,7 +384,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 48,
@@ -350,7 +393,8 @@
       "price": 290,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 49,
@@ -358,7 +402,8 @@
       "price": 490,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 50,
@@ -366,7 +411,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 51,
@@ -374,7 +420,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 52,
@@ -382,7 +429,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 53,
@@ -390,7 +438,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 54,
@@ -398,7 +447,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 55,
@@ -406,7 +456,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 56,
@@ -414,7 +465,8 @@
       "price": 900,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 57,
@@ -422,7 +474,8 @@
       "price": 520,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 58,
@@ -430,7 +483,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 59,
@@ -438,7 +492,8 @@
       "price": 560,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 60,
@@ -446,7 +501,8 @@
       "price": 890,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 61,
@@ -454,7 +510,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 62,
@@ -462,7 +519,8 @@
       "price": 480,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 63,
@@ -470,7 +528,8 @@
       "price": 380,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 64,
@@ -478,7 +537,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 65,
@@ -486,7 +546,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 66,
@@ -494,7 +555,8 @@
       "price": 580,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 67,
@@ -502,7 +564,8 @@
       "price": 4990,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 68,
@@ -510,7 +573,8 @@
       "price": 620,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 69,
@@ -518,7 +582,8 @@
       "price": 350,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 70,
@@ -526,7 +591,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 71,
@@ -534,7 +600,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 72,
@@ -542,7 +609,8 @@
       "price": 690,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 73,
@@ -550,7 +618,8 @@
       "price": 360,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 74,
@@ -558,7 +627,8 @@
       "price": 230,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 75,
@@ -566,7 +636,8 @@
       "price": 360,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 76,
@@ -574,7 +645,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 761,
@@ -582,7 +654,8 @@
       "price": 210,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 762,
@@ -590,7 +663,8 @@
       "price": 199,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 763,
@@ -598,7 +672,8 @@
       "price": 199,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 76,
@@ -606,7 +681,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 76,
@@ -614,7 +690,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     }
   ],
   "bundles": [
@@ -624,7 +701,8 @@
       "price": 20,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 78,
@@ -632,7 +710,8 @@
       "price": 15,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 79,
@@ -640,7 +719,8 @@
       "price": 15,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 80,
@@ -648,7 +728,8 @@
       "price": 40,
       "inCart": false,
       "count": 0,
-      "total": 0.5
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 81,
@@ -656,7 +737,8 @@
       "price": 39,
       "inCart": false,
       "count": 0,
-      "total": 0.5
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 82,
@@ -664,7 +746,8 @@
       "price": 39,
       "inCart": false,
       "count": 0,
-      "total": 0.5
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 83,
@@ -672,7 +755,8 @@
       "price": 14,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 84,
@@ -680,7 +764,8 @@
       "price": 18,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 85,
@@ -688,7 +773,8 @@
       "price": 18,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 86,
@@ -696,7 +782,8 @@
       "price": 21,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 87,
@@ -704,7 +791,8 @@
       "price": 89,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 88,
@@ -712,7 +800,8 @@
       "price": 39,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 89,
@@ -720,7 +809,8 @@
       "price": 21,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 90,
@@ -728,7 +818,8 @@
       "price": 18,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 91,
@@ -736,7 +827,8 @@
       "price": 20,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 92,
@@ -744,7 +836,8 @@
       "price": 21,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 93,
@@ -752,7 +845,8 @@
       "price": 21,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 94,
@@ -760,7 +854,8 @@
       "price": 14,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 95,
@@ -768,7 +863,8 @@
       "price": 25,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 951,
@@ -776,7 +872,8 @@
       "price": 48,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 952,
@@ -784,7 +881,8 @@
       "price": 18,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 953,
@@ -792,7 +890,8 @@
       "price": 12,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 954,
@@ -800,7 +899,8 @@
       "price": 18,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 955,
@@ -808,7 +908,8 @@
       "price": 15,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 956,
@@ -816,7 +917,8 @@
       "price": 25,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     }
   ],
   "vintages": [
@@ -826,7 +928,8 @@
       "price": 495,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 97,
@@ -834,7 +937,8 @@
       "price": 980,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 98,
@@ -842,7 +946,8 @@
       "price": 9900,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 99,
@@ -850,7 +955,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0.5
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 100,
@@ -858,7 +964,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0.5
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 101,
@@ -866,7 +973,8 @@
       "price": 690,
       "inCart": false,
       "count": 0,
-      "total": 0.5
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 102,
@@ -874,7 +982,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 103,
@@ -882,7 +991,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 104,
@@ -890,7 +1000,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 105,
@@ -898,7 +1009,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 106,
@@ -906,7 +1018,8 @@
       "price": 900,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 107,
@@ -914,7 +1027,8 @@
       "price": 890,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 108,
@@ -922,7 +1036,8 @@
       "price": 890,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 109,
@@ -930,7 +1045,8 @@
       "price": 595,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 110,
@@ -938,7 +1054,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 111,
@@ -946,7 +1063,8 @@
       "price": 690,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 112,
@@ -954,7 +1072,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 113,
@@ -962,7 +1081,8 @@
       "price": 380,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 114,
@@ -970,7 +1090,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 115,
@@ -978,7 +1099,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 116,
@@ -986,7 +1108,8 @@
       "price": 410,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 117,
@@ -994,7 +1117,8 @@
       "price": 360,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 118,
@@ -1002,7 +1126,8 @@
       "price": 380,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     }
   ],
   "hummidors": [
@@ -1012,7 +1137,8 @@
       "price": 495,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 120,
@@ -1020,7 +1146,8 @@
       "price": 990,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 121,
@@ -1028,7 +1155,8 @@
       "price": 980,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 122,
@@ -1036,7 +1164,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 123,
@@ -1044,7 +1173,8 @@
       "price": 690,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 124,
@@ -1052,7 +1182,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 125,
@@ -1060,7 +1191,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 126,
@@ -1068,7 +1200,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 127,
@@ -1076,7 +1209,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 128,
@@ -1084,7 +1218,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 129,
@@ -1092,7 +1227,8 @@
       "price": 900,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 130,
@@ -1100,7 +1236,8 @@
       "price": 520,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 131,
@@ -1108,7 +1245,8 @@
       "price": 890,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 132,
@@ -1116,7 +1254,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 133,
@@ -1124,7 +1263,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 134,
@@ -1132,7 +1272,8 @@
       "price": 690,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 135,
@@ -1140,7 +1281,8 @@
       "price": 395,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 136,
@@ -1148,7 +1290,8 @@
       "price": 795,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 137,
@@ -1156,7 +1299,8 @@
       "price": 590,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 138,
@@ -1164,7 +1308,8 @@
       "price": 380,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 139,
@@ -1172,7 +1317,8 @@
       "price": 290,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 140,
@@ -1180,7 +1326,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 141,
@@ -1188,7 +1335,8 @@
       "price": 310,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 142,
@@ -1196,7 +1344,8 @@
       "price": 360,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 143,
@@ -1204,7 +1353,8 @@
       "price": 790,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 144,
@@ -1212,7 +1362,8 @@
       "price": 420,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 145,
@@ -1220,7 +1371,8 @@
       "price": 490,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 146,
@@ -1228,7 +1380,8 @@
       "price": 390,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 147,
@@ -1236,7 +1389,8 @@
       "price": 360,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 148,
@@ -1244,7 +1398,8 @@
       "price": 290,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 149,
@@ -1252,7 +1407,8 @@
       "price": 199,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 150,
@@ -1260,7 +1416,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 151,
@@ -1268,7 +1425,8 @@
       "price": 199,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 152,
@@ -1276,7 +1434,8 @@
       "price": 199,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 153,
@@ -1284,7 +1443,8 @@
       "price": 380,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 154,
@@ -1292,7 +1452,8 @@
       "price": 320,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 155,
@@ -1300,7 +1461,8 @@
       "price": 670,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 156,
@@ -1308,7 +1470,8 @@
       "price": 340,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     },
     {
       "id": 157,
@@ -1316,7 +1479,8 @@
       "price": 480,
       "inCart": false,
       "count": 0,
-      "total": 0
+      "total": 0,
+      "currency":"USD"
     }
   ]
  

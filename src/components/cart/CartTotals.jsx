@@ -4,7 +4,25 @@ import styled from 'styled-components'
 import PaypalButton from './PayPalButton'
 
 const CartTotals = ({ value, history }) => {
-    const { cartSubtotal, cartTax, cartTotal, clearCart } = value
+    const { cartSubtotal, cartTax, cartTotal, clearCart, cart } = value
+
+    const getShoppingcartITems = cart => {
+        return {
+            total: cartTotal.toFixed(2).toString(),
+            subtotal: cartSubtotal.toFixed(2).toString(),
+            tax: cartTax.toFixed(2),
+            items: cart.map(products => {
+                return {
+                    sku: products.id.toString(),
+                    name: products.name,
+                    price: products.price.toFixed(2).toString(),
+                    quantity: products.count,
+                    currency: products.currency
+                }
+            })
+        }
+    }
+    const order = getShoppingcartITems(cart)
     return (
         <React.Fragment>
             <Container>
@@ -15,9 +33,8 @@ const CartTotals = ({ value, history }) => {
                     <Total><TotalText>subtotal :</TotalText> <strong>{cartSubtotal.toFixed(2)}</strong></Total>
                     <Total><TotalText>tax : </TotalText><strong>{cartTax}</strong></Total>
                     <Total><TotalText>total : </TotalText><strong>{cartTotal.toFixed(2)}</strong></Total>
-                    <PaypalButton total={cartTotal.toFixed(2)} clearCart={clearCart} history={history}/>
-{/*                     <Link to="/Payment"><CheckOut onClick={sendEmail}>Checkout</CheckOut></Link>
- */}                </Totals>
+                    <PaypalButton order={order} clearCart={clearCart} history={history} />
+                </Totals>
             </Container>
         </React.Fragment>
     )

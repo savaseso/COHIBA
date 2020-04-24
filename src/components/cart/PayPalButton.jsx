@@ -1,50 +1,89 @@
 import React from 'react';
-import PaypalExpressBtn from 'react-paypal-express-checkout';
- 
-export default class MyApp extends React.Component {
-    render() {
-        const onSuccess = (payment) => {
-            // Congratulation, it came here means everything's fine!
-                    console.log("The payment was succeeded!", payment);
-                    this.props.clearCart();
-                    this.props.history.push('/');
-                    alert('Payment was successfull!')
-            		// You can bind the "payment" object's value to your state or props or whatever here, please see below for sample returned data
-        }
- 
-        const onCancel = (data) => {
-            // User pressed "cancel" or close Paypal's popup!
-/*             console.log('The payment was cancelled!', data);
- */            alert('Payment was canceled')
-            // You can bind the "data" object's value to your state or props or whatever here, please see below for sample returned data
-        }
- 
-        const onError = (err) => {
-            // The main Paypal's script cannot be loaded or somethings block the loading of that script!
-            alert('Something wrong :(')
-            console.log("Error!", err);
-            // Because the Paypal's main script is loaded asynchronously from "https://www.paypalobjects.com/api/checkout.js"
-            // => sometimes it may take about 0.5 second for everything to get set, or for the button to appear
-        }
- 
-        let env = 'production'; // you can set here to 'production' for production
-        let currency = 'USD'; // or you can set this value from your props or state
-        // same as above, this is the total amount (based on currency) to be paid by using Paypal express checkout
-        // Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
- 
-        const client = {
-            sandbox:'test',
-            production: process.env.REACT_APP_PAYPAL_ID,
-        }
-        // In order to get production's app-ID, you will have to send your app to Paypal for approval first
-        // For sandbox app-ID (after logging into your developer account, please locate the "REST API apps" section, click "Create App"):
-        //   => https://developer.paypal.com/docs/classic/lifecycle/sb_credentials/
-        // For production app-ID:
-        //   => https://developer.paypal.com/docs/classic/lifecycle/goingLive/
- 
-        // NB. You can also have many Paypal express checkout buttons on page, just pass in the correct amount and they will work!
-        return (
-            <PaypalExpressBtn env={env} client={client} currency={currency} total={this.props.total} onError={onError} onSuccess={onSuccess} onCancel={onCancel} />
-        );
-    }
+import ReactDOM from 'react-dom';
+import paypal from 'paypal-checkout';
+
+
+const PaypalCheckoutButton = ({ order, clearCart, history }) => {
+
+  const paypalConf = {
+    currency: 'USD',
+    env: 'production',
+    client: {
+      sandbox: '',
+      production: 'ARIPol1qSTiDp4_pMif_VHcc5-mSV0E0P0E88FGWxHy1Dh3-HAJHCO7Eodci9SA5ZfsIkYFHlNsKamtM'/* process.env.REACT_APP_PAYPAL_ID */,
+    },
+    style: {
+      label: 'pay',
+      size: 'medium', // small | medium | large | responsive
+      shape: 'rect',   // pill | rect
+      color: 'gold',  // gold | blue | silver | black
+    },
+  };
+
+  const PayPalButton = paypal.Button.driver('react', { React, ReactDOM });
+
+  const payment = (data, actions) => {
+    const payment = {
+      transactions: [
+        {
+          amount: {
+            total: order.total,
+            currency: paypalConf.currency,
+            details: {
+                subtotal: order.subtotal,
+                 tax: order.tax,
+               /*  "shipping": "0.03", */
+                
+              }
+          },    
+          item_list: {
+            items: order.items
+          },
+        },
+      ],
+      note_to_payer: "Contact us for any questions on your order.",
+    };
+
+    // console.log(payment);
+    return actions.payment.create({
+      payment,
+    });
+  };
+
+  const onAuthorize = (data, actions) => {
+    return actions.payment.execute()
+      .then(response => {
+        clearCart();
+        history.push('/');
+        alert(`The payment was succeeded! ID: ${response.id}`)
+      })
+      .catch(error => {
+	      alert('An authorization error occured!');
+      });
+  };
+
+  const onError = (error) => {
+    alert ('Error happened' );
+  };
+
+  const onCancel = (data, actions) => {
+    alert( 'Payment cancellation' );
+  };
+
+
+  return (
+    <PayPalButton
+      env={paypalConf.env}
+      client={paypalConf.client}
+      payment={(data, actions) => payment(data, actions)}
+      onAuthorize={(data, actions) => onAuthorize(data, actions)}
+      onCancel={(data, actions) => onCancel(data, actions)}
+      onError={(error) => onError(error)}
+      style={paypalConf.style}
+      commit
+    />
+
+  );
 }
+
+export default PaypalCheckoutButton;
