@@ -10,7 +10,7 @@ const PaypalCheckoutButton = ({ order, clearCart, history }) => {
     env: 'production',
     client: {
       sandbox: '',
-      production: 'ARIPol1qSTiDp4_pMif_VHcc5-mSV0E0P0E88FGWxHy1Dh3-HAJHCO7Eodci9SA5ZfsIkYFHlNsKamtM'/* process.env.REACT_APP_PAYPAL_ID */,
+      production: process.env.REACT_APP_PAYPAL_ID,
     },
     style: {
       label: 'pay',
