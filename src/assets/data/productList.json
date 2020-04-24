@@ -137,14 +137,6 @@
       "total": 0
     },
     {
-      "id": 22224,
-      "name": "Cohiba 50 Aniversario - MAJESTUOSOS 1966 Humidor",
-      "price": 9990,
-      "inCart": false,
-      "count": 0,
-      "total": 0
-    },
-    {
       "id": 21,
       "name": "Diplomáticos Regional Phoenicia ",
       "price": 290,
@@ -814,6 +806,14 @@
       "id": 955,
       "name": "San Luis Regional Robusto ( Very top quality)",
       "price": 15,
+      "inCart": false,
+      "count": 0,
+      "total": 0
+    },
+    {
+      "id": 956,
+      "name": "Trinidad Topes Limitada Edition 2016",
+      "price": 320,
       "inCart": false,
       "count": 0,
       "total": 0
