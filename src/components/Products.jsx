@@ -67,7 +67,7 @@ class Products extends Component {
                                             </tbody>
                                         </Table>
                                     </Wrapper>
-                                    <Paragraph>Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
+                                    <Paragraph>Free shipping over $200 <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
                                 </ContentWrapper>
                             </BackGround>
                         </Layout>

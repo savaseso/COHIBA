@@ -904,8 +904,17 @@
     },
     {
       "id": 955,
-      "name": "San Luis Regional Robusto ( Very top quality)",
+      "name": "San Luis Regional Robusto ( Very top quality) Yeranys Farm Pinal de Rio, San Luis Cuba - all kinds of sizes",
       "price": 15,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD"
+    },
+    {
+      "id": 9551,
+      "name": "San Luis Regional Robusto ( Very top quality) Yeranys Farm Pinal de Rio, San Luis Cuba 5x58 - all kinds of sizes",
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
