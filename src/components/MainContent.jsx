@@ -24,7 +24,7 @@ class MainContent extends Component {
                         <Modal modalOpen={modalOpen} handleClick={this.handleClick}/>
                     <ContentWrapper>
                         <Heading >Welcome!</Heading>
-                        <Paragraph>We are a Private <strong><span style={{ color: '#E0A400' }}>C.toronto Cigar Club</span></strong> in Toronto, ...so we selling individually and privately ...only for YOU! Tell me what  would you like! We selling only Cuban cigars with unbelievable price! Free shipping in <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
+                        <Paragraph>We are a Private <strong><span style={{ color: '#E0A400' }}>C.toronto Cigar Club</span></strong> in Toronto, ...so we selling individually and privately ...only for YOU! Tell me what  would you like! We selling only Cuban cigars with unbelievable price! Free shipping over $200 <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
                         <Cite><cite>“Cigars are an experience of a qualitative difference in life.”</cite></Cite>
                         <p style={{ textAlign: 'center', margin: '10px', opacity: 0.6 }}>Aristotle</p>
                     </ContentWrapper>
