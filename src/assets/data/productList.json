@@ -41,26 +41,6 @@
       "soldout":false
     },
     {
-      "id": 16,
-      "name": "COHIBA Maduro5 Magicos",
-      "price": 390,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 17,
-      "name": "COHIBA Maduro5 Genios",
-      "price": 440,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 18,
       "name": "Cohiba Siglo Vl (Tubos) Box of 15 Luxury",
       "price": 990,
