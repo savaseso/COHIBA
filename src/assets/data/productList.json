@@ -493,16 +493,6 @@
       "soldout":false
     },
     {
-      "id": 79,
-      "name": "Cohiba Esplendidos",
-      "price": 15,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 80,
       "name": "Cohiba Novedoso LCDH",
       "price": 40,
@@ -613,16 +603,6 @@
       "soldout":false
     },
     {
-      "id": 91,
-      "name": "Montecristo Supremos EL 2019",
-      "price": 20,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 92,
       "name": "Montecristo Heredos LCDH ",
       "price": 21,
@@ -646,26 +626,6 @@
       "id": 94,
       "name": "Ramon Allones Gigantes",
       "price": 14,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 951,
-      "name": "Romeo&Julieta 8 MARAVILLAS YEAR OF THE RAT 2020",
-      "price": 48,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 952,
-      "name": "Quai D”Orsay Senadores EL 2019",
-      "price": 18,
       "inCart": false,
       "count": 0,
       "total": 0,
