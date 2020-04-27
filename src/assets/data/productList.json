@@ -211,16 +211,6 @@
       "soldout":false
     },
     {
-      "id": 42,
-      "name": "Montecristo Gran Corona “A”",
-      "price": 690,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 43,
       "name": "Montecristo Robustos Limited Edition 2006 – 2000 VINTAGE",
       "price": 790,
@@ -251,29 +241,9 @@
       "soldout":false
     },
     {
-      "id": 51,
-      "name": "Partagas Series D No. 1 Limited Edition 2004 VINTAGE",
-      "price": 790,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 52,
       "name": "Partagas SERIES NO.1 EDICION LIMITADA 2017",
       "price": 590,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 53,
-      "name": "Partagas Series D No. 2 Limited Edition 2003 VINTAGE",
-      "price": 790,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -695,38 +665,8 @@
       "soldout":false
     },
     {
-      "id": 101,
-      "name": "Montecristo Gran Corona “A”",
-      "price": 690,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 102,
       "name": "Montecristo Robustos Limited Edition 2006 – 2000 VINTAGE",
-      "price": 790,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 103,
-      "name": "Partagas Serie D No. 1 Limited Edition 2004 VINTAGE",
-      "price": 790,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 104,
-      "name": "Partagas Series D No. 2 Limited Edition 2003 VINTAGE",
       "price": 790,
       "inCart": false,
       "count": 0,
@@ -940,26 +880,6 @@
       "id": 125,
       "name": "Montecristo Dantes Limited Edition 2016",
       "price": 590,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 126,
-      "name": "Partagas Serie D No 1 Limited Edition 2004 VINTAGE",
-      "price": 790,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 127,
-      "name": "Partagas Series D No. 2 Limited Edition 2003 VINTAGE",
-      "price": 790,
       "inCart": false,
       "count": 0,
       "total": 0,
