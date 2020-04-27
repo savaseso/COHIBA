@@ -101,16 +101,6 @@
       "soldout":false
     },
     {
-      "id": 20,
-      "name": "Cohiba 50 Aniversario - MAJESTUOSOS 1966 Humidor",
-      "price": 9990,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 25,
       "name": "Hoyo de Monterrey seria de Rio Seco",
       "price": 340,
