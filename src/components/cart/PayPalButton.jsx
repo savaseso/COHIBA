@@ -32,7 +32,7 @@ const PaypalCheckoutButton = ({ order, clearCart, history }) => {
             details: {
                 subtotal: order.subtotal,
                  tax: order.tax,
-               /*  "shipping": "0.03", */
+                 shipping: order.shipping
                 
               }
           },    
@@ -44,7 +44,6 @@ const PaypalCheckoutButton = ({ order, clearCart, history }) => {
       note_to_payer: "Contact us for any questions on your order.",
     };
 
-    // console.log(payment);
     return actions.payment.create({
       payment,
     });

@@ -13,13 +13,15 @@ export class Provider extends Component {
         availableProducts: [],
         retailProducts: [],
 /*         hummidorProducts: [],
- */        modalOpen: false,
+ */     modalOpen: false,
         modalProduct: {},
         detailProduct: {},
         cart: [],
         cartSubtotal: 0,
         cartTax: 0,
+        shipping: 0,
         cartTotal: 0,
+        USACANADA: false
     }
 
     componentDidMount() {
@@ -43,6 +45,9 @@ export class Provider extends Component {
     handleDetail = (id) => {
         const product = this.getItem(id);
         this.setState({ detailProduct: product })
+    }
+    handleChange = (event) => {
+        this.setState({ USACANADA: event.target.checked } , () => this.addTotals() )
     }
 
     setProducts = () => {
@@ -71,7 +76,7 @@ export class Provider extends Component {
         const product = tempCart[index];
         product.count = product.count + 1;
         product.total = product.count * product.price;
-        this.setState({ cart: [...tempCart] }, () => { this.addTotals() })
+        this.setState({ cart: [...tempCart], USACANADA:false }, () => { this.addTotals() })
     }
     decrement = (id) => {
         let tempCart = [...this.state.cart];
@@ -83,7 +88,7 @@ export class Provider extends Component {
             this.removeItem(id)
         } else {
             product.total = product.count * product.price;
-            this.setState({ cart: [...tempCart] }, () => { this.addTotals() })
+            this.setState({ cart: [...tempCart],USACANADA:false }, () => { this.addTotals() })
         }
     }
     removeItem = (id) => {
@@ -95,21 +100,33 @@ export class Provider extends Component {
         removedProduct.inCart = false;
         removedProduct.count = 0;
         removedProduct.total = 0;
-        this.setState({ cart: [...tempCart], availableProducts: [...tempProducts] }, () => { this.addTotals() })
+        this.setState({ cart: [...tempCart], availableProducts: [...tempProducts],USACANADA:false }, () => { this.addTotals() })
     }
     clearCart = () => {
-        this.setState({ cart: [] }, () => {
+        this.setState({ cart: [],USACANADA:false }, () => {
             this.setProducts();
             this.addTotals()
         })
     }
     addTotals = () => {
-        let subTotal = 0;
-        this.state.cart.map(item => (subTotal += item.total));
-        const tempTax = subTotal * 0.13;
-        const tax = parseFloat(tempTax.toFixed(2));
-        const total = subTotal + tax
-        this.setState({ cartSubtotal: subTotal, cartTax: tax, cartTotal: total })
+        if(this.state.USACANADA === false){
+            let subTotal = 0;
+            this.state.cart.map(item => (subTotal += item.total));
+            const tempTax = subTotal * 0.13;
+            const tax = parseFloat(tempTax.toFixed(2));
+             const shipping = 28
+             const total = subTotal + tax + shipping
+            this.setState({ cartSubtotal: subTotal, cartTax: tax, cartTotal: total, shipping })
+            }
+            if(this.state.USACANADA === true && this.state.cartSubtotal > 200){
+            let subTotal = 0;
+            this.state.cart.map(item => (subTotal += item.total));
+            const tempTax = subTotal * 0.13;
+            const tax = parseFloat(tempTax.toFixed(2));
+            const shipping = 0
+            const total = subTotal + tax
+            this.setState({ cartSubtotal: subTotal, cartTax: tax, cartTotal: total, shipping })
+            }
     }
 
     render() {
@@ -117,6 +134,7 @@ export class Provider extends Component {
             <Context.Provider value={{
                 ...this.state,
                 handleDetail: this.handleDetail,
+                handleChange: this.handleChange,
                 addToCart: this.addToCart,
                 openModal: this.openModal,
                 closeModal: this.closeModal,

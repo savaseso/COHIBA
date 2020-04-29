@@ -2,15 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import PaypalButton from './PayPalButton'
+import ReactCountryFlag from "react-country-flag";
+
 
 const CartTotals = ({ value, history }) => {
-    const { cartSubtotal, cartTax, cartTotal, clearCart, cart } = value
+    const { cartSubtotal, cartTax, cartTotal, clearCart, cart, USACANADA, handleChange,shipping } = value
+
 
     const getShoppingcartITems = cart => {
         return {
             total: cartTotal.toFixed(2).toString(),
             subtotal: cartSubtotal.toFixed(2).toString(),
             tax: cartTax.toFixed(2),
+            shipping:shipping.toFixed(2).toString(),
             items: cart.map(products => {
                 return {
                     sku: products.id.toString(),
@@ -32,9 +36,16 @@ const CartTotals = ({ value, history }) => {
                     </Link>
                     <Total><TotalText>subtotal :</TotalText> <strong>{cartSubtotal.toFixed(2)}</strong></Total>
                     <Total><TotalText>tax : </TotalText><strong>{cartTax}</strong></Total>
+                    {shipping === 28 ? <Total><TotalText>shipping : </TotalText><strong>{shipping}</strong></Total> : null}
                     <Total><TotalText>total : </TotalText><strong>{cartTotal.toFixed(2)}</strong></Total>
-                    <PaypalButton order={order} clearCart={clearCart} history={history} />
-                </Totals>
+                    <Label> Click here if you are in the US{' '}<ReactCountryFlag code="us" svg /> or Canada{' '}<ReactCountryFlag code="ca" svg /></Label>
+                    <Input
+                        type="checkbox"
+                        checked={USACANADA}
+                        onChange={handleChange}
+                    />
+                    <PaypalButton clearCart={clearCart} history={history} order={order} />
+             </Totals>
             </Container>
         </React.Fragment>
     )
@@ -66,22 +77,6 @@ const ClearCart = styled.button`
         cursor: pointer;
     }
 `
-/* const CheckOut = styled.button`
-    padding:0.75rem 1.75rem;
-    background-color:#E0A400;
-    font-weight: bold;
-    color:#000;
-    border-radius:10%;
-    margin:1rem;
-    &:hover{
-        background-color:#bf8500;
-        cursor: pointer;
-    }
-    @media (max-width: 500px) {
-        font-size:0.60rem;
-    }
-
-` */
 
 const Totals = styled.div`
      display:flex;
@@ -100,4 +95,15 @@ const TotalText = styled.span`
     font-style:italic;
     color:#fff;
     text-align:left;
+`
+const Label = styled.label`
+    display: inline-block;
+    color:#fff;
+    padding:5px;
+`
+
+const Input = styled.input`
+     margin:10px;
+     width:20px;
+     height:20px;
 `

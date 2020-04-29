@@ -22,8 +22,8 @@ class Products extends Component {
                 const indexOfLastPost = this.state.currentPage * this.state.postPerPage
                 const indexOfFirstPost = indexOfLastPost - this.state.postPerPage
                 const currentProducts = value.retailProducts.slice(indexOfFirstPost, indexOfLastPost)
-                const filteredProducts = currentProducts.filter(product=>!product.soldout)
-                return (
+/*                 const filteredProducts = currentProducts.filter(product=>!product.soldout)
+ */                return (
                     <>
                         <Layout>
                             <BackGround>
@@ -39,7 +39,7 @@ class Products extends Component {
                                                 </FirstRow>
                                             </thead>
                                             <tbody>
-                                                {filteredProducts.map(product =>
+                                                {currentProducts.map(product =>
                                                     <TableRow key={product.id} onClick={() => {
                                                         value.addToCart(product.id)
                                                         value.openModal(product.id)
