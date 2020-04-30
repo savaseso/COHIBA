@@ -11,16 +11,6 @@
       "soldout":false
     },
     {
-      "id": 7,
-      "name": "Cohiba Behike52",
-      "price": 690,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 14,
       "name": "Cohiba talisman(limited edition 2017)",
       "price": 590,
