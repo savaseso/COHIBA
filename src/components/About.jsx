@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from './Layout'
 import styled from 'styled-components'
-import Picture from '../assets/img/Sir_David.jpg'
+import Picture from '../assets/img/aboutus.jpeg'
 import ReactCountryFlag from "react-country-flag";
 
 
@@ -51,7 +51,7 @@ export default About
 
 const BackGround = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
-    background-position: center; 
+     background-position: center bottom; 
     background-size: cover; 
     height:auto;
     display:flex;

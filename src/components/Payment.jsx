@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from './Layout'
 import styled from 'styled-components'
-import Picture from '../assets/img/partagas.jpg'
+import Picture from '../assets/img/payment.jpeg'
 
 
 

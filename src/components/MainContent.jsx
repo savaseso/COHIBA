@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
-import Picture from '../assets/img/trinidad.jpg'
+import Picture from '../assets/img/main.jpeg'
 import ReactPlayer from 'react-player'
 import Modal from './Modal'
 import ReactCountryFlag from "react-country-flag";

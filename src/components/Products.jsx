@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Layout from './Layout'
 import styled from 'styled-components'
 import CurrentProducts from '../assets/data/productList.json'
-import Picture from '../assets/img/quaidorsay.jpg'
+import Picture from '../assets/img/canadaclub.jpeg'
 import ReactCountryFlag from "react-country-flag";
 import { Consumer } from '../context'
 import Pagination from './Pagination'

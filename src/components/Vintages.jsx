@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './Layout'
-import Picture from '../assets/img/Panza_cuba.jpg'
+import Picture from '../assets/img/vintages.jpeg'
 import CurrentProducts from '../assets/data/productList.json'
 import { Consumer } from '../context'
 import styled from 'styled-components'
