@@ -13,7 +13,7 @@
     {
       "id": 14,
       "name": "Cohiba talisman(limited edition 2017)",
-      "price": 590,
+      "price": 550,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -264,6 +264,36 @@
       "id": 56,
       "name": "Partagas Lusitanias Grand Reserva Cosecha 2007",
       "price": 900,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 100,
+      "name": "Partagas Maduro No.1 LCDH cabinet",
+      "price": 295,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 101,
+      "name": "Partagas Maduro No.2 LCDH cabinet",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 102,
+      "name": "Partagas Maduro No.3 LCDH cabinet",
+      "price": 340,
       "inCart": false,
       "count": 0,
       "total": 0,
