@@ -813,7 +813,7 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
-    },
+    }
   ],
   "hummidors": [
     {
@@ -1205,7 +1205,7 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
-    },
+    }
   ]
  
 }
