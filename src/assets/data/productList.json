@@ -11,16 +11,6 @@
       "soldout":false
     },
     {
-      "id": 14,
-      "name": "Cohiba talisman(limited edition 2017)",
-      "price": 550,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 15,
       "name": "COHIBA piramides Extra",
       "price": 380,
@@ -231,6 +221,16 @@
       "soldout":false
     },
     {
+      "id": 157,
+      "name": "Montecristo  520 EL 2012",
+      "price": 480,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },  
+    {
       "id": 52,
       "name": "Partagas SERIES NO.1 EDICION LIMITADA 2017",
       "price": 590,
@@ -384,16 +384,6 @@
       "id": 72,
       "name": "Romeo y julieta Duke.L.E.2009",
       "price": 690,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 73,
-      "name": "Sancho Panza 25 Belicosos",
-      "price": 360,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -645,7 +635,7 @@
   ],
   "vintages": [
     {
-      "id": 96,
+      "id": 990,
       "name": "Bolivar Petit Belicoso 2009 Limited Edition",
       "price": 495,
       "inCart": false,
@@ -655,7 +645,7 @@
       "soldout":false
     },
     {
-      "id": 97,
+      "id": 991,
       "name": "Cohiba Double Corona Limited Edition 2003 VINTAGE",
       "price": 980,
       "inCart": false,
@@ -665,7 +655,7 @@
       "soldout":false
     },
     {
-      "id": 98,
+      "id": 992,
       "name": "Cohiba 50 Aniversario - MAJESTUOSOS 1966 Humidor",
       "price": 9900,
       "inCart": false,
@@ -675,7 +665,7 @@
       "soldout":false
     },
     {
-      "id": 99,
+      "id": 993,
       "name": "Cuaba Piramides Edición Limitada 2008",
       "price": 320,
       "inCart": false,
@@ -685,7 +675,7 @@
       "soldout":false
     },
     {
-      "id": 100,
+      "id": 994,
       "name": "Montecristo Sublimes Limited Edition 2008",
       "price": 590,
       "inCart": false,
@@ -695,7 +685,7 @@
       "soldout":false
     },
     {
-      "id": 102,
+      "id": 995,
       "name": "Montecristo Robustos Limited Edition 2006 – 2000 VINTAGE",
       "price": 790,
       "inCart": false,
@@ -705,7 +695,7 @@
       "soldout":false
     },
     {
-      "id": 105,
+      "id": 996,
       "name": "Partagas Corona Gorda Añejados 2007",
       "price": 390,
       "inCart": false,
@@ -715,7 +705,7 @@
       "soldout":false
     },
     {
-      "id": 106,
+      "id": 997,
       "name": "Partagas Lusitanias Grand Reserva Cosecha 2007",
       "price": 900,
       "inCart": false,
@@ -725,7 +715,7 @@
       "soldout":false
     },
     {
-      "id": 107,
+      "id": 998,
       "name": "Ramón Allones extra 2011",
       "price": 890,
       "inCart": false,
@@ -735,7 +725,7 @@
       "soldout":false
     },
     {
-      "id": 108,
+      "id": 999,
       "name": "Romeo y Julieta Wide Churchills Gran Reserva Cosecha2009",
       "price": 890,
       "inCart": false,
@@ -745,7 +735,7 @@
       "soldout":false
     },
     {
-      "id": 109,
+      "id": 1000,
       "name": "Romeo y Julieta Pyramides Limited Edition 2005",
       "price": 595,
       "inCart": false,
@@ -755,7 +745,7 @@
       "soldout":false
     },
     {
-      "id": 110,
+      "id": 1001,
       "name": "Romeo y Julieta ESCUDOS Edición Limitada 2007",
       "price": 790,
       "inCart": false,
@@ -765,7 +755,7 @@
       "soldout":false
     },
     {
-      "id": 111,
+      "id": 1002,
       "name": "Romeo y julieta Duke.L.E.2009",
       "price": 690,
       "inCart": false,
@@ -775,7 +765,7 @@
       "soldout":false
     },
     {
-      "id": 112,
+      "id": 1003,
       "name": "Cohiba Siglo 6 (25)",
       "price": 390,
       "inCart": false,
@@ -785,7 +775,7 @@
       "soldout":false
     },
     {
-      "id": 113,
+      "id": 1004,
       "name": "Cohiba SigloV (pack of 5) (15)",
       "price": 380,
       "inCart": false,
@@ -795,7 +785,7 @@
       "soldout":false
     },
     {
-      "id": 114,
+      "id": 1005,
       "name": "Cohiba Siglo IV (pack of 5) (15)",
       "price": 320,
       "inCart": false,
@@ -805,7 +795,7 @@
       "soldout":false
     },
     {
-      "id": 115,
+      "id": 1006,
       "name": "Cohiba Robusto",
       "price": 390,
       "inCart": false,
@@ -815,7 +805,7 @@
       "soldout":false
     },
     {
-      "id": 116,
+      "id": 1007,
       "name": "Cohiba Lanceros",
       "price": 410,
       "inCart": false,
@@ -824,26 +814,6 @@
       "currency":"USD",
       "soldout":false
     },
-    {
-      "id": 117,
-      "name": "Cohiba Robusto",
-      "price": 360,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 118,
-      "name": "Cohiba Siglo 6",
-      "price": 380,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    }
   ],
   "hummidors": [
     {
@@ -910,6 +880,16 @@
       "id": 125,
       "name": "Montecristo Dantes Limited Edition 2016",
       "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 157,
+      "name": "Montecristo  520 EL 2012",
+      "price": 480,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1215,7 +1195,17 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
-    }
+    },
+    {
+      "id": 14,
+      "name": "Cohiba talisman(limited edition 2017)",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
   ]
  
 }
