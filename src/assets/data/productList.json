@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "id": 6,
-      "name": "Bolivar Petit Belicoso 2009 Limited Edition",
-      "price": 495,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 15,
       "name": "COHIBA piramides Extra",
       "price": 380,
@@ -111,16 +101,6 @@
       "soldout":false
     },
     {
-      "id": 30,
-      "name": "H. Upmann ROBUSTOS AÑEJADOS 2016",
-      "price": 320,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 32,
       "name": "H.Upmann Gran Reserva Sir Winston Churchill 2011",
       "price": 890,
@@ -204,16 +184,6 @@
       "id": 44,
       "name": "Montecristo Dantes Limited Edition 2016",
       "price": 590,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 45,
-      "name": "Montecristo Grand Edmundo Edición Limitada 2010 (10)",
-      "price": 390,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -352,7 +322,7 @@
     },
     {
       "id": 68,
-      "name": "IV.Romeo y Julieta Maravillas 8 RAT 2020",
+      "name": "Romeo y Julieta Maravillas 8 RAT 2020",
       "price": 620,
       "inCart": false,
       "count": 0,
@@ -391,9 +361,9 @@
       "soldout":false
     },
     {
-      "id": 74,
-      "name": "Trinidad Esmeralda",
-      "price": 230,
+      "id": 153,
+      "name": "Trinidad Coloniales (24)",
+      "price": 380,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -443,6 +413,16 @@
   ],
   "bundles": [
     {
+      "id": 79,
+      "name": "Bolivar Salomon Exclusivo 5ta Avenida",
+      "price": 20,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 78,
       "name": "Cohiba Lanceros",
       "price": 15,
@@ -456,16 +436,6 @@
       "id": 80,
       "name": "Cohiba Novedoso LCDH",
       "price": 40,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 81,
-      "name": "COHIBA Talisman LE 2017",
-      "price": 49,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1205,7 +1175,37 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
+    },
+    {
+      "id": 6,
+      "name": "Bolivar Petit Belicoso 2009 Limited Edition",
+      "price": 495,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 45,
+      "name": "Montecristo Grand Edmundo Edición Limitada 2010 (10)",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 30,
+      "name": "H. Upmann ROBUSTOS AÑEJADOS 2016",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
     }
   ]
- 
 }
+
