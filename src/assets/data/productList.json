@@ -433,16 +433,6 @@
       "soldout":false
     },
     {
-      "id": 80,
-      "name": "Cohiba Novedoso LCDH",
-      "price": 40,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
       "id": 82,
       "name": "COHIBA Behike56",
       "price": 89,
