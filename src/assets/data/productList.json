@@ -443,6 +443,16 @@
       "soldout":false
     },
     {
+      "id": 822,
+      "name": "COHIBA Esplenidos",
+      "price": 15,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 83,
       "name": "H.Upmann Connossieur A",
       "price": 14,
@@ -526,6 +536,26 @@
       "id": 92,
       "name": "Montecristo Heredos LCDH ",
       "price": 21,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 9222,
+      "name": "Montecristo Supremos EL 2018 ",
+      "price": 20,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 92,
+      "name": "Quai DOrsay Senadores EL 2019",
+      "price": 18,
       "inCart": false,
       "count": 0,
       "total": 0,
