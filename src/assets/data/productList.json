@@ -581,46 +581,6 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
-    },
-    {
-      "id": 94,
-      "name": "Ramon Allones Gigantes",
-      "price": 14,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 954,
-      "name": "Trinidad Fundendores",
-      "price": 18,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 9551,
-      "name": "San Luis Regional Robusto ( Very top quality) Yeranys Farm Pinal de Rio, San Luis Cuba 5x58 - all kinds of sizes",
-      "price": 25,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 956,
-      "name": "Trinidad Topes Limitada Edition 2016",
-      "price": 25,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
     }
   ],
   "vintages": [
