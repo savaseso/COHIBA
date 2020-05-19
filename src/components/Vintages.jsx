@@ -1,21 +1,36 @@
+
 import React, { Component } from 'react';
 import Layout from './Layout'
-import Picture from '../assets/img/vintages.jpeg'
-import CurrentProducts from '../assets/data/productList.json'
-import { Consumer } from '../context'
 import styled from 'styled-components'
+import Picture from '../assets/img/vintages.jpeg'
+import ReactCountryFlag from "react-country-flag";
+import { Consumer } from '../context'
+import Pagination from './Pagination'
 
-class Vintages extends Component {
+
+
+class Products extends Component {
+    state = {
+        currentPage: 1,
+        postPerPage: 10
+    }
+        //change page
+    paginate = (pageNumber) => this.setState({currentPage:pageNumber})
     render() {
         return (
             <Consumer>{value => {
-                return (
+                console.log(value.vismark)
+                const indexOfLastPost = this.state.currentPage * this.state.postPerPage
+                const indexOfFirstPost = indexOfLastPost - this.state.postPerPage
+                const currentProducts = value.vismark.slice(indexOfFirstPost, indexOfLastPost)
+/*                 const filteredProducts = currentProducts.filter(product=>!product.soldout)
+ */                return (
                     <>
                         <Layout>
                             <BackGround>
                                 <ContentWrapper>
                                     <Wrapper>
-                                        <Heading>Vintage from 2009</Heading>
+                                        <Heading>Vismark Cigars</Heading>
                                         <Table>
                                             <thead>
                                                 <FirstRow>
@@ -24,31 +39,32 @@ class Vintages extends Component {
                                                 </FirstRow>
                                             </thead>
                                             <tbody>
-                                                {CurrentProducts.vintages.map(vintage =>
-                                                    <TableRow key={vintage.id} onClick={() => {
-                                                        value.addToCart(vintage.id)
-                                                        value.openModal(vintage.id)
+                                                {currentProducts.map(product =>
+                                                    <TableRow key={product.id} onClick={() => {
+                                                        value.addToCart(product.id)
+                                                        value.openModal(product.id)
                                                     }}>
-                                                        <Name>{vintage.name}</Name>
-                                                        <Price>${vintage.price}</Price>
+                                                        <Name>{product.name}</Name>
+                                                        <Price>${product.price}</Price>
                                                     </TableRow>
                                                 )}
                                             </tbody>
                                         </Table>
+                                            <Pagination postsPerPage={this.state.postPerPage} totalPosts={value.vismark.length} paginate={this.paginate} currentPage={this.state.currentPage} />
                                     </Wrapper>
+                                    <Paragraph>Free shipping over $200 <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
                                 </ContentWrapper>
                             </BackGround>
                         </Layout>
                     </>
                 )
             }}
+
             </Consumer>
         )
     }
 }
-export default Vintages
-
-
+export default Products
 
 const BackGround = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 
@@ -59,11 +75,6 @@ const BackGround = styled.div`
     justify-content:center;
     padding:2rem;
 `
-
-
-
-
-
 
 const Heading = styled.h1`
     text-align: center;
@@ -128,4 +139,14 @@ const Wrapper = styled.div`
     display:flex; 
     justify-content:center;
     flex-direction:column;
+    `
+
+const Paragraph = styled.p`
+    padding:20px;
+    color:#fff;
+    font-size:1rem;
+    text-align:center;
+    @media (max-width: 501px) {
+        font-size:0.9rem;
+    }
 `

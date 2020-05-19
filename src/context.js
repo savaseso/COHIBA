@@ -12,6 +12,7 @@ export class Provider extends Component {
         products: [],
         availableProducts: [],
         retailProducts: [],
+        vismark:[],
 /*         hummidorProducts: [],
  */     modalOpen: false,
         modalProduct: {},
@@ -27,8 +28,9 @@ export class Provider extends Component {
     componentDidMount() {
         this.setProducts()
         this.setState({
-            availableProducts: [...productsList.products, ...productsList.bundles, ...productsList.vintages/* , ...productsList.hummidors */],
+            availableProducts: [...productsList.products, ...productsList.bundles, ...productsList.Vismark_Cigars/* , ...productsList.hummidors */],
             retailProducts: CurrentProducts.products,
+            vismark: CurrentProducts.Vismark_Cigars,
 /*             hummidorProducts:CurrentProducts.hummidors
  */        })
     }

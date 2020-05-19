@@ -11,8 +11,8 @@ const NavBar = (props) => {
             <Ul>
                 <ButtonWrapper>
                     <Li><NavLink to="/About">About us</NavLink></Li>
-                    <Li><NavLink to="/Products">Canada Club's Humidor Retailer list</NavLink></Li>
-                    <Li><NavLink to="/Vintages">Vintages</NavLink></Li>
+                    <Li><NavLink to="/Products">Humidor Retailer list</NavLink></Li>
+                    <Li><NavLink to="/Vintages">Vismark</NavLink></Li>
                     <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
                 </ButtonWrapper>
                 <div>
@@ -110,7 +110,7 @@ const ButtonWrapper = styled.div`
 //Social Media
 const FacebookLogo = styled(FaFacebookSquare)`
     color: #E0A400;
-    font-size:2rem;
+    font-size:2.5rem;
     margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{
@@ -123,7 +123,7 @@ const FacebookLogo = styled(FaFacebookSquare)`
 `
 const InstagramLogo = styled(FaInstagram)`
     color: #E0A400;
-    font-size:2rem;
+    font-size:2.5rem;
     margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{
@@ -136,7 +136,7 @@ const InstagramLogo = styled(FaInstagram)`
 `
 const TwitterLogo = styled(FaTwitterSquare)`
     color: #E0A400;
-    font-size:2rem;
+    font-size:2.5rem;
     margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{
@@ -148,7 +148,7 @@ const TwitterLogo = styled(FaTwitterSquare)`
 `
 const WhatsappLogo = styled(FaWhatsapp)`
     color: #E0A400;
-    font-size:2rem;
+    font-size:2.5rem;
     margin-right:5px;
     transition:all 0.2s ease-in;
     &:hover{

@@ -1,9 +1,129 @@
 {
   "products": [
     {
+      "id": 155,
+      "name": "Cohiba BHK52",
+      "price": 670,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 156,
+      "name": "Cohiba BHK54",
+      "price": 760,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 143,
+      "name": "Cohiba Behike56",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 14,
+      "name": "Cohiba talisman(limited edition 2017)",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 135,
+      "name": "Cohiba Esplendidos",
+      "price": 395,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1006,
+      "name": "Cohiba Robustos NEW",
+      "price": 340,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 2006,
+      "name": "Cohiba Robusto Supremos Edition Limitada 2014",
+      "price": 820,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1007,
+      "name": "Cohiba Lanceros",
+      "price": 410,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 136,
+      "name": "Cohiba 1966 LE 2011",
+      "price": 795,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 15,
       "name": "COHIBA piramides Extra",
       "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 16,
+      "name": "Cohiba Siglo 2 (25)",
+      "price": 240,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 12,
+      "name": "Cohiba Siglo 4 (25)",
+      "price": 350,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 13,
+      "name": "Cohiba Siglo 6 (25)",
+      "price": 395,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -21,9 +141,29 @@
       "soldout":false
     },
     {
+      "id": 29,
+      "name": "Cohiba Maduro5 Magicos",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 20,
+      "name": "Cohiba Maduro5 Genios",
+      "price": 440,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 22222,
       "name": "Cohiba Sublimes “Limited Edition 2004” VINTAGE",
-      "price": 700,
+      "price": 790,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -43,7 +183,77 @@
     {
       "id": 19,
       "name": "Cohiba Double Corona Limited Edition 2003 VINTAGE",
-      "price": 980,
+      "price": 990,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 3131,
+      "name": "Cohiba Seleccion Reserva VINTAGES",
+      "price": 1299,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 992,
+      "name": "Cohiba 50 Aniversario - MAJESTUOSOS 1966 Humidor",
+      "price": 9900,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 140,
+      "name": "Cuaba Piramides Edición Limitada 2008",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 139,
+      "name": "Diplomaticos No2",
+      "price": 290,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1139,
+      "name": "Diplomaticos No3",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1540,
+      "name": "Diplomaticos Ammunition Edicion Regional PHOENICIA",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 6888,
+      "name": "El Rey del Mundo Tainos Formosa Regional Edition 2018",
+      "price": 430,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -71,6 +281,16 @@
       "soldout":false
     },
     {
+      "id": 2626,
+      "name": "Hoyo De Monterrey Epicure luxe LCDH",
+      "price": 190,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 27,
       "name": "H.Upmann CONNOSSIEUR A’LCDH (25)",
       "price": 310,
@@ -91,6 +311,16 @@
       "soldout":false
     },
     {
+      "id": 30,
+      "name": "H. Upmann ROBUSTOS AÑEJADOS 2016",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 29,
       "name": "H.Upmann Robustos Edición Limitada 2012",
       "price": 580,
@@ -101,8 +331,18 @@
       "soldout":false
     },
     {
+      "id": 31,
+      "name": "H. Upmann56 Edition Limitada 2015",
+      "price": 490,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 32,
-      "name": "H.Upmann Gran Reserva Sir Winston Churchill 2011",
+      "name": "H.Upmann Gran Reserva Cosecha 2010",
       "price": 890,
       "inCart": false,
       "count": 0,
@@ -161,6 +401,26 @@
       "soldout":false
     },
     {
+      "id": 123,
+      "name": "Montecristo Gran Corona “A”",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 3030,
+      "name": "Montecristo Grand Edmundo Edition Limitada 2010",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 41,
       "name": "Montecristo Sublimes Limited Edition 2008",
       "price": 590,
@@ -199,7 +459,37 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
-    },  
+    }, 
+    {
+      "id": 9991,
+      "name": "Montecristo Supremos Edition Limitada 2019",
+      "price": 490,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 9992,
+      "name": "Montecristo double Edmunda Travel Humidor",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 5552,
+      "name": "Partagas SERIES NO.1 EDICION LIMITADA 2004",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
     {
       "id": 52,
       "name": "Partagas SERIES NO.1 EDICION LIMITADA 2017",
@@ -224,16 +514,6 @@
       "id": 55,
       "name": "Partagas Corona Gorda Añejados 2007",
       "price": 390,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 56,
-      "name": "Partagas Lusitanias Grand Reserva Cosecha 2007",
-      "price": 900,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -271,6 +551,16 @@
       "soldout":false
     },
     {
+      "id": 9994,
+      "name": "Partagas Salomones LCDH",
+      "price": 490,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 57,
       "name": "Punch Serie D’Oro No.2 Edicion Limitada 2013",
       "price": 520,
@@ -281,9 +571,39 @@
       "soldout":false
     },
     {
+      "id": 9999,
+      "name": "Quai D`Orsay Senadores Edition Limitada 2019",
+      "price": 560,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 9998,
+      "name": "Quai D`Orsay Baalbeck Regional Edition 2018 - Lebanon (50)",
+      "price": 580,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 60,
       "name": "Ramón allones extra 2011",
-      "price": 890,
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 2294,
+      "name": "Ramon Alones No.2 Edition Limitada 2019",
+      "price": 390,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -312,8 +632,28 @@
     },
     {
       "id": 67,
-      "name": "San Cristobal de la Habana 500 aniversario edicion especial",
-      "price": 4990,
+      "name": "San Cristobal Muralla de la Habana",
+      "price": 480,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 6667,
+      "name": "San Cristobal El Morro de la Habana",
+      "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 6668,
+      "name": "San Cristobar de la Habana Mercaderes",
+      "price": 420,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -371,6 +711,26 @@
       "soldout":false
     },
     {
+      "id": 149,
+      "name": "Trinidad Esmeralda",
+      "price": 199,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 9540,
+      "name": "Trinidad Fundendores (24)",
+      "price": 360,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 76,
       "name": "Trinidad 12 La Trova LCDH",
       "price": 320,
@@ -392,7 +752,7 @@
     },
     {
       "id": 763,
-      "name": "Trinidad topes",
+      "name": "Trinidad topes 2019",
       "price": 199,
       "inCart": false,
       "count": 0,
@@ -404,6 +764,16 @@
       "id": 76,
       "name": "Trinidad Topes Limitada Edition 2016",
       "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 151,
+      "name": "TRINIDAD Vigia (12)",
+      "price": 199,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -433,6 +803,26 @@
       "soldout":false
     },
     {
+      "id": 80,
+      "name": "Cohiba Novedoso LCDH",
+      "price": 40,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 81,
+      "name": "Cohiba Esplendidos",
+      "price": 15,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 82,
       "name": "COHIBA Behike56",
       "price": 89,
@@ -443,9 +833,9 @@
       "soldout":false
     },
     {
-      "id": 822,
-      "name": "COHIBA Esplenidos",
-      "price": 15,
+      "id": 1114,
+      "name": "Cohiba Talisman Edition Limitada 2017",
+      "price": 49,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -543,19 +933,9 @@
       "soldout":false
     },
     {
-      "id": 9222,
-      "name": "Montecristo Supremos EL 2018 ",
+      "id": 91,
+      "name": "Montecristo Supremos Edition Limitada 2019",
       "price": 20,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 92,
-      "name": "Quai DOrsay Senadores EL 2019",
-      "price": 18,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -571,6 +951,16 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
+    }, 
+    {
+      "id": 999,
+      "name": "Quai D`Orsay Senadores Edicion Limitada 2019",
+      "price": 18,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
     },
     {
       "id": 95,
@@ -581,13 +971,11 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
-    }
-  ],
-  "vintages": [
+    },
     {
-      "id": 990,
-      "name": "Bolivar Petit Belicoso 2009 Limited Edition",
-      "price": 495,
+      "id": 294,
+      "name": "Ramon Allones No.2 Edicion Limitada 2019",
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -595,9 +983,583 @@
       "soldout":false
     },
     {
+      "id": 1510,
+      "name": "Trinidad Vigia",
+      "price": 12,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 954,
+      "name": "Trinidad Fundendores",
+      "price": 18,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 956,
+      "name": "Trinidad Topes Limitada Edition 2016",
+      "price": 25,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }
+  ],
+  "Vismark_Cigars": [
+    { 
+      "id": 5000,
+      "name": "Vismark Corona single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5001,
+      "name": "Vismark Corona box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5002,
+      "name": "Vismark Corona box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5003,
+      "name": "Vismark Corona box of 25",
+      "price": 185,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5004,
+      "name": "Vismark Corona rum single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5005,
+      "name": "Vismark Corona rum box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5006,
+      "name": "Vismark Corona rum box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5007,
+      "name": "Vismark Corona rum box of 25",
+      "price": 185,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5043,
+      "name": "Vismark Corona whiskey sigle",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5044,
+      "name": "Vismark Corona whiskey box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5045,
+      "name": "Vismark Corona whiskey box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5046,
+      "name": "Vismark Corona whiskey box of 25",
+      "price": 185,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5047,
+      "name": "Vismark Corona vanilla single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5048,
+      "name": "Vismark Corona vanilla box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5049,
+      "name": "Vismark Corona vanilla box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5050,
+      "name": "Vismark Corona vanilla box of 25",
+      "price": 185,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5008,
+      "name": "Vismark Churchill single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 50092,
+      "name": "Vismark Churchill box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5009,
+      "name": "Vismark Churchill box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5010,
+      "name": "Vismark Churchill box of 25",
+      "price": 185,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5011,
+      "name": "Vismark Maduro Robusto single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5099,
+      "name": "Vismark Maduro Robusto box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
+    { 
+      "id": 5012,
+      "name": "Vismark Maduro Robusto box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5013,
+      "name": "Vismark Maduro Robusto box of 25",
+      "price": 180,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5014,
+      "name": "Vismark Robusto single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5015,
+      "name": "Vismark Robusto box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5016,
+      "name": "Vismark Robusto box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5017,
+      "name": "Vismark Robusto box of 25",
+      "price": 180,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5018,
+      "name": "Vismark Toro single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5019,
+      "name": "Vismark Toro box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5020,
+      "name": "Vismark Toro box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5021,
+      "name": "Vismark Toro box of 25",
+      "price": 180,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5022,
+      "name": "Vismark Torpedo single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5023,
+      "name": "Vismark Torpedo box of 5",
+      "price": 48,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5024,
+      "name": "Vismark Torpedo box of 10",
+      "price": 95,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5025,
+      "name": "Vismark Torpedo box of 25",
+      "price": 180,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5026,
+      "name": "Vismark Senorita single",
+      "price": 8,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5027,
+      "name": "Vismark Senorita single",
+      "price": 8,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5028,
+      "name": "Vismark Senorita box of 5",
+      "price": 38,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5029,
+      "name": "Vismark Senorita box of 10",
+      "price": 75,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5030,
+      "name": "Vismark Senorita box of 25",
+      "price": 165,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5031,
+      "name": "Vismark Senorita rum single",
+      "price": 8,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5032,
+      "name": "Vismark Senorita rum box of 5",
+      "price": 38,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5033,
+      "name": "Vismark Senorita rum box of 10",
+      "price": 75,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5034,
+      "name": "Vismark Senorita rum box of 25",
+      "price": 165,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5035,
+      "name": "Vismark Senorita vanilla single",
+      "price": 8,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5036,
+      "name": "Vismark Senorita vanilla box of 5",
+      "price": 38,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5037,
+      "name": "Vismark Senorita vanilla box of 10",
+      "price": 75,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5038,
+      "name": "Vismark Senorita vanilla box of 25",
+      "price": 165,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5039,
+      "name": "Vismark Senorita whiskey single",
+      "price": 8,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5040,
+      "name": "Vismark Senorita whiskey box of 5",
+      "price": 38,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5041,
+      "name": "Vismark Senorita whiskey box of 10",
+      "price": 75,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 5042,
+      "name": "Vismark Senorita whiskey box of 25",
+      "price": 165,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }
+  ],
+  "vintages": [
+    {
       "id": 991,
       "name": "Cohiba Double Corona Limited Edition 2003 VINTAGE",
       "price": 980,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 31,
+      "name": "Cohiba Seleccion Reserva VINTAGES",
+      "price": 1299,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -635,6 +1597,26 @@
       "soldout":false
     },
     {
+      "id": 94,
+      "name": "Ramon Allones Gigantes",
+      "price": 14,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 123,
+      "name": "Montecristo Gran Corona “A”",
+      "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 995,
       "name": "Montecristo Robustos Limited Edition 2006 – 2000 VINTAGE",
       "price": 790,
@@ -648,6 +1630,16 @@
       "id": 996,
       "name": "Partagas Corona Gorda Añejados 2007",
       "price": 390,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 5552,
+      "name": "Partagas SERIES NO.1 EDICION LIMITADA 2004",
+      "price": 790,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -718,26 +1710,6 @@
       "id": 1003,
       "name": "Cohiba Siglo 6 (25)",
       "price": 390,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 1004,
-      "name": "Cohiba SigloV (pack of 5) (15)",
-      "price": 380,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 1005,
-      "name": "Cohiba Siglo IV (pack of 5) (15)",
-      "price": 320,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1137,6 +2109,26 @@
       "soldout":false
     },
     {
+      "id": 10,
+      "name": "Bolivar Royal Coronas",
+      "price": 265,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 11,
+      "name": "Bolivar Belicoso Finos",
+      "price": 275,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 157,
       "name": "Montecristo  520 EL 2012",
       "price": 480,
@@ -1185,7 +2177,51 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
+    },
+    {
+      "id": 1004,
+      "name": "Cohiba SigloV (pack of 5) (15)",
+      "price": 380,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 56,
+      "name": "Partagas Lusitanias Grand Reserva Cosecha 2007",
+      "price": 900,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 152,
+      "name": "Romeo Y Julieta - Maravillas 8 - Year of the RAT",
+      "price": 590,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1005,
+      "name": "Cohiba Siglo IV (pack of 5) (15)",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
     }
   ]
 }
+
+    
+     
+  
 
