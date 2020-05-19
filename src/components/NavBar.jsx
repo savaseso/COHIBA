@@ -12,7 +12,7 @@ const NavBar = (props) => {
                 <ButtonWrapper>
                     <Li><NavLink to="/About">About us</NavLink></Li>
                     <Li><NavLink to="/Products">Humidor Retailer list</NavLink></Li>
-                    <Li><NavLink to="/Vintages">Vismark</NavLink></Li>
+                    <Li><NavLink to="/Vismark">Vismark</NavLink></Li>
                     <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
                 </ButtonWrapper>
                 <div>
