@@ -19,7 +19,6 @@ class Products extends Component {
     render() {
         return (
             <Consumer>{value => {
-                console.log(value.vismark)
                 const indexOfLastPost = this.state.currentPage * this.state.postPerPage
                 const indexOfFirstPost = indexOfLastPost - this.state.postPerPage
                 const currentProducts = value.vismark.slice(indexOfFirstPost, indexOfLastPost)
