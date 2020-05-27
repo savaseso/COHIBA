@@ -24,7 +24,7 @@ class TermsConditions extends Component {
                     <Heading>Article 2:</Heading>
                         <Paragraph> If you want free shipping....The minimum amount of the shopping cart must be USD 199 per order.Free shipping in Europe, Asia, Africa, Australia over a minimum of 1000 USD!</Paragraph>
                     <Heading>Article 3:</Heading>
-                        <Paragraph>All orders are subject to confirmation by Cohibatoronto, Cohibatoronto reserves the right to cancel or refuse any order for any reason. Once the buyer places an order, an email related to acception of the order will be sent by system automatically but it should not be considered “confirmed” until we have verified with the warehouse that we still have the item(s) in stock. If Cohibatoronto has the item(s) at the time of purchase, we will send you a confirmation email but If we do not have the item(s) in stock, we will inform you.</Paragraph>
+                        <Paragraph>All orders are subject to confirmation by ctorontocigar, ctorontocigar reserves the right to cancel or refuse any order for any reason. Once the buyer places an order, an email related to acception of the order will be sent by system automatically but it should not be considered “confirmed” until we have verified with the warehouse that we still have the item(s) in stock. If ctorontocigar has the item(s) at the time of purchase, we will send you a confirmation email but If we do not have the item(s) in stock, we will inform you.</Paragraph>
                     <Heading>Article 4: </Heading>
                         <Paragraph>Cigars are checked for the shipping process. Shipping will be provided by international postal or courier services and takes between 7 and 20 days to be delivered depending on your country and destination city. Delivery period might extend due to customs clearance delays, extreme weather situations, local postal errors etc. (please see Shipping and Return for details.) Delays are not under our control so we are not responsible for delays.</Paragraph>
                     <Heading>Article 5: </Heading>
@@ -34,13 +34,13 @@ class TermsConditions extends Component {
                     <Heading>Article 7: </Heading>
                         <Paragraph>We selling Cuban cigars only.</Paragraph>
                     <Heading>Article 8: </Heading>
-                        <Paragraph>We do not ship Cuban Cigars to the US. Please contact at cohibatoronto@gmail.com</Paragraph>
+                        <Paragraph>We do not ship Cuban Cigars to the US. Please contact at c.torontocigar@gmail.com</Paragraph>
                     <Heading>Article 9: </Heading>
-                        <Paragraph>We do not ship Cuban Cigars to Turkey. Please contact at cohibatoronto@gmail.com</Paragraph>
+                        <Paragraph>We do not ship Cuban Cigars to Turkey. Please contact at c.torontocigar@gmail.com</Paragraph>
                     <Heading>Article 10:</Heading>
-                        <Paragraph>Cohibatoronto.com does not assume ANY RESPONSIBILITY for ANY DUTIES, TARIFFS, TAXES, CUSTOMS or BROKERAGE FEES, delayed shipments or any further inconveniences caused by domestic Customs offices Cohibatoronto.com is not in a position to be fully aware of all regulations pertaining to customs offices all over the world hence assumes that each Buyer is fully aware of the conditions and regulations applied by his/her domestic customs system.</Paragraph>
+                        <Paragraph>ctorontocigar.com does not assume ANY RESPONSIBILITY for ANY DUTIES, TARIFFS, TAXES, CUSTOMS or BROKERAGE FEES, delayed shipments or any further inconveniences caused by domestic Customs offices ctorontocigar.com is not in a position to be fully aware of all regulations pertaining to customs offices all over the world hence assumes that each Buyer is fully aware of the conditions and regulations applied by his/her domestic customs system.</Paragraph>
                     <Heading>Article 11:</Heading>
-                        <Paragraph>Please be aware that Cohibatoronto is only responsible for paying taxes in countries where we process shipments.</Paragraph>
+                        <Paragraph>Please be aware that ctorontocigar is only responsible for paying taxes in countries where we process shipments.</Paragraph>
                     <Heading>Article 12:</Heading>
                         <Paragraph> For Cuban Cigars only;
                                         All customers should be aware of their local customs law.
@@ -51,7 +51,7 @@ class TermsConditions extends Component {
                                         jurisdiction of the courts of Canada.SHIPPING
                                         Shippings are being completed in 1-7 business days after you receive a confirmation
                                         e-mail for your payment. (If we were out of stock at the time of payment for any
-                                        reason, Cohibatoronto provides you two solutions as waiting for product to arrive in
+                                        reason, ctorontocigar provides you two solutions as waiting for product to arrive in
                     stock or a refund.)</Paragraph>
                     <Heading>Please note that:</Heading>
                         <Paragraph>Cuban Cigars are directly being shipped from Official Importer of Habanos SA It
@@ -80,9 +80,9 @@ class TermsConditions extends Component {
                                         longer, will be considered lost and replaceable as of one month after the shipping
                                         date in accordance with International Postal protocol. Please note, no replacements
                                         will be shipped before the one month time frame has been passed.
-                                        cohibatoronto.com cannot be held responsible for delays caused by human error
+                                        ctorontocigar.com cannot be held responsible for delays caused by human error
                                         (incorrect information (e.g.: address or buyer name)
-                                        Cohibatoronto.com is not responsible for paying any taxes or duties involved in the
+                                        ctorontocigar.com is not responsible for paying any taxes or duties involved in the
                                         importation of his/her order into his/her country (Buyer is responsible for knowing
                                         her/his local laws).
                                         Please be aware that your delivery may also be subject to customs duties, over
@@ -122,21 +122,21 @@ class TermsConditions extends Component {
                                         2. If customer wants to cancel order after completion of payment, a partial refund is
                                         being made due to refund fee being deducted from your payment, which is applied
                                         by payment provider. This amount differs from the payment method you choose.
-                                        3. Cohibatoronto will re-ship a new package if it's required. Otherwise
-                                        Cohibatoronto will refund product price deducting shipping fees.CANCELLATION
-                                        If customer wants to cancel order just send email to cohibatoronto@gmail.com
+                                        3. ctorontocigar will re-ship a new package if it's required. Otherwise
+                                        ctorontocigar will refund product price deducting shipping fees.CANCELLATION
+                                        If customer wants to cancel order just send email to c.torontocigar@gmail.com
                                         about your cancel request. Your request will be done asap.
                                         CHARGEBACK POLICY
-                                        In order for a customer to ask for a chargeback from their bank, Cohibatoronto
+                                        In order for a customer to ask for a chargeback from their bank, ctorontocigar
                                         should not be obeying any of the rules stated above and this situation must be
                                         proved by valid documents to customers’ own bank. Any fraud attempts are subject
-                                        to legal action taken by Cohibatoronto and its legal representatives against
+                                        to legal action taken by ctorontocigar and its legal representatives against
                                         responsible individuals.Please be aware that by accessing and using this website,
                                         you accept these all terms and conditions above.
                                         If you do not agree these terms and conditions or any part of them, do not use this
                                         website.
                                         For any assistance,comments or recommendations, please contact us at
-                                        cohibatoronto@gmail.com
+                                        c.torontocigar@gmail.com
                                         All messages must be written in English.
                     </Paragraph>
 
