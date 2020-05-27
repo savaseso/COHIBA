@@ -29,12 +29,12 @@ class Products extends Component {
                             <BackGround>
                                 <ContentWrapper>
                                     <Wrapper>
-                                        <Heading>Vismark Cigars</Heading>
+                                        <Heading>All Vismark Cigar<Twenty>20%</Twenty> off</Heading>
                                         <Table>
                                             <thead>
                                                 <FirstRow>
                                                     <th>Name</th>
-                                                    <th>Price</th>
+                                                    <PriceRow>Price</PriceRow>
                                                 </FirstRow>
                                             </thead>
                                             <tbody>
@@ -44,6 +44,7 @@ class Products extends Component {
                                                         value.openModal(product.id)
                                                     }}>
                                                         <Name>{product.name}</Name>
+                                                        <Originalprice>${product.originalprice}</Originalprice>
                                                         <Price>${product.price}</Price>
                                                     </TableRow>
                                                 )}
@@ -113,7 +114,6 @@ const Table = styled.table`
 const FirstRow = styled.tr`
     color:#fff;
     opacity:0.6;
-    
 `
 const TableRow = styled.tr`
     cursor: pointer;
@@ -127,6 +127,22 @@ const Name = styled.th`
         opacity:1;
     }
 
+`
+const PriceRow = styled.th`
+   text-align:right;
+`
+const Originalprice = styled.th`
+    text-decoration:line-through;
+    text-align:center;
+    opacity:0.7;
+    color:#E0A400;
+    padding-right:10px;
+`
+
+const Twenty = styled.span`
+    color:red;
+    text-align:right;
+    margin-left:1rem;
 `
 
 const Price = styled.th`
