@@ -29,7 +29,7 @@ class Products extends Component {
                             <BackGround>
                                 <ContentWrapper>
                                     <Wrapper>
-                                        <Heading>Vismark Cigasr{/* <Twenty>20%</Twenty> off */}</Heading>
+                                        <Heading>Vismark Cigars{/* <Twenty>20%</Twenty> off */}</Heading>
                                         <Table>
                                             <thead>
                                                 <FirstRow>
