@@ -29,7 +29,7 @@ class Products extends Component {
                             <BackGround>
                                 <ContentWrapper>
                                     <Wrapper>
-                                        <Heading>All Vismark Cigar<Twenty>20%</Twenty> off</Heading>
+                                        <Heading>Vismark Cigasr{/* <Twenty>20%</Twenty> off */}</Heading>
                                         <Table>
                                             <thead>
                                                 <FirstRow>
@@ -44,7 +44,7 @@ class Products extends Component {
                                                         value.openModal(product.id)
                                                     }}>
                                                         <Name>{product.name}</Name>
-                                                        <Originalprice>${product.originalprice}</Originalprice>
+                                                       {/*  <Originalprice>${product.originalprice}</Originalprice> */}
                                                         <Price>${product.price}</Price>
                                                     </TableRow>
                                                 )}
@@ -129,7 +129,7 @@ const Name = styled.th`
 
 `
 const PriceRow = styled.th`
-   text-align:right;
+  /*  text-align:right; */
 `
 const Originalprice = styled.th`
     text-decoration:line-through;
@@ -146,10 +146,10 @@ const Twenty = styled.span`
 `
 
 const Price = styled.th`
-    text-align:center;
-    color:#E0A400;
-    padding-right:10px;
-`
+/*     text-align:center;
+ */    color:#E0A400;
+     padding-right:10px;
+ `
 const Wrapper = styled.div`
     display:flex; 
     justify-content:center;
