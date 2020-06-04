@@ -131,7 +131,7 @@ const Name = styled.th`
 const PriceRow = styled.th`
   /*  text-align:right; */
 `
-const Originalprice = styled.th`
+/* const Originalprice = styled.th`
     text-decoration:line-through;
     text-align:center;
     opacity:0.7;
@@ -143,7 +143,7 @@ const Twenty = styled.span`
     color:red;
     text-align:right;
     margin-left:1rem;
-`
+` */
 
 const Price = styled.th`
 /*     text-align:center;

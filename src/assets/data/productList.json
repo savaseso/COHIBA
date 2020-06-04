@@ -443,7 +443,7 @@
     {
       "id": 44,
       "name": "Montecristo Dantes Limited Edition 2016",
-      "price": 590,
+      "price": 290,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1195,7 +1195,7 @@
       "soldout":false
     },
     { 
-      "id": 5009,
+      "id": 50090,
       "name": "Vismark Churchill box of 10",
       "price": 95,
       "inCart": false,
@@ -1235,7 +1235,7 @@
       "soldout":false
     }, 
     { 
-      "id": 5012,
+      "id": 50122,
       "name": "Vismark Maduro Robusto box of 10",
       "price": 95,
       "inCart": false,
@@ -1791,7 +1791,7 @@
     {
       "id": 125,
       "name": "Montecristo Dantes Limited Edition 2016",
-      "price": 590,
+      "price": 290,
       "inCart": false,
       "count": 0,
       "total": 0,
