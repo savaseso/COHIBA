@@ -239,7 +239,7 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
-    },
+    },  
     {
       "id": 1540,
       "name": "Diplomaticos Ammunition Edicion Regional PHOENICIA",
@@ -249,7 +249,7 @@
       "total": 0,
       "currency":"USD",
       "soldout":false
-    },
+    },  
     {
       "id": 6888,
       "name": "El Rey del Mundo Tainos Formosa Regional Edition 2018",
@@ -413,7 +413,7 @@
     {
       "id": 3030,
       "name": "Montecristo Grand Edmundo Edition Limitada 2010",
-      "price": 320,
+      "price": 390,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -753,7 +753,7 @@
     {
       "id": 763,
       "name": "Trinidad topes 2019",
-      "price": 199,
+      "price": 219,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1003,6 +1003,16 @@
       "soldout":false
     },
     {
+      "id": 9540,
+      "name": "Trinidad Robusto",
+      "price": 13,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 956,
       "name": "Trinidad Topes Limitada Edition 2016",
       "price": 25,
@@ -1195,7 +1205,7 @@
       "soldout":false
     },
     { 
-      "id": 50090,
+      "id": 50009,
       "name": "Vismark Churchill box of 10",
       "price": 95,
       "inCart": false,
@@ -1235,7 +1245,7 @@
       "soldout":false
     }, 
     { 
-      "id": 50122,
+      "id": 50012,
       "name": "Vismark Maduro Robusto box of 10",
       "price": 95,
       "inCart": false,
