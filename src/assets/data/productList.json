@@ -482,7 +482,7 @@
     },
     {
       "id": 5552,
-      "name": "Partagas SERIES NO.1 EDICION LIMITADA 2004",
+      "name": "Partagas SERIES NO.1 EDICION LIMITADA 2003",
       "price": 790,
       "inCart": false,
       "count": 0,
@@ -694,6 +694,16 @@
       "id": 72,
       "name": "Romeo y julieta Duke.L.E.2009",
       "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1000,
+      "name": "Romeo y Julieta Petit Pyramides Limited Edition 2005",
+      "price": 595,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1678,7 +1688,7 @@
     },
     {
       "id": 1000,
-      "name": "Romeo y Julieta Pyramides Limited Edition 2005",
+      "name": "Romeo y Julieta Petit Pyramides Limited Edition 2005",
       "price": 595,
       "inCart": false,
       "count": 0,
