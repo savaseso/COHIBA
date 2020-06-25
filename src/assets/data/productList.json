@@ -491,6 +491,16 @@
       "soldout":false
     },
     {
+      "id": 8852,
+      "name": "Partagas 8-9-8 Varnished Cabinet",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 54,
       "name": "Partagas Series D No.4",
       "price": 320,
