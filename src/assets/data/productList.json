@@ -1,6 +1,16 @@
 {
   "products": [
     {
+      "id": 5156,
+      "name":"Bolivar Salomon Exclusivo 5ta Avenida", 
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 155,
       "name": "Cohiba BHK52",
       "price": 670,
@@ -785,7 +795,7 @@
     {
       "id": 79,
       "name": "Bolivar Salomon Exclusivo 5ta Avenida",
-      "price": 20,
+      "price": 35,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1037,7 +1047,7 @@
     { 
       "id": 5001,
       "name": "Vismark Corona box of 5",
-      "price": 48,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1047,7 +1057,7 @@
     { 
       "id": 5002,
       "name": "Vismark Corona box of 10",
-      "price": 95,
+      "price": 100,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1057,7 +1067,7 @@
     { 
       "id": 5003,
       "name": "Vismark Corona box of 25",
-      "price": 185,
+      "price": 200,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1077,7 +1087,7 @@
     { 
       "id": 5005,
       "name": "Vismark Corona rum box of 5",
-      "price": 48,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1087,7 +1097,7 @@
     { 
       "id": 5006,
       "name": "Vismark Corona rum box of 10",
-      "price": 95,
+      "price": 100,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1097,7 +1107,7 @@
     { 
       "id": 5007,
       "name": "Vismark Corona rum box of 25",
-      "price": 185,
+      "price": 200,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1117,7 +1127,7 @@
     { 
       "id": 5044,
       "name": "Vismark Corona whiskey box of 5",
-      "price": 48,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1127,7 +1137,7 @@
     { 
       "id": 5045,
       "name": "Vismark Corona whiskey box of 10",
-      "price": 95,
+      "price": 100,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1137,7 +1147,7 @@
     { 
       "id": 5046,
       "name": "Vismark Corona whiskey box of 25",
-      "price": 185,
+      "price": 200,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1157,7 +1167,7 @@
     { 
       "id": 5048,
       "name": "Vismark Corona vanilla box of 5",
-      "price": 48,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1167,7 +1177,7 @@
     { 
       "id": 5049,
       "name": "Vismark Corona vanilla box of 10",
-      "price": 95,
+      "price": 100,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1177,7 +1187,7 @@
     { 
       "id": 5050,
       "name": "Vismark Corona vanilla box of 25",
-      "price": 185,
+      "price": 200,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1187,7 +1197,7 @@
     { 
       "id": 5008,
       "name": "Vismark Churchill single",
-      "price": 10,
+      "price": 12,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1197,7 +1207,7 @@
     { 
       "id": 5009,
       "name": "Vismark Churchill box of 5",
-      "price": 48,
+      "price": 60,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1207,7 +1217,7 @@
     { 
       "id": 50009,
       "name": "Vismark Churchill box of 10",
-      "price": 95,
+      "price": 120,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1217,7 +1227,7 @@
     { 
       "id": 5010,
       "name": "Vismark Churchill box of 25",
-      "price": 185,
+      "price": 250,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1227,7 +1237,7 @@
     { 
       "id": 5011,
       "name": "Vismark Maduro Robusto single",
-      "price": 10,
+      "price": 12,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1237,7 +1247,7 @@
     { 
       "id": 5012,
       "name": "Vismark Maduro Robusto box of 5",
-      "price": 48,
+      "price": 60,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1247,7 +1257,7 @@
     { 
       "id": 50012,
       "name": "Vismark Maduro Robusto box of 10",
-      "price": 95,
+      "price": 120,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1257,7 +1267,7 @@
     { 
       "id": 5013,
       "name": "Vismark Maduro Robusto box of 25",
-      "price": 180,
+      "price": 250,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1277,7 +1287,7 @@
     { 
       "id": 5015,
       "name": "Vismark Robusto box of 5",
-      "price": 48,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1287,7 +1297,7 @@
     { 
       "id": 5016,
       "name": "Vismark Robusto box of 10",
-      "price": 95,
+      "price": 100,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1297,7 +1307,7 @@
     { 
       "id": 5017,
       "name": "Vismark Robusto box of 25",
-      "price": 180,
+      "price": 200,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1317,7 +1327,7 @@
     { 
       "id": 5019,
       "name": "Vismark Toro box of 5",
-      "price": 48,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1327,7 +1337,7 @@
     { 
       "id": 5020,
       "name": "Vismark Toro box of 10",
-      "price": 95,
+      "price": 100,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1337,7 +1347,7 @@
     { 
       "id": 5021,
       "name": "Vismark Toro box of 25",
-      "price": 180,
+      "price": 200,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1357,7 +1367,7 @@
     { 
       "id": 5023,
       "name": "Vismark Torpedo box of 5",
-      "price": 48,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1367,7 +1377,7 @@
     { 
       "id": 5024,
       "name": "Vismark Torpedo box of 10",
-      "price": 95,
+      "price": 100,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1377,7 +1387,7 @@
     { 
       "id": 5025,
       "name": "Vismark Torpedo box of 25",
-      "price": 180,
+      "price": 200,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1387,7 +1397,7 @@
     { 
       "id": 5027,
       "name": "Vismark Senorita single",
-      "price": 8,
+      "price":5,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1397,7 +1407,7 @@
     { 
       "id": 5028,
       "name": "Vismark Senorita in pack of 5",
-      "price": 38,
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1407,7 +1417,7 @@
     { 
       "id": 5029,
       "name": "Vismark Senorita in pack of 10",
-      "price": 75,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1417,7 +1427,7 @@
     { 
       "id": 5030,
       "name": "Vismark Senorita in pack of 25",
-      "price": 165,
+      "price": 120,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1427,7 +1437,7 @@
     { 
       "id": 5031,
       "name": "Vismark Senorita rum single",
-      "price": 8,
+      "price": 5,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1437,7 +1447,7 @@
     { 
       "id": 5032,
       "name": "Vismark Senorita rum in pack of 5",
-      "price": 38,
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1447,7 +1457,7 @@
     { 
       "id": 5033,
       "name": "Vismark Senorita rum in pack of 10",
-      "price": 75,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1457,7 +1467,7 @@
     { 
       "id": 5034,
       "name": "Vismark Senorita rum in pack of 25",
-      "price": 165,
+      "price": 120,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1467,7 +1477,7 @@
     { 
       "id": 5035,
       "name": "Vismark Senorita vanilla single",
-      "price": 8,
+      "price": 5,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1477,7 +1487,7 @@
     { 
       "id": 5036,
       "name": "Vismark Senorita vanilla in pack of 5",
-      "price": 38,
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1487,7 +1497,7 @@
     { 
       "id": 5037,
       "name": "Vismark Senorita vanilla in pack of 10",
-      "price": 75,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1497,7 +1507,7 @@
     { 
       "id": 5038,
       "name": "Vismark Senorita vanilla in pack of 25",
-      "price": 165,
+      "price": 120,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1507,7 +1517,7 @@
     { 
       "id": 5039,
       "name": "Vismark Senorita whiskey single",
-      "price": 8,
+      "price": 5,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1517,7 +1527,7 @@
     { 
       "id": 5040,
       "name": "Vismark Senorita whiskey in pack of 5",
-      "price": 38,
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1527,7 +1537,7 @@
     { 
       "id": 5041,
       "name": "Vismark Senorita whiskey in pack of 10",
-      "price": 75,
+      "price": 50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1537,7 +1547,7 @@
     { 
       "id": 5042,
       "name": "Vismark Senorita whiskey in pack of 25",
-      "price": 165,
+      "price": 120,
       "inCart": false,
       "count": 0,
       "total": 0,
