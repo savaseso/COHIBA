@@ -30,8 +30,8 @@ class Products extends Component {
                                 <ContentWrapper>
                                     <Wrapper>
                                         <Heading>ATTENTION!</Heading>
-                                        <Table>
                                         <Paragraph>Any Cuban <ReactCountryFlag code="cu" svg />  cigars we are trying to obtain ..please indicate if they are not on the list!? All prices is in US dollars!</Paragraph>
+                                        <Table>
                                         
                                             <thead>
                                                 <FirstRow>
