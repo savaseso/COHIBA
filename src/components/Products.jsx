@@ -31,8 +31,8 @@ class Products extends Component {
                                     <Wrapper>
                                         <Heading>ATTENTION!</Heading>
                                         <Table>
-                                        <Paragraph>Any Cuban <ReactCountryFlag code="cu" svg />  cigars we are trying to obtain ..please indicate if they are not on the list!?</Paragraph>
-                                        <Paragraph>All prices is in US dollars!</Paragraph>
+                                        <Paragraph>Any Cuban <ReactCountryFlag code="cu" svg />  cigars we are trying to obtain ..please indicate if they are not on the list!? All prices is in US dollars!</Paragraph>
+                                        
                                             <thead>
                                                 <FirstRow>
                                                     <th>Name</th>
