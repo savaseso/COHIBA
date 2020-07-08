@@ -853,6 +853,26 @@
       "soldout":false
     },
     {
+      "id": 3100,
+      "name": "Cohiba Robusto Old labels",
+      "price": 16,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
+    {
+      "id": 3101,
+      "name": "Cohiba Siglo6 Old labels",
+      "price": 18,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
+    {
       "id": 83,
       "name": "H.Upmann Connossieur A",
       "price": 14,
@@ -884,7 +904,7 @@
     },
     {
       "id": 86,
-      "name": "H. Upmann Magnum 54",
+      "name": "H.Upmann Magnum 54",
       "price": 21,
       "inCart": false,
       "count": 0,
@@ -956,6 +976,16 @@
       "id": 93,
       "name": "Partagas Salomones Casa de Habano",
       "price": 21,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
+    {
+      "id": 3103,
+      "name": "Partagas No1.Edition Limitada 2017",
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,

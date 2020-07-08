@@ -30,6 +30,7 @@ class Products extends Component {
                                 <ContentWrapper>
                                     <Wrapper>
                                         <Heading>Vismark Cigars{/* <Twenty>20%</Twenty> off */}</Heading>
+                                        <Paragraph>All prices is in US dollars!</Paragraph>
                                         <Table>
                                             <thead>
                                                 <FirstRow>
