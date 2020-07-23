@@ -3,7 +3,7 @@
     {
       "id": 5156,
       "name":"Bolivar Salomon Exclusivo 5ta Avenida", 
-      "price": 320,
+      "price": 340,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -13,7 +13,7 @@
     {
       "id": 155,
       "name": "Cohiba BHK52",
-      "price": 670,
+      "price": 740,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -23,7 +23,7 @@
     {
       "id": 156,
       "name": "Cohiba BHK54",
-      "price": 760,
+      "price": 790,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -32,8 +32,8 @@
     },
     {
       "id": 143,
-      "name": "Cohiba Behike56",
-      "price": 790,
+      "name": "Cohiba BHK56",
+      "price": 840,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -53,7 +53,7 @@
     {
       "id": 135,
       "name": "Cohiba Esplendidos",
-      "price": 395,
+      "price": 420,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -63,7 +63,7 @@
     {
       "id": 1006,
       "name": "Cohiba Robustos NEW",
-      "price": 340,
+      "price": 360,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -73,7 +73,7 @@
     {
       "id": 2006,
       "name": "Cohiba Robusto Supremos Edition Limitada 2014",
-      "price": 820,
+      "price": 890,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -84,6 +84,16 @@
       "id": 1007,
       "name": "Cohiba Lanceros",
       "price": 410,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1336,
+      "name": "Cohiba Panatelas",
+      "price": 295,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -123,7 +133,7 @@
     {
       "id": 12,
       "name": "Cohiba Siglo 4 (25)",
-      "price": 350,
+      "price": 370,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -133,7 +143,7 @@
     {
       "id": 13,
       "name": "Cohiba Siglo 6 (25)",
-      "price": 395,
+      "price": 495,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -153,7 +163,7 @@
     {
       "id": 29,
       "name": "Cohiba Maduro5 Magicos",
-      "price": 390,
+      "price": 420,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -163,7 +173,7 @@
     {
       "id": 20,
       "name": "Cohiba Maduro5 Genios",
-      "price": 440,
+      "price": 490,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -531,6 +541,16 @@
       "soldout":false
     },
     {
+      "id": 5552,
+      "name": "Partagas SERIES NO.2 EDICION LIMITADA 2003",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 100,
       "name": "Partagas Maduro No.1 LCDH cabinet",
       "price": 295,
@@ -664,6 +684,16 @@
       "id": 6668,
       "name": "San Cristobar de la Habana Mercaderes",
       "price": 420,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1001,
+      "name": "Romeo y Julieta ESCUDOS Edición Limitada 2007",
+      "price": 790,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -805,7 +835,7 @@
     {
       "id": 78,
       "name": "Cohiba Lanceros",
-      "price": 15,
+      "price": 18,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -825,7 +855,7 @@
     {
       "id": 81,
       "name": "Cohiba Esplendidos",
-      "price": 15,
+      "price": 18,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -855,7 +885,7 @@
     {
       "id": 3100,
       "name": "Cohiba Robusto Old labels",
-      "price": 16,
+      "price": 18,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -865,17 +895,27 @@
     {
       "id": 3101,
       "name": "Cohiba Siglo6 Old labels",
-      "price": 18,
+      "price": 19,
       "inCart": false,
       "count": 0,
       "total": 0,
       "currency":"USD",
       "soldout":false
-    }, 
+    },
+    {
+      "id": 11336,
+      "name": "Cohiba Panatelas",
+      "price": 13.50,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
     {
       "id": 83,
       "name": "H.Upmann Connossieur A",
-      "price": 14,
+      "price": 16,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -885,7 +925,7 @@
     {
       "id": 84,
       "name": "H.Upmann Connossieur B",
-      "price": 18,
+      "price": 20,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -945,7 +985,7 @@
     {
       "id": 90,
       "name": "Montecristo Linea 1935 Dumas ",
-      "price": 18,
+      "price": 19.50,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -965,7 +1005,7 @@
     {
       "id": 91,
       "name": "Montecristo Supremos Edition Limitada 2019",
-      "price": 20,
+      "price": 24,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -975,7 +1015,7 @@
     {
       "id": 93,
       "name": "Partagas Salomones Casa de Habano",
-      "price": 21,
+      "price": 24,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -985,7 +1025,7 @@
     {
       "id": 3103,
       "name": "Partagas No1.Edition Limitada 2017",
-      "price": 25,
+      "price": 28,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -995,7 +1035,7 @@
     {
       "id": 999,
       "name": "Quai D`Orsay Senadores Edicion Limitada 2019",
-      "price": 18,
+      "price": 20,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1015,7 +1055,7 @@
     {
       "id": 294,
       "name": "Ramon Allones No.2 Edicion Limitada 2019",
-      "price": 25,
+      "price": 28,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1025,7 +1065,7 @@
     {
       "id": 1510,
       "name": "Trinidad Vigia",
-      "price": 12,
+      "price": 14,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1045,7 +1085,7 @@
     {
       "id": 9540,
       "name": "Trinidad Robusto",
-      "price": 13,
+      "price": 15,
       "inCart": false,
       "count": 0,
       "total": 0,
