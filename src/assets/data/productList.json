@@ -3,7 +3,7 @@
     {
       "id": 5156,
       "name":"Bolivar Salomon Exclusivo 5ta Avenida", 
-      "price": 340,
+      "price": 380,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -63,7 +63,7 @@
     {
       "id": 1006,
       "name": "Cohiba Robustos NEW",
-      "price": 360,
+      "price": 380,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -113,7 +113,7 @@
     {
       "id": 15,
       "name": "COHIBA piramides Extra",
-      "price": 380,
+      "price": 400,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -133,7 +133,7 @@
     {
       "id": 12,
       "name": "Cohiba Siglo 4 (25)",
-      "price": 370,
+      "price": 390,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -333,7 +333,7 @@
     {
       "id": 30,
       "name": "H. Upmann ROBUSTOS AÑEJADOS 2016",
-      "price": 320,
+      "price": 340,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -835,7 +835,7 @@
     {
       "id": 78,
       "name": "Cohiba Lanceros",
-      "price": 18,
+      "price": 22,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -855,7 +855,7 @@
     {
       "id": 81,
       "name": "Cohiba Esplendidos",
-      "price": 18,
+      "price": 22,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -885,7 +885,7 @@
     {
       "id": 3100,
       "name": "Cohiba Robusto Old labels",
-      "price": 18,
+      "price": 22,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -895,7 +895,7 @@
     {
       "id": 3101,
       "name": "Cohiba Siglo6 Old labels",
-      "price": 19,
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
