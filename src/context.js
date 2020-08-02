@@ -13,6 +13,8 @@ export class Provider extends Component {
         availableProducts: [],
         retailProducts: [],
         vismark:[],
+        nicaraguan:[],
+        dominican:[],
 /*         hummidorProducts: [],
  */     modalOpen: false,
         modalProduct: {},
@@ -28,9 +30,11 @@ export class Provider extends Component {
     componentDidMount() {
         this.setProducts()
         this.setState({
-            availableProducts: [...productsList.products, ...productsList.bundles, ...productsList.Vismark_Cigars/* , ...productsList.hummidors */],
+            availableProducts: [...productsList.products, ...productsList.bundles, ...productsList.Vismark_Cigars,...productsList.Dominican_Cigars,...productsList.Nicaraguan_Cigars/* , ...productsList.hummidors */],
             retailProducts: CurrentProducts.products,
             vismark: CurrentProducts.Vismark_Cigars,
+            dominican: CurrentProducts.Dominican_Cigars,
+            nicaraguan: CurrentProducts.Nicaraguan_Cigars
 /*             hummidorProducts:CurrentProducts.hummidors
  */        })
     }

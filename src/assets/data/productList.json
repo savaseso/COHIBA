@@ -1625,8 +1625,112 @@
       "soldout":false
     }
   ],
-  "vintages": [
-    {
+  "Nicaraguan_Cigars": [
+    { 
+      "id": 10001,
+      "name": "Perdomo Lot 23 Connecticut Belicoso single",
+      "price": 9,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 10002,
+      "name": "Perdomo Habano bourbon barrel - Connecticut single",
+      "price": 9,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 10003,
+      "name": "Perdomo Reserve Champagne 10th Anniversary single",
+      "price": 9,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 10004,
+      "name": "La Tradicion Perdomo Reserve Cameroon - Connecticut single",
+      "price": 9,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 10005,
+      "name": "Oliva Serie V 6x56",
+      "price": 12,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 10006,
+      "name": "Cohiba Nicaragua N54 box of 16",
+      "price": 210,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }
+  ],
+  "Dominican_Cigars": [
+  { 
+    "id": 11001,
+    "name": "EQ Premium Robusto 5x52 box of 20",
+    "price": 160,
+    "inCart": false,
+    "count": 0,
+    "total": 0,
+    "currency":"USD",
+    "soldout":false
+  },
+  { 
+    "id": 11002,
+    "name": "EQ Premium Torpedo 6x50 box of 20",
+    "price": 160,
+    "inCart": false,
+    "count": 0,
+    "total": 0,
+    "currency":"USD",
+    "soldout":false
+  },
+  { 
+    "id": 11003,
+    "name": "EQ Premium Toro 6x52 box of 20",
+    "price": 160,
+    "inCart": false,
+    "count": 0,
+    "total": 0,
+    "currency":"USD",
+    "soldout":false
+  },
+  { 
+    "id": 11004,
+    "name": "EQ Premium CHURCHILL 7x52 box of 20",
+    "price": 180,
+    "inCart": false,
+    "count": 0,
+    "total": 0,
+    "currency":"USD",
+    "soldout":false
+  }
+],
+  "Vintage Cigar": [
+    { 
       "id": 991,
       "name": "Cohiba Double Corona Limited Edition 2003 VINTAGE",
       "price": 980,
@@ -2300,6 +2404,9 @@
     }
   ]
 }
+
+  
+
 
     
      

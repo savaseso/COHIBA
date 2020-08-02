@@ -9,7 +9,7 @@ import Pagination from './Pagination'
 
 
 
-class Vintages extends Component {
+class Dominican extends Component {
     state = {
         currentPage: 1,
         postPerPage: 10
@@ -21,7 +21,7 @@ class Vintages extends Component {
             <Consumer>{value => {
                 const indexOfLastPost = this.state.currentPage * this.state.postPerPage
                 const indexOfFirstPost = indexOfLastPost - this.state.postPerPage
-                const currentProducts = value.vismark.slice(indexOfFirstPost, indexOfLastPost)
+                const currentProducts = value.dominican.slice(indexOfFirstPost, indexOfLastPost)
 /*                 const filteredProducts = currentProducts.filter(product=>!product.soldout)
  */                return (
                     <>
@@ -29,7 +29,7 @@ class Vintages extends Component {
                             <BackGround>
                                 <ContentWrapper>
                                     <Wrapper>
-                                        <Heading>Vismark Cigars{/* <Twenty>20%</Twenty> off */}</Heading>
+                                        <Heading>Dominican Cigars{/* <Twenty>20%</Twenty> off */}</Heading>
                                         <Paragraph>All prices is in US dollars!</Paragraph>
                                         <Table>
                                             <thead>
@@ -51,7 +51,7 @@ class Vintages extends Component {
                                                 )}
                                             </tbody>
                                         </Table>
-                                            <Pagination postsPerPage={this.state.postPerPage} totalPosts={value.vismark.length} paginate={this.paginate} currentPage={this.state.currentPage} />
+                                            <Pagination postsPerPage={this.state.postPerPage} totalPosts={value.dominican.length} paginate={this.paginate} currentPage={this.state.currentPage} />
                                     </Wrapper>
                                     <Paragraph>Free shipping over $200 <ReactCountryFlag code="ca" svg /> and <ReactCountryFlag code="us" svg />!</Paragraph>
                                 </ContentWrapper>
@@ -65,7 +65,7 @@ class Vintages extends Component {
         )
     }
 }
-export default Vintages
+export default Dominican
 
 const BackGround = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(${Picture}); 

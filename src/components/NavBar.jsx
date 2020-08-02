@@ -10,10 +10,12 @@ const NavBar = (props) => {
         <Nav>
             <Ul>
                 <ButtonWrapper>
-                    <Li><NavLink to="/About">About us</NavLink></Li>
-                    <Li><NavLink to="/Products">Humidor Retailer list</NavLink></Li>
+                    <Li><NavLink to="/Products">Cuban</NavLink></Li>
+                    <Li><NavLink to="/Nicaraguan">Nicaraguan</NavLink></Li>
+                    <Li><NavLink to="/Dominican">Dominican</NavLink></Li>
                     <Li><NavLink to="/Vismark">Vismark</NavLink></Li>
                     <Li><NavLink to="/Payment">Payment Info</NavLink></Li>
+                    <Li><NavLink to="/About">About us</NavLink></Li>
                 </ButtonWrapper>
                 <div>
                     <a href="https://www.facebook.com/Ctorontocigar-111051953842682/" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>

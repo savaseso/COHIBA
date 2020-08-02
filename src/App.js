@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import Products from './components/Products'
+import Nicaraguan from './components/Nicaraguan'
+import Dominican from './components/Dominican'
 import Vintages from './components/Vintages'
 import Payment from './components/Payment'
 import TermsConditions from './components/TermsConditions';
@@ -21,6 +23,8 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/About' component={About}/>
           <Route path='/Products' component={Products}/>
+          <Route path='/Nicaraguan' component={Nicaraguan}/>
+          <Route path='/Dominican' component={Dominican}/>
           <Route path='/Vismark' component={Vintages}/>
           <Route path='/Payment' component={Payment}/>
           <Route path='/TermsConditions' component={TermsConditions}/>
