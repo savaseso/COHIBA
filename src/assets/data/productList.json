@@ -1687,7 +1687,37 @@
       "soldout":false
     }
   ],
-  "Dominican_Republic_cigars_EQ": [
+"Dominican_Cigars": [
+  { 
+    "id": 12001,
+    "name": "L`Pure Toro Habano box of 20",
+    "price": 140,
+    "inCart": false,
+    "count": 0,
+    "total": 0,
+    "currency":"USD",
+    "soldout":false
+  },
+  { 
+    "id": 12002,
+    "name": "L`Pure Robusto box of 20",
+    "price": 130,
+    "inCart": false,
+    "count": 0,
+    "total": 0,
+    "currency":"USD",
+    "soldout":false
+  },
+  { 
+    "id": 12003,
+    "name": "L`Pure Mix 10",
+    "price": 80,
+    "inCart": false,
+    "count": 0,
+    "total": 0,
+    "currency":"USD",
+    "soldout":false
+  },
   { 
     "id": 11001,
     "name": "EQ Premium Robusto 5x52 box of 20",
@@ -1722,38 +1752,6 @@
     "id": 11004,
     "name": "EQ Premium CHURCHILL 7x52 box of 20",
     "price": 180,
-    "inCart": false,
-    "count": 0,
-    "total": 0,
-    "currency":"USD",
-    "soldout":false
-  }
-],
-"Dominican_Cigars": [
-  { 
-    "id": 12001,
-    "name": "L`Pure Toro Habano box of 20",
-    "price": 140,
-    "inCart": false,
-    "count": 0,
-    "total": 0,
-    "currency":"USD",
-    "soldout":false
-  },
-  { 
-    "id": 12002,
-    "name": "L`Pure Robusto box of 20",
-    "price": 130,
-    "inCart": false,
-    "count": 0,
-    "total": 0,
-    "currency":"USD",
-    "soldout":false
-  },
-  { 
-    "id": 12003,
-    "name": "L`Pure Mix 10",
-    "price": 80,
     "inCart": false,
     "count": 0,
     "total": 0,
