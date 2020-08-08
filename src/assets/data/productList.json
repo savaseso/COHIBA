@@ -53,7 +53,7 @@
     {
       "id": 135,
       "name": "Cohiba Esplendidos",
-      "price": 420,
+      "price": 450,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -63,7 +63,7 @@
     {
       "id": 1006,
       "name": "Cohiba Robustos NEW",
-      "price": 380,
+      "price": 420,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -83,7 +83,7 @@
     {
       "id": 1007,
       "name": "Cohiba Lanceros",
-      "price": 410,
+      "price": 450,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -133,7 +133,7 @@
     {
       "id": 12,
       "name": "Cohiba Siglo 4 (25)",
-      "price": 390,
+      "price": 480,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -143,7 +143,7 @@
     {
       "id": 13,
       "name": "Cohiba Siglo 6 (25)",
-      "price": 495,
+      "price": 695,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -163,7 +163,7 @@
     {
       "id": 29,
       "name": "Cohiba Maduro5 Magicos",
-      "price": 420,
+      "price": 460,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -173,7 +173,7 @@
     {
       "id": 20,
       "name": "Cohiba Maduro5 Genios",
-      "price": 490,
+      "price": 520,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -233,7 +233,7 @@
     {
       "id": 140,
       "name": "Cuaba Piramides Edición Limitada 2008",
-      "price": 320,
+      "price": 380,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -263,7 +263,7 @@
     {
       "id": 1540,
       "name": "Diplomaticos Ammunition Edicion Regional PHOENICIA",
-      "price": 360,
+      "price": 420,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -273,7 +273,7 @@
     {
       "id": 6888,
       "name": "El Rey del Mundo Tainos Formosa Regional Edition 2018",
-      "price": 430,
+      "price": 460,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -283,7 +283,7 @@
     {
       "id": 25,
       "name": "Hoyo de Monterrey seria de Rio Seco",
-      "price": 340,
+      "price": 380,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -303,7 +303,7 @@
     {
       "id": 2626,
       "name": "Hoyo De Monterrey Epicure luxe LCDH",
-      "price": 190,
+      "price": 220,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -313,7 +313,7 @@
     {
       "id": 27,
       "name": "H.Upmann CONNOSSIEUR A’LCDH (25)",
-      "price": 310,
+      "price": 330,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -323,7 +323,7 @@
     {
       "id": 28,
       "name": "H.Upmann CONNOSSIEUR B’LCDH (25)",
-      "price": 360,
+      "price": 380,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -513,7 +513,7 @@
     {
       "id": 8852,
       "name": "Partagas 8-9-8 Varnished Cabinet",
-      "price": 320,
+      "price": 350,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -523,7 +523,7 @@
     {
       "id": 54,
       "name": "Partagas Series D No.4",
-      "price": 320,
+      "price": 340,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -553,7 +553,7 @@
     {
       "id": 100,
       "name": "Partagas Maduro No.1 LCDH cabinet",
-      "price": 295,
+      "price": 325,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -563,7 +563,7 @@
     {
       "id": 101,
       "name": "Partagas Maduro No.2 LCDH cabinet",
-      "price": 320,
+      "price": 370,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -573,7 +573,7 @@
     {
       "id": 102,
       "name": "Partagas Maduro No.3 LCDH cabinet",
-      "price": 340,
+      "price": 390,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -673,7 +673,7 @@
     {
       "id": 6667,
       "name": "San Cristobal El Morro de la Habana",
-      "price": 390,
+      "price": 420,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -683,7 +683,7 @@
     {
       "id": 6668,
       "name": "San Cristobar de la Habana Mercaderes",
-      "price": 420,
+      "price": 440,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -753,7 +753,7 @@
     {
       "id": 149,
       "name": "Trinidad Esmeralda",
-      "price": 199,
+      "price": 220,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -783,7 +783,7 @@
     {
       "id": 761,
       "name": "TRINIDAD Media Luna",
-      "price": 210,
+      "price": 240,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -793,7 +793,7 @@
     {
       "id": 763,
       "name": "Trinidad topes 2019",
-      "price": 219,
+      "price": 240,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -803,7 +803,7 @@
     {
       "id": 76,
       "name": "Trinidad Topes Limitada Edition 2016",
-      "price": 320,
+      "price": 380,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -813,7 +813,7 @@
     {
       "id": 151,
       "name": "TRINIDAD Vigia (12)",
-      "price": 199,
+      "price": 220,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -835,7 +835,7 @@
     {
       "id": 78,
       "name": "Cohiba Lanceros",
-      "price": 22,
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -855,7 +855,7 @@
     {
       "id": 81,
       "name": "Cohiba Esplendidos",
-      "price": 22,
+      "price": 25,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -885,7 +885,7 @@
     {
       "id": 3100,
       "name": "Cohiba Robusto Old labels",
-      "price": 22,
+      "price": 35,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -895,7 +895,7 @@
     {
       "id": 3101,
       "name": "Cohiba Siglo6 Old labels",
-      "price": 25,
+      "price": 40,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -915,7 +915,7 @@
     {
       "id": 83,
       "name": "H.Upmann Connossieur A",
-      "price": 16,
+      "price": 19,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -925,7 +925,7 @@
     {
       "id": 84,
       "name": "H.Upmann Connossieur B",
-      "price": 20,
+      "price": 28,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -935,7 +935,7 @@
     {
       "id": 85,
       "name": "H.Upmann Propios Edition Limitada 2018",
-      "price": 18,
+      "price": 22,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -965,7 +965,7 @@
     {
       "id": 88,
       "name": "Montecristo 80 Aniversario",
-      "price": 39,
+      "price": 40,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -985,7 +985,7 @@
     {
       "id": 90,
       "name": "Montecristo Linea 1935 Dumas ",
-      "price": 19.50,
+      "price": 20,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1035,7 +1035,7 @@
     {
       "id": 999,
       "name": "Quai D`Orsay Senadores Edicion Limitada 2019",
-      "price": 20,
+      "price": 24,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1075,7 +1075,7 @@
     {
       "id": 954,
       "name": "Trinidad Fundendores",
-      "price": 18,
+      "price": 20,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1085,7 +1085,7 @@
     {
       "id": 9540,
       "name": "Trinidad Robusto",
-      "price": 15,
+      "price": 18,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1095,7 +1095,7 @@
     {
       "id": 956,
       "name": "Trinidad Topes Limitada Edition 2016",
-      "price": 25,
+      "price": 35,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1691,7 +1691,7 @@
   { 
     "id": 12001,
     "name": "L`Pure Toro Habano box of 20",
-    "price": 140,
+    "price": 210,
     "inCart": false,
     "count": 0,
     "total": 0,
@@ -1701,7 +1701,7 @@
   { 
     "id": 12002,
     "name": "L`Pure Robusto box of 20",
-    "price": 130,
+    "price": 190,
     "inCart": false,
     "count": 0,
     "total": 0,
