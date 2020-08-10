@@ -301,6 +301,26 @@
       "soldout":false
     },
     {
+      "id": 2225,
+      "name": "Hoyo de Monterrey Epicure Especial",
+      "price": 280,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 2226,
+      "name": "Hoyo de Monterrey Epicure No.2",
+      "price": 270,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 2626,
       "name": "Hoyo De Monterrey Epicure luxe LCDH",
       "price": 220,
@@ -584,6 +604,16 @@
       "id": 9994,
       "name": "Partagas Salomones LCDH",
       "price": 490,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 59994,
+      "name": "Partagas Short cab 50",
+      "price": 295,
       "inCart": false,
       "count": 0,
       "total": 0,
