@@ -11,6 +11,16 @@
       "soldout":false
     },
     {
+      "id": 119,
+      "name": "Bolivar Petit Belicoso 2009 Limited Edition",
+      "price": 495,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 155,
       "name": "Cohiba BHK52",
       "price": 740,
@@ -571,6 +581,16 @@
       "soldout":false
     },
     {
+      "id": 5553,
+      "name": "Partagas SERIES NO.1 EDICION LIMITADA 2004",
+      "price": 790,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 100,
       "name": "Partagas Maduro No.1 LCDH cabinet",
       "price": 325,
@@ -774,6 +794,16 @@
       "id": 72,
       "name": "Romeo y julieta Duke.L.E.2009",
       "price": 690,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 709,
+      "name": "Romeo y Julieta Wide Churchill (25)",
+      "price": 380,
       "inCart": false,
       "count": 0,
       "total": 0,
