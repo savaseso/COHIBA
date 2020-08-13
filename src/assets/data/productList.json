@@ -1145,6 +1145,16 @@
   ],
   "Vismark_Cigars": [
     { 
+      "id": 50000,
+      "name": "Vismark Corona tube single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
       "id": 5000,
       "name": "Vismark Corona single",
       "price": 10,
@@ -1378,6 +1388,16 @@
       "id": 5013,
       "name": "Vismark Maduro Robusto box of 25",
       "price": 250,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 50043,
+      "name": "Vismark Perfecto single",
+      "price": 10,
       "inCart": false,
       "count": 0,
       "total": 0,
