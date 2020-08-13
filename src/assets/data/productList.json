@@ -8,7 +8,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 119,
@@ -28,7 +28,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 156,
@@ -38,7 +38,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 143,
@@ -48,7 +48,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 14,
@@ -68,7 +68,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 1006,
@@ -78,7 +78,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 2006,
@@ -98,7 +98,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 1336,
@@ -128,7 +128,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 16,
@@ -138,7 +138,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 12,
@@ -148,7 +148,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 13,
@@ -158,7 +158,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 18,
@@ -178,7 +178,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 20,
@@ -188,7 +188,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 22222,
@@ -218,7 +218,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 3131,
@@ -248,7 +248,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 139,
@@ -258,7 +258,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 1139,
@@ -268,7 +268,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },  
     {
       "id": 1540,
@@ -278,7 +278,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },  
     {
       "id": 6888,
@@ -288,7 +288,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 25,
@@ -298,7 +298,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 26,
@@ -308,7 +308,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 2225,
@@ -378,7 +378,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 31,
@@ -388,7 +388,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 32,
@@ -428,7 +428,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 36,
@@ -458,7 +458,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 3030,
@@ -468,7 +468,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 41,
@@ -488,7 +488,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 44,
@@ -518,7 +518,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9992,
@@ -548,7 +548,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 54,
@@ -558,7 +558,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 55,
@@ -568,7 +568,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 5552,
@@ -598,7 +598,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 101,
@@ -608,7 +608,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 102,
@@ -618,7 +618,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9994,
@@ -628,7 +628,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 59994,
@@ -658,7 +658,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9999,
@@ -668,7 +668,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9998,
@@ -678,7 +678,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 60,
@@ -698,7 +698,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 65,
@@ -708,7 +708,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 66,
@@ -718,7 +718,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 67,
@@ -728,7 +728,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 6667,
@@ -738,7 +738,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 6668,
@@ -748,7 +748,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 1001,
@@ -758,7 +758,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 68,
@@ -768,7 +768,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 70,
@@ -828,7 +828,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9540,
@@ -838,7 +838,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 76,
@@ -848,7 +848,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 761,
@@ -858,7 +858,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 763,
@@ -868,7 +868,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 76,
@@ -878,8 +878,28 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
+    {
+      "id": 1951,
+      "name": "TRINIDAD Reyes (12)",
+      "price": 180,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":true
+    },
+    {
+      "id": 1952,
+      "name": "TRINIDAD Reyes (24)",
+      "price": 300,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":true
+    }, 
     {
       "id": 151,
       "name": "TRINIDAD Vigia (12)",
@@ -888,7 +908,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     }
   ],
   "bundles": [
@@ -900,7 +920,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 78,
@@ -930,7 +950,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 82,
@@ -960,7 +980,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     }, 
     {
       "id": 3101,
@@ -1010,7 +1030,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 86,
@@ -1040,7 +1060,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 89,
@@ -1090,7 +1110,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     }, 
     {
       "id": 3103,
@@ -1140,7 +1160,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 954,
@@ -1150,7 +1170,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9540,
@@ -1160,7 +1180,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 956,
@@ -1170,7 +1190,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     }
   ],
   "Vismark_Cigars": [

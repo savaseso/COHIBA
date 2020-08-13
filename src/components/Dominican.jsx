@@ -35,6 +35,7 @@ class Dominican extends Component {
                                             <thead>
                                                 <FirstRow>
                                                     <th>Name</th>
+                                                    <th>{' '}</th>
                                                     <PriceRow>Price</PriceRow>
                                                 </FirstRow>
                                             </thead>
@@ -46,6 +47,7 @@ class Dominican extends Component {
                                                     }}>
                                                         <Name>{product.name}</Name>
                                                        {/*  <Originalprice>${product.originalprice}</Originalprice> */}
+                                                       <Soldout>{product.soldout ? 'Soldout, please order it':null}</Soldout>
                                                         <Price>${product.price}</Price>
                                                     </TableRow>
                                                 )}
@@ -164,5 +166,17 @@ const Paragraph = styled.p`
     text-align:center;
     @media (max-width: 501px) {
         font-size:0.9rem;
+    }
+`
+
+
+const Soldout = styled.th`
+    color:#fff;
+    opacity:0.5;
+    font-size:0.8rem;
+    padding:10px;
+   /* // text-align:center; */
+    @media (max-width: 695px) {
+        font-size:0.7rem;
     }
 `

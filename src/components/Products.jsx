@@ -23,7 +23,9 @@ class Products extends Component {
                 const indexOfFirstPost = indexOfLastPost - this.state.postPerPage
                 const currentProducts = value.retailProducts.slice(indexOfFirstPost, indexOfLastPost)
 /*                 const filteredProducts = currentProducts.filter(product=>!product.soldout)
- */                return (
+ */              
+                
+ return (
                     <>
                         <Layout>
                             <BackGround>
@@ -36,6 +38,7 @@ class Products extends Component {
                                             <thead>
                                                 <FirstRow>
                                                     <th>Name</th>
+                                                    <th>{' '}</th>
                                                     <th>Price</th>
                                                 </FirstRow>
                                             </thead>
@@ -46,6 +49,7 @@ class Products extends Component {
                                                         value.openModal(product.id)
                                                     }}>
                                                         <Name>{product.name}</Name>
+                                                        <Soldout>{product.soldout ? 'Soldout, please order it':null}</Soldout>
                                                         <Price>${product.price}</Price>
                                                     </TableRow>
                                                 )}
@@ -63,6 +67,7 @@ class Products extends Component {
                                                         value.openModal(product.id)
                                                     }}>
                                                         <Name>{product.name}</Name>
+                                                        <Soldout>{product.soldout ? 'Soldout, please order it':null}</Soldout>
                                                         <Price>${product.price}/pc</Price>
                                                     </TableRow>
                                                 )}
@@ -179,5 +184,15 @@ const Paragraph = styled.p`
     text-align:center;
     @media (max-width: 501px) {
         font-size:0.9rem;
+    }
+`
+const Soldout = styled.th`
+    color:#fff;
+    opacity:0.5;
+    font-size:0.8rem;
+    padding:10px;
+   /* // text-align:center; */
+    @media (max-width: 695px) {
+        font-size:0.7rem;
     }
 `
