@@ -47,7 +47,7 @@ class Vintages extends Component {
                                                     }}>
                                                         <Name>{product.name}</Name>
                                                        {/*  <Originalprice>${product.originalprice}</Originalprice> */}
-                                                       <Soldout>{product.soldout ? 'Soldout, please order it':null}</Soldout>
+                                                       <Soldout>{product.soldout ? 'Sold out, please order it':null}</Soldout>
                                                         <Price>${product.price}</Price>
                                                     </TableRow>
                                                 )}

@@ -49,7 +49,7 @@ class Products extends Component {
                                                         value.openModal(product.id)
                                                     }}>
                                                         <Name>{product.name}</Name>
-                                                        <Soldout>{product.soldout ? 'Soldout, please order it':null}</Soldout>
+                                                        <Soldout>{product.soldout ? 'Sold out, please order it':null}</Soldout>
                                                         <Price>${product.price}</Price>
                                                     </TableRow>
                                                 )}
@@ -67,7 +67,7 @@ class Products extends Component {
                                                         value.openModal(product.id)
                                                     }}>
                                                         <Name>{product.name}</Name>
-                                                        <Soldout>{product.soldout ? 'Soldout, please order it':null}</Soldout>
+                                                        <Soldout>{product.soldout ? 'Sold out, please order it':null}</Soldout>
                                                         <Price>${product.price}/pc</Price>
                                                     </TableRow>
                                                 )}
