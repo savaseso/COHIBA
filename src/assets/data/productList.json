@@ -118,7 +118,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 15,
@@ -311,6 +311,16 @@
       "soldout":true
     },
     {
+      "id": 826,
+      "name": "Hoyo De Monterrey le Hoyo De San Juan",
+      "price": 340,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 2225,
       "name": "Hoyo de Monterrey Epicure Especial",
       "price": 280,
@@ -418,7 +428,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 35,
@@ -438,7 +448,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 37,
@@ -468,7 +478,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 41,
@@ -568,7 +578,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 5552,
@@ -980,7 +990,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     }, 
     {
       "id": 3101,
@@ -996,6 +1006,16 @@
       "id": 11336,
       "name": "Cohiba Panatelas",
       "price": 13.50,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 8826,
+      "name": "Hoyo De Monterrey le Hoyo De San Juan",
+      "price": 15,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1060,7 +1080,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 89,
