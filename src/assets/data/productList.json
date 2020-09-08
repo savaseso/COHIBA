@@ -301,16 +301,6 @@
       "soldout":true
     },
     {
-      "id": 26,
-      "name": "Hoyo De Monterrey - Maravillas - Collection Book (2015)",
-      "price": 2990,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":true
-    },
-    {
       "id": 826,
       "name": "Hoyo De Monterrey le Hoyo De San Juan",
       "price": 340,
@@ -410,6 +400,16 @@
       "currency":"USD",
       "soldout":true
     },
+    {
+      "id": 26,
+      "name": "H.Upmann Propios Edition Limitada 2018",
+      "price": 450,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
     {
       "id": 33,
       "name": "La Gloria Cubana 25 Aniversario LCDH Humidor ",
@@ -523,7 +523,7 @@
     {
       "id": 9991,
       "name": "Montecristo Supremos Edition Limitada 2019",
-      "price": 490,
+      "price": 520,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -603,7 +603,7 @@
     {
       "id": 100,
       "name": "Partagas Maduro No.1 LCDH cabinet",
-      "price": 325,
+      "price": 350,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -613,7 +613,7 @@
     {
       "id": 101,
       "name": "Partagas Maduro No.2 LCDH cabinet",
-      "price": 370,
+      "price": 390,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -623,12 +623,12 @@
     {
       "id": 102,
       "name": "Partagas Maduro No.3 LCDH cabinet",
-      "price": 390,
+      "price": 410,
       "inCart": false,
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 9994,
@@ -673,12 +673,12 @@
     {
       "id": 9999,
       "name": "Quai D`Orsay Senadores Edition Limitada 2019",
-      "price": 560,
+      "price": 540,
       "inCart": false,
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 9998,
@@ -930,7 +930,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 78,
@@ -960,7 +960,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 82,
@@ -1050,7 +1050,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 86,
