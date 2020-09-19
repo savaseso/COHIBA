@@ -401,9 +401,9 @@
       "soldout":true
     },
     {
-      "id": 26,
-      "name": "H.Upmann Propios Edition Limitada 2018",
-      "price": 450,
+      "id": 7383,
+      "name": "Juan Lopes Selwccion No.2",
+      "price": 280,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -461,6 +461,16 @@
       "soldout":false
     },
     {
+      "id": 7384,
+      "name": "Montecristo Open eagle 5x3 tubes",
+      "price": 280,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
+    {
       "id": 123,
       "name": "Montecristo Gran Corona “A”",
       "price": 790,
@@ -468,7 +478,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 3030,
@@ -683,7 +693,7 @@
     {
       "id": 9998,
       "name": "Quai D`Orsay Baalbeck Regional Edition 2018 - Lebanon (50)",
-      "price": 720,
+      "price": 580,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -738,7 +748,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 6667,
@@ -758,7 +768,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 1001,
@@ -840,6 +850,16 @@
       "currency":"USD",
       "soldout":true
     },
+    {
+      "id": 7385,
+      "name": "Trinidad Trinity T short Robusto EL2010 (12)",
+      "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
     {
       "id": 9540,
       "name": "Trinidad Fundendores (24)",
@@ -1154,7 +1174,7 @@
     },
     {
       "id": 7999,
-      "name": "Quai D`Orsay BALBEK 2018 Regional Lebanon single",
+      "name": "Quai D`Orsay Baalbeck Regional Edition 2018 - Lebanon single",
       "price": 24,
       "inCart": false,
       "count": 0,
@@ -1202,6 +1222,16 @@
       "currency":"USD",
       "soldout":true
     },
+    {
+      "id": 7386,
+      "name": "Trinidad Trinity T short Robusto EL2010",
+      "price": 24,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
     {
       "id": 9540,
       "name": "Trinidad Robusto",
