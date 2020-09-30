@@ -328,7 +328,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 2626,
@@ -378,12 +378,22 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 31,
       "name": "H. Upmann56 Edition Limitada 2015",
       "price": 490,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 5031,
+      "name": "H. Upmann56 Propios Edition Limitada 2018",
+      "price": 560,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -398,11 +408,11 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 7383,
-      "name": "Juan Lopes Selwccion No.2",
+      "name": "Juan Lopes Seleccion No.2",
       "price": 280,
       "inCart": false,
       "count": 0,
@@ -518,7 +528,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 157,
@@ -538,7 +548,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9992,
@@ -628,7 +638,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 102,
@@ -638,7 +648,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9994,
@@ -688,7 +698,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 9998,
@@ -748,7 +758,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 6667,
@@ -768,7 +778,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 1001,
@@ -960,7 +970,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 80,
@@ -1015,7 +1025,7 @@
     {
       "id": 3101,
       "name": "Cohiba Siglo6 Old labels",
-      "price": 40,
+      "price": 35,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -1070,7 +1080,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 86,
@@ -1140,7 +1150,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 93,
@@ -1508,6 +1518,26 @@
       "id": 50043,
       "name": "Vismark Perfecto single",
       "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 50044,
+      "name": "Vismark Gorditos single",
+      "price": 10,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    { 
+      "id": 50045,
+      "name": "Vismark Samples box 8 cigars inside",
+      "price": 95,
       "inCart": false,
       "count": 0,
       "total": 0,
