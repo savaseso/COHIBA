@@ -13,7 +13,17 @@
     {
       "id": 119,
       "name": "Bolivar Petit Belicoso 2009 Limited Edition",
-      "price": 495,
+      "price": 435,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 1119,
+      "name": "Bolivar Soberano 2018 Limited Edition",
+      "price": 295,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -58,7 +68,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout": false
     },
     {
       "id": 135,
@@ -118,7 +128,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 15,
@@ -138,27 +148,27 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 12,
       "name": "Cohiba Siglo 4 (25)",
-      "price": 480,
+      "price": 420,
       "inCart": false,
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 13,
       "name": "Cohiba Siglo 6 (25)",
-      "price": 695,
+      "price": 595,
       "inCart": false,
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 18,
@@ -332,8 +342,18 @@
     },
     {
       "id": 2626,
-      "name": "Hoyo De Monterrey Epicure luxe LCDH",
+      "name": "Hoyo de Monterrey Epicure luxe LCDH",
       "price": 220,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 2627,
+      "name": "Hoyo de Monterrey Hermosos No.4 Anejados box of 25",
+      "price": 395,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -413,7 +433,7 @@
     {
       "id": 7383,
       "name": "Juan Lopes Seleccion No.2",
-      "price": 280,
+      "price": 210,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -561,6 +581,16 @@
       "soldout":false
     },
     {
+      "id": 4919,
+      "name": "Partagas Lusitania box of 25",
+      "price":340 ,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 52,
       "name": "Partagas SERIES NO.1 EDICION LIMITADA 2017",
       "price": 590,
@@ -582,13 +612,13 @@
     },
     {
       "id": 54,
-      "name": "Partagas Series D No.4",
-      "price": 340,
+      "name": "Partagas Series D No.4 box of 10",
+      "price": 220,
       "inCart": false,
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 55,
@@ -698,7 +728,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 9998,
@@ -758,7 +788,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 6667,
@@ -778,7 +808,17 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
+    },
+    {
+      "id": 6669,
+      "name": "San Cristobar de la Habana PRADO LCDH",
+      "price": 295,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
     },
     {
       "id": 1001,
@@ -864,6 +904,16 @@
       "id": 7385,
       "name": "Trinidad Trinity T short Robusto EL2010 (12)",
       "price": 320,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
+    {
+      "id": 7395,
+      "name": "Trinidad Trinity T short Robusto EL2010 (24)",
+      "price": 560,
       "inCart": false,
       "count": 0,
       "total": 0,
