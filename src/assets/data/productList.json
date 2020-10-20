@@ -21,8 +21,18 @@
       "soldout":false
     },
     {
+      "id": 1219,
+      "name": "Bolivar Belicoso Finos Cabinet Seleccion",
+      "price": 295,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
       "id": 1119,
-      "name": "Bolivar Soberano 2018 Limited Edition",
+      "name": "Bolivar Soberano 2018 Limited Edition (10)",
       "price": 295,
       "inCart": false,
       "count": 0,
@@ -82,7 +92,7 @@
     },
     {
       "id": 1006,
-      "name": "Cohiba Robustos NEW",
+      "name": "Cohiba Robustos",
       "price": 420,
       "inCart": false,
       "count": 0,
@@ -98,7 +108,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 1007,
@@ -113,7 +123,7 @@
     {
       "id": 1336,
       "name": "Cohiba Panatelas",
-      "price": 295,
+      "price": 255,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -128,7 +138,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 15,
@@ -148,7 +158,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 12,
@@ -158,7 +168,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 13,
@@ -168,7 +178,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 18,
@@ -318,7 +328,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 2225,
@@ -358,7 +368,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 27,
@@ -433,7 +443,7 @@
     {
       "id": 7383,
       "name": "Juan Lopes Seleccion No.2",
-      "price": 210,
+      "price": 240,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -568,7 +578,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 9992,
@@ -838,7 +848,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 70,
@@ -912,7 +922,7 @@
     }, 
     {
       "id": 7395,
-      "name": "Trinidad Trinity T short Robusto EL2010 (24)",
+      "name": "Trinidad Trinity T short Robusto(24)",
       "price": 560,
       "inCart": false,
       "count": 0,
