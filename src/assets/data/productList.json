@@ -268,7 +268,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 139,
@@ -332,13 +332,13 @@
     },
     {
       "id": 2225,
-      "name": "Hoyo de Monterrey Epicure Especial",
-      "price": 280,
+      "name": "Hoyo de Monterrey petit Robusto(25)",
+      "price":210 ,
       "inCart": false,
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 2226,
@@ -348,7 +348,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 2626,
@@ -368,7 +368,17 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
+    },
+    {
+      "id": 2628,
+      "name": "Hoyo de Monterrey short Hoyo Piramides LE2011(10)",
+      "price": 595,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
     },
     {
       "id": 27,
@@ -711,7 +721,17 @@
       "soldout":false
     },
     {
-      "id": 59994,
+      "id": 69994,
+      "name": "Partagas 8+9+8 Varnished",
+      "price": 325,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    },
+    {
+      "id": 59995,
       "name": "Por Larranaga Petit Coronas cab 50",
       "price": 325,
       "inCart": false,
@@ -838,7 +858,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 68,
@@ -924,6 +944,16 @@
       "id": 7395,
       "name": "Trinidad Trinity T short Robusto(24)",
       "price": 560,
+      "inCart": false,
+      "count": 0,
+      "total": 0,
+      "currency":"USD",
+      "soldout":false
+    }, 
+    {
+      "id": 7495,
+      "name": "Trinidad Ingenios Edicion Limitada 2007",
+      "price": 460,
       "inCart": false,
       "count": 0,
       "total": 0,
