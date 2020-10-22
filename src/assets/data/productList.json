@@ -358,7 +358,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 2627,
@@ -568,7 +568,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 157,
@@ -608,7 +608,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 52,
@@ -714,16 +714,6 @@
       "id": 59994,
       "name": "Partagas Short cab 50",
       "price": 295,
-      "inCart": false,
-      "count": 0,
-      "total": 0,
-      "currency":"USD",
-      "soldout":false
-    },
-    {
-      "id": 69994,
-      "name": "Partagas 8+9+8 Varnished",
-      "price": 325,
       "inCart": false,
       "count": 0,
       "total": 0,
@@ -948,7 +938,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     }, 
     {
       "id": 7495,
@@ -1230,7 +1220,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     },
     {
       "id": 91,
@@ -1240,7 +1230,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":true
+      "soldout":false
     },
     {
       "id": 93,
@@ -1330,7 +1320,7 @@
       "count": 0,
       "total": 0,
       "currency":"USD",
-      "soldout":false
+      "soldout":true
     }, 
     {
       "id": 9540,
